@@ -73,19 +73,19 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "azure/intro",
+            docId: "azure/questions",
             position: "left",
             label: "Azure",
           },
           {
             type: "doc",
-            docId: "dev-ops/intro",
+            docId: "dev-ops/questions",
             position: "left",
             label: "DevOps Engineer",
           },
           {
             type: "doc",
-            docId: "data-engineer/intro",
+            docId: "data-engineer/questions",
             position: "left",
             label: "Data Engineer",
           },
