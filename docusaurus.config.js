@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Microsoft Exam Project",
   tagline: "Azure, DevOps and Data Engineer",
-  url: "https://your-docusaurus-test-site.com",
+  url: "http://localhost:3000",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -40,9 +40,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -60,10 +58,10 @@ const config = {
         respectPrefersColorScheme: false,
       },
       algolia: {
-        appId: "BQH2SXBYA8",
-        apiKey: "377f380c6b03bc6d98bd54f2ecdc1d93",
+        appId: "123",
+        apiKey: "1234",
         indexName: "microsoft_bit",
-        contextualSearch: false,
+        contextualSearch: true,
       },
       navbar: {
         logo: {
