@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Microsoft Exam Project",
   tagline: "Azure, DevOps and Data Engineer",
-  url: "https://your-docusaurus-test-site.com",
+  url: "http://localhost:3002/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -55,8 +55,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: "dark",
-        disableSwitch: true,
+        defaultMode: "light",
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       algolia: {
@@ -92,10 +92,10 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()}. RV Matrix.`,
+        copyright: `Copyright © ${new Date().getFullYear()} RV Matrix.`,
       },
       prism: {
-        theme: darkCodeTheme,
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
