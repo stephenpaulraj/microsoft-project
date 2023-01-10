@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Microsoft Exam Project",
   tagline: "Azure, DevOps and Data Engineer",
-  url: "http://localhost:3002/",
+  url: "https://microsoft-project-wg8b.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -40,7 +40,6 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,10 +57,11 @@ const config = {
         respectPrefersColorScheme: false,
       },
       algolia: {
-        appId: "123",
-        apiKey: "1234",
+        appId: "BQH2SXBYA8",
+        apiKey: "377f380c6b03bc6d98bd54f2ecdc1d93",
         indexName: "microsoft_bit",
         contextualSearch: true,
+        placeholder: "Search any question...",
       },
       navbar: {
         logo: {
