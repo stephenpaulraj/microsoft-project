@@ -5341,7 +5341,7 @@ Hot Area:
 ![](https://www.examtopics.com/assets/media/exam-media/04273/0004600001.jpg)
 :::
 
-## Question \#276
+## Question #276
 
 **Introductory InfoCase study -  
 This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
@@ -5360,7 +5360,7 @@ Changes to the Order data must reflect immediately across all partitions. All re
 Requirements. Security -  
 You have the following security requirements:  
 Users of Coho Winery applications must be able to provide access to documents, resources, and applications to external partners.  
-![](media/dcc405400d958ddc5adcd5007fab14ef.png)  
+![](https://www.examtopics.com/assets/media/dcc405400d958ddc5adcd5007fab14ef.png)  
 External partners must use their own credentials and authenticate with their organization's identity management solution.  
 External partner logins must be audited monthly for application use by a user account administrator to maintain company compliance.  
 Storage of e-commerce application settings must be maintained in Azure Key Vault.  
@@ -5372,7 +5372,7 @@ Azure Monitor Container Health must be used to monitor the performance of worklo
 Kubernetes Service (AKS).  
 You must use Azure Container Registry to publish images that support the AKS deployment.  
 Architecture -  
-![](media/d828d37795f8cfc2299b3744ab5f6591.jpeg)  
+![](https://www.examtopics.com/assets/media/d828d37795f8cfc2299b3744ab5f6591.jpeg)  
   
 Issues -  
 Calls to the Printer API App fail periodically due to printer communication timeouts.  
@@ -5382,14 +5382,14 @@ Order.json -
 Relevant portions of the app files are shown below. Line numbers are included for reference only.  
 This JSON file contains a representation of the data for an order that includes a single item.  
 Order.json -  
-![](media/5e4ad763068c4257795e7ec0b7213bc5.png)QuestionHOTSPOT -  
+![](https://www.examtopics.com/assets/media/5e4ad763068c4257795e7ec0b7213bc5.png)QuestionHOTSPOT -  
 You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.  
 How should you complete the code? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
 Hot Area:  
-![](media/7aa02841e77793535124fa78f0a45147.jpeg)**
+![](https://www.examtopics.com/assets/media/7aa02841e77793535124fa78f0a45147.jpeg)**
 
-**Correct Answer:** *![](media/76a85e69a1001bbf47292fde787bbeec.jpeg)*
+**Correct Answer:** *![](https://www.examtopics.com/assets/media/76a85e69a1001bbf47292fde787bbeec.jpeg)*
 
 ## Question \#277
 
@@ -5434,6 +5434,6 @@ You need to implement the Azure Function for delivery driver profile information
 Which configurations should you use? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
 Hot Area:  
-![](media/c61692eb1453ba6ed8f2fc7edd55d812.jpeg)**
+![](https://www.examtopics.com/assets/media/c61692eb1453ba6ed8f2fc7edd55d812.jpeg)**
 
-**Correct Answer:** *![](media/f8864b4e9834e9fbc9a5076f1bf0fe89.jpeg)*
+**Correct Answer:** *![](https://www.examtopics.com/assets/media/f8864b4e9834e9fbc9a5076f1bf0fe89.jpeg)*
