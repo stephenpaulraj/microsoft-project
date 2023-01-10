@@ -4468,9 +4468,11 @@ You need to implement push notifications.
 How should you complete the code segment? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
 Hot Area:**  
-![](media/25a02c02eb9ab7d60d8ab40886a30b24.png)
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055900001.png)
 
-**Correct Answer:** *![](media/692e6f3214da47fc940928eb5a6b6086.png)*
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056000001.png)
+:::
 
 ## Question \#242
 
@@ -4487,7 +4489,9 @@ NOTE: Each correct selection is worth one point.**
 3.  C. Azure Storage Queue
 4.  D. Azure Event Hub
 
-**Correct Answer:** *A & B*
+:::tip Answer
+A & B
+:::
 
 ## Question \#243
 
@@ -4498,9 +4502,12 @@ You need to configure back-end authentication for the API Management service ins
 Which target and gateway credential type should you use? To answer, drag the appropriate values to the correct parameters. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
 Select and Place:**  
-![](media/4bbef6d63dc1d9aa36adacafcd9e5495.jpeg)
 
-**Correct Answer:** *![](media/34f89fc97a3848a47c43103511d13c97.jpeg)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056200001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056200001.jpg)
+:::
 
 ## Question \#244
 
@@ -4512,22 +4519,32 @@ You need to configure Event Grid.
 What should you do? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
 Hot Area:**  
-![](media/800e15c6430acf3011b7301a29c29aaa.jpeg)
 
-**Correct Answer:** *![](media/dfb9179df9c675a9bd101e2f818b97fb.jpeg)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056200001.jpg)
+
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0056300001.jpg)
+:::
 
 ## Question \#245
 
 **HOTSPOT -  
 You are working for Contoso, Ltd.  
 You define an API Policy object by using the following XML markup:**  
-![](media/13bcbdba013f73a8525f076be979a870.png)  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056600001.png)
+
 **For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
 NOTE: Each correct selection is worth one point.  
 Hot Area:**  
-![](media/3deab6526487f304ece7fddc63aa1d95.png)
 
-**Correct Answer:** *![](media/ebe7301d680e10149a5b31f3c80a5985.png)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056600002.png)
+
+:::tip Answer
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056700001.png)edia/exam-media/04273/0056600002.png)
+
+:::
 
 ## Question \#246
 
@@ -4541,7 +4558,9 @@ NOTE: Each correct selection is worth one point.**
 3.  C. Event Grid
 4.  D. Queue
 
-**Correct Answer:** *A & C*
+:::tip Answer
+A & C
+:::
 
 ## Question \#247
 
@@ -4555,7 +4574,11 @@ Which code segment should you use?**
 3.  C. await subscriptionClient.CloseAsync();
 4.  D. subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);
 
-**Correct Answer:** *D*
+:::tip Answer
+
+D
+
+:::
 
 ## Question \#248
 
@@ -4574,7 +4597,11 @@ Does the solution meet the goal?**
 1.  A. Yes
 2.  B. No
 
-**Correct Answer:** *B*
+:::tip Answer
+
+B
+
+:::
 
 ## Question \#249
 
@@ -4593,7 +4620,9 @@ Does the solution meet the goal?**
 1.  A. Yes
 2.  B. No
 
-**Correct Answer:** *B*
+:::tip Answer
+B
+:::
 
 ## Question \#250
 
@@ -4603,10 +4632,13 @@ The web service does not correctly handle conflicts. Instead of returning an HTT
 You need to ensure that conflicts produce the correct response.  
 How should you complete the policy? To answer, drag the appropriate code segments to the correct locations. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
-Select and Place:  
-**![](media/f782bec78f69a87d196d01c6864ffdcc.png)
+Select and Place:**
 
-**Correct Answer:** *![](media/9b6c224408acd6ec5ae039b843141f02.png)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0057100001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0057200001.png)
+:::
 
 ## Question \#251
 
@@ -4617,10 +4649,13 @@ You need to create sample code that customers can use as a reference for how to 
 The sample code must not use external packages.  
 How should you complete the code segment? To answer, drag the appropriate code segments to the correct locations. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
-Select and Place:  
-**![](media/9047d00df8e911715874e21042ae690f.jpeg)
+Select and Place:**
 
-**Correct Answer:** *![](media/9a11a7d71b2c7e158eec583ca1db71cd.jpeg)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0057300001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0057400001.jpg)
+:::
 
 ## Question \#252
 
@@ -4636,7 +4671,9 @@ Does the solution meet the goal?**
 1.  A. Yes
 2.  B. No
 
-**Correct Answer:** *A*
+:::tip Answer
+A
+:::
 
 ## Question \#253
 
@@ -4652,10 +4689,13 @@ The solution must meet the following requirements:
 You need to configure the solution.  
 What should you implement? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
-Select and Place:  
-**![](media/534235ae85224d7af07445ad4563e897.png)
+Select and Place:**
 
-**Correct Answer:** *![](media/70c26f17e713e3218d0cc32c4f43fc63.png)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0057600007.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0057700001.png)
+:::
 
 ## Question \#254
 
@@ -4668,7 +4708,9 @@ Which API should you use?**
 3.  C. SQL API
 4.  D. Cassandra API
 
-**Correct Answer:** *c*
+:::tip Answer
+C
+:::
 
 ## Question \#255
 
@@ -4679,9 +4721,11 @@ You need to implement the message.
 How should you complete the code segment? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.**  
 **Hot Area:**  
-![](media/5c384462e77ce7798dc39ee5274c2e1d.png)
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058000001.png)
 
-**Correct Answer:** *![](media/926efcbc050d7b1bdbb0a1c2ef75fe4a.png)*
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058100001.png)
+:::
 
 ## Question \#256
 
@@ -4694,9 +4738,11 @@ You need to configure the service.
 How should you complete the script? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.**  
 **Hot Area:**  
-![](media/f7daedb0947941ee02b8c4f08f53d1be.png)
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058300001.png)
 
-**Correct Answer:** *![](media/036711e085d1f6fe12af8e5f8b0f31cd.png)*
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058400001.png)
+:::
 
 ## Question \#257
 
@@ -4709,9 +4755,12 @@ You must change the behavior of the API to meet the following requirements:
 Which types of policies should you implement? To answer, drag the policy types to the correct requirements. Each policy type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
 Select and Place:**  
-![](media/2c52a6f1a6de42ad30eb276dd6ae6f1a.jpeg)
 
-**Correct Answer:** *![](media/4cbaf1b647bc747059cbf9df51fe1cf6.jpeg)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058500004.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058600001.jpg)
+:::
 
 ## Question \#258
 
@@ -4724,7 +4773,9 @@ What should you use?**
 3.  C. Azure Service Bus
 4.  D. Azure Event Grid
 
-**Correct Answer:** *A*
+:::tip Answer
+A
+:::
 
 ## Question \#259
 
@@ -4734,9 +4785,19 @@ You must automatically move blobs to Archive tier after they have not been modif
 How should you configure the Logic App? To answer, drag the appropriate triggers or action blocks to the correct trigger or action slots. Each trigger or action block may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
 Select and Place:**  
-![](media/628b30373fb7712fa248be21b9371446.jpeg)
 
-**Correct Answer:** *![](media/0180ec3371b2f08c4ca25d9855899607.jpeg)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058800001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0058900001.jpg)
+
+Box 1: Reoccurance..
+To regularly run tasks, processes, or jobs on specific schedule, you can start your logic app workflow with the built-in Recurrence - Schedule trigger. You can set a date and time as well as a time zone for starting the workflow and a recurrence for repeating that workflow.
+
+Set the interval and frequency for the recurrence. In this example, set these properties to run your workflow every week.
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0059000001.jpg)
+:::
 
 ## Question \#260
 
@@ -4755,7 +4816,9 @@ Does the solution meet the goal?**
 1.  A. Yes
 2.  B. No
 
-**Correct Answer:** *A*
+:::tip Answer
+A
+:::
 
 ## Question \#261
 
@@ -4770,7 +4833,9 @@ Does the solution meet the goal?**
 1.  A. Yes
 2.  B. No
 
-**Correct Answer:** *B*
+:::tip Answer
+B
+:::
 
 ## Question \#262
 
@@ -4784,7 +4849,9 @@ What should you do?**
 2.  B. Create a partition for each retailer.
 3.  C. Define a namespace for each retailer.
 
-**Correct Answer:** *A*
+:::tip Answer
+A
+:::
 
 ## Question \#263
 
@@ -4797,9 +4864,13 @@ You need to configure Azure App Service.
 Which values should you use? To answer, drag the appropriate configuration value to the correct requirements. Each configuration value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
 Select and Place:**  
-![](media/0a2229be871d4f0f1b0842fc668d7aa9.jpeg)
 
-**Correct Answer:** *![](media/30cee58096853a4bb0a90e9242bc9ead.jpeg)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0059400001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0059400002.jpg)
+
+:::
 
 ## Question \#264
 
@@ -4814,7 +4885,9 @@ Which two actions should you perform? Each correct answer presents part of the s
 4.  D. From the code on the VM, call Azure Resource Manager using a SAS token.
 5.  E. From the code on the VM, generate a user delegation SAS token.
 
-**Correct Answer:** *B & D*
+:::tip Answer
+B & D
+:::
 
 ## Question \#265
 
@@ -4828,7 +4901,9 @@ What should you do?**
 3.  C. Ensure each road has a unique connection string.
 4.  D. Use a unique application group for each road.
 
-**Correct Answer:** *B*
+:::tip Answer
+B
+:::
 
 ## Question \#266
 
@@ -4844,7 +4919,9 @@ NOTE: Each correct selection is worth one point.**
 4.  D. Set a maximum number of connection attempts to 10 and report an error on subsequent connections.
 5.  E. Increase connection repeat attempts exponentially up to 120 seconds.
 
-**Correct Answer:** *A & C & D*
+:::tip Answer
+A, C & D
+:::
 
 ## Question \#267
 
@@ -4859,35 +4936,39 @@ Which Graph API parameter is used to change authentication from one-time passcod
 3.  C. userFlowType
 4.  D. invitedUser
 
-**Correct Answer:** *B*
+:::tip Answer
+B
+:::
 
 ## Question \#268
 
-**HOTSPOT  
-\-  
+**HOTSPOT-  
 You develop an image upload service that is exposed using Azure API Management. Images are analyzed after upload for automatic tagging.  
 Images over 500 KB are processed by a different backend that offers a lower tier of service that costs less money. The lower tier of service is denoted by a header named x-large-request. Images over 500 KB must never be processed by backends for smaller images and must always be charged the lower price.  
 You need to implement API Management policies to ensure that images are processed correctly.  
 How should you complete the API Management inbound policy? To answer, select the appropriate options in the answer area.**  
 **NOTE: Each correct selection is worth one point.**
 
-![](media/f33f1058d07fb961a4a9aa37032aa76b.png)
+![](https://img.examtopics.com/az-204/image414.png)
 
-**Correct Answer:** *![](media/a465e5ce5613357e357a32baec2e1009.png)*
+:::tip Answer
+![](https://img.examtopics.com/az-204/image415.png)
+:::
 
 ## Question \#269
 
-**HOTSPOT  
-\-  
+**HOTSPOT-  
 You develop several Azure Functions app functions to process JSON documents from a third-party system. The third-party system publishes events to Azure Event Grid to include hundreds of event types, such as billing, inventory, and shipping updates.  
 Events must be sent to a single endpoint for the Azure Functions app to process. The events must be filtered by event type before processing. You must have authorization and authentication control to partition your tenants to receive the event data.  
 You need to configure Azure Event Grid.  
 Which configuration should you use? To answer, select the appropriate values in the answer area.  
 NOTE: Each correct selection is worth one point.**  
   
-![](media/64a400a6805cd8a3c09d30f83049152f.png)
+![](https://img.examtopics.com/az-204/image416.png)
 
-**Correct Answer:** *![](media/e532d8ceb64698f9fda4c3236df77fd0.png)*
+:::tip Answer
+![](https://img.examtopics.com/az-204/image417.png)
+:::
 
 ## Question \#270
 
@@ -4896,12 +4977,16 @@ The solution must receive and store messages until they can be processed. You cr
 You need to complete the configuration.  
 Which Azure CLI or PowerShell command should you run?**
 
--   A. ![](media/b417c888eefdf32873924b86249ab5d4.png)
--   B. ![](media/b8b2aac57bdfa87b0dbaab3086435b65.png)
--   C. ![](media/b6d6ddcb18be16b822a0ce8a1875795f.png)
--   D. ![](media/0540880f51451d298b039d1630e3e50e.png)
+-   A. ![](https://img.examtopics.com/az-204/image418.png)
 
-**Correct Answer:** *B*
+-   B. ![](https://img.examtopics.com/az-204/image419.png)
+-   C. ![](https://img.examtopics.com/az-204/image420.png)
+
+-   D. ![](https://img.examtopics.com/az-204/image421.png)
+
+:::tip Answer
+B
+:::
 
 ## Question \#271
 
@@ -4927,10 +5012,11 @@ The application uses MongoDB JSON document storage database for all container an
 Shipping Web Site -  
 The site displays shipping container tracking information and container contents. The site is located at http://shipping.wideworldimporters.com/  
 Proposed solution -  
-The on-premises shipping application must be moved to Azure. The VM has been migrated to a new Standard_D16s_v3 Azure VM by using Azure Site Recovery and must remain running in Azure to complete the BizTalk component migrations. You create a Standard_D16s_v3 Azure VM to host BizTalk Server. The Azure architecture diagram for the proposed solution is shown below:  
-![](media/9493bedb4408ecedb1c4d271ef891f7f.jpeg)  
-  
-Requirements -  
+The on-premises shipping application must be moved to Azure. The VM has been migrated to a new Standard_D16s_v3 Azure VM by using Azure Site Recovery and must remain running in Azure to complete the BizTalk component migrations. You create a Standard_D16s_v3 Azure VM to host BizTalk Server. The Azure architecture diagram for the proposed solution is shown below:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004000001.jpg)
+
+**Requirements -  
 Shipping Logic app -  
 The Shipping Logic app must meet the following requirements:  
 Support the ocean transport and inland transport workflows by using a Logic App.  
@@ -4949,22 +5035,29 @@ Shipping data -
 Data migration from on-premises to Azure must minimize costs and downtime.  
 Shipping website -  
 Use Azure Content Delivery Network (CDN) and ensure maximum performance for dynamic content while minimizing latency and costs.  
-Issues -  
+Issues -**
   
-Windows Server 2016 VM -  
+**Windows Server 2016 VM -  
 The VM shows high network latency, jitter, and high CPU utilization. The VM is critical and has not been backed up in the past. The VM must enable a quick restore from a 7-day snapshot to include in-place restore of disks in case of failure.  
 Shipping website and REST APIs -  
 The following error message displays while you are testing the website:  
-Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.QuestionHOTSPOT -  
+Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.**
+
+**Question**
+
+**HOTSPOT -  
 You need to configure Azure CDN for the Shipping web site.  
 Which configuration options should you use? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
-Hot Area:  
-![](media/2e71466b1671531d3e6a4321c092b125.jpeg)**
+Hot Area:** 
 
-**Correct Answer:** *![](media/fb0e6f825b54ccfe6b5d2f7dbe6b644f.jpeg)*
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004200001.jpg)
 
-## Question \#2*72*
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004300001.jpg)
+:::
+
+## Question \#272
 
 **Introductory InfoCase study -  
 This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
@@ -4988,10 +5081,11 @@ The application uses MongoDB JSON document storage database for all container an
 Shipping Web Site -  
 The site displays shipping container tracking information and container contents. The site is located at http://shipping.wideworldimporters.com/  
 Proposed solution -  
-The on-premises shipping application must be moved to Azure. The VM has been migrated to a new Standard_D16s_v3 Azure VM by using Azure Site Recovery and must remain running in Azure to complete the BizTalk component migrations. You create a Standard_D16s_v3 Azure VM to host BizTalk Server. The Azure architecture diagram for the proposed solution is shown below:  
-![](media/9493bedb4408ecedb1c4d271ef891f7f.jpeg)  
-  
-Requirements -  
+The on-premises shipping application must be moved to Azure. The VM has been migrated to a new Standard_D16s_v3 Azure VM by using Azure Site Recovery and must remain running in Azure to complete the BizTalk component migrations. You create a Standard_D16s_v3 Azure VM to host BizTalk Server. The Azure architecture diagram for the proposed solution is shown below:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004000001.jpg)  
+
+**Requirements -  
 Shipping Logic app -  
 The Shipping Logic app must meet the following requirements:  
 Support the ocean transport and inland transport workflows by using a Logic App.  
@@ -5019,8 +5113,9 @@ Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Contr
 You need to correct the VM issues.  
 Which tools should you use? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
-Hot Area:  
-**![](media/98790b6fce115a75d22bd7e55aa70131.jpeg)
+Hot Area:**
+
+![](media/98790b6fce115a75d22bd7e55aa70131.jpeg)
 
 **Correct Answer:** *![](media/8197e6453c2411659999e93ce59dab02.jpeg)*
 
