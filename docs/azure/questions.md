@@ -5115,9 +5115,11 @@ Which tools should you use? To answer, select the appropriate options in the ans
 NOTE: Each correct selection is worth one point.  
 Hot Area:**
 
-![](media/98790b6fce115a75d22bd7e55aa70131.jpeg)
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004500001.jpg)
 
-**Correct Answer:** *![](media/8197e6453c2411659999e93ce59dab02.jpeg)*
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004600001.jpg)
+:::
 
 ## Question \#273
 
@@ -5142,9 +5144,11 @@ Documentation -
 Employees are provided with a getting started document when they first use the solution. The documentation includes details on supported operating systems for  
 Azure File upload, and instructions on how to configure the mounted folder.  
 Solution details -  
-Users table -  
-![](media/72cee77de572da51bf2346d9aa622016.png)  
-Web Application -  
+Users table -**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018400001.png)  
+
+**Web Application -  
 You enable MSI for the Web App and configure the Web App to use the security principal name WebAppIdentity.  
 Processing -  
 Processing is performed by an Azure Function that uses version 2 of the Azure Function runtime. Once processing is completed, results are stored in Azure Blob  
@@ -5176,21 +5180,31 @@ During busy periods, employees report long delays between the time they upload t
 Log capacity issue -  
 Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.  
 Application code -  
-Processing.cs -  
-![](media/f4678626bc8ac6680adafa9759d7c7d7.jpeg)  
-Database.cs -  
-![](media/a036d518b1be25b150ffc8fa8c9b5f45.jpeg)  
-ReceiptUploader.cs -  
-![](media/a8ffa08dd32e6ef3907c75374d15744e.jpeg)  
-ConfigureSSE.ps1 -  
-![](media/eabdc914002ecdc7e096322b795a8a3a.jpeg)QuestionDRAG DROP -  
-You need to add code at line PC32 in Processing.cs to implement the GetCredentials method in the Processing class.  
+Processing.cs -**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018600001.jpg)
+**Database.cs -**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018700001.jpg)
+
+**ReceiptUploader.cs -**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018800001.jpg)
+
+**ConfigureSSE.ps1 -**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018900001.jpg)
+**QuestionDRAG**
+
+**DROP -**  
+**You need to add code at line PC32 in Processing.cs to implement the GetCredentials method in the Processing class.  
 How should you complete the code? To answer, drag the appropriate code segments to the correct locations. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
-Select and Place:  
-![](media/8d73bb4fb921dcf76fa3d929eac99c2c.jpeg)**
+Select and Place:**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0019000001.jpg)
 
-**Correct Answer:** *![](media/2c5612546ed74ea3ff5eacecb7c503a5.jpeg)*
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0019000002.jpg)
+:::
 
 ## Question \#274
 
@@ -5215,10 +5229,9 @@ Documentation -
 Employees are provided with a getting started document when they first use the solution. The documentation includes details on supported operating systems for  
 Azure File upload, and instructions on how to configure the mounted folder.  
 Solution details -  
-Users table -  
-![](media/72cee77de572da51bf2346d9aa622016.png)  
-  
-Web Application -  
+Users table -**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018400001.png)  
+**Web Application -  
 You enable MSI for the Web App and configure the Web App to use the security principal name WebAppIdentity.  
 Processing -  
 Processing is performed by an Azure Function that uses version 2 of the Azure Function runtime. Once processing is completed, results are stored in Azure Blob  
@@ -5248,26 +5261,30 @@ Server error page.
 Capacity issue -  
 During busy periods, employees report long delays between the time they upload the receipt and when it appears in the web application.  
 Log capacity issue -  
-Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.  
+Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.**  
   
-Application code -  
-Processing.cs -  
-![](media/f4678626bc8ac6680adafa9759d7c7d7.jpeg)  
-Database.cs -  
-![](media/a036d518b1be25b150ffc8fa8c9b5f45.jpeg)  
-ReceiptUploader.cs -  
-![](media/a8ffa08dd32e6ef3907c75374d15744e.jpeg)  
+**Application code -  
+Processing.cs -**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018600001.jpg)
+**Database.cs -**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018700001.jpg)
+**ReceiptUploader.cs -**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018800001.jpg)
   
-ConfigureSSE.ps1 -  
-![](media/eabdc914002ecdc7e096322b795a8a3a.jpeg)QuestionDRAG DROP -  
+**ConfigureSSE.ps1 -**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0018900001.jpg)
+
+**QuestionDRAG DROP -  
 You need to ensure disaster recovery requirements are met.  
 What code should you add at line PC16?  
 To answer, drag the appropriate code fragments to the correct locations. Each code fragment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
 NOTE: Each correct selection is worth one point.  
-Select and Place:  
-![](media/e401db8bad34cc8d0ed3e820cc037e02.jpeg)**
+Select and Place:**  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0019100001.jpg)
 
-**Correct Answer:** *![](media/b603c56388ece26523b13b9674ff1b78.jpeg)*
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0019200001.jpg)
+:::
 
 ## Question \#275
 
@@ -5280,17 +5297,18 @@ To display the first question in this case study, click the Next button. Use the
 LabelMaker app -  
 Coho Winery produces, bottles, and distributes a variety of wines globally. You are a developer implementing highly scalable and resilient applications to support online order processing by using Azure solutions.  
 Coho Winery has a LabelMaker application that prints labels for wine bottles. The application sends data to several printers. The application consists of five modules that run independently on virtual machines (VMs). Coho Winery plans to move the application to Azure and continue to support label creation.  
-External partners send data to the LabelMaker application to include artwork and text for custom label designs.  
+External partners send data to the LabelMaker application to include artwork and text for custom label designs.**  
   
-Requirements. Data -  
+**Requirements. 
+Data -  
 You identify the following requirements for data management and manipulation:  
 Order data is stored as nonrelational JSON and must be queried using SQL.  
 Changes to the Order data must reflect immediately across all partitions. All reads to the Order data must fetch the most recent writes.  
 Requirements. Security -  
 You have the following security requirements:  
-Users of Coho Winery applications must be able to provide access to documents, resources, and applications to external partners.  
-![](media/dcc405400d958ddc5adcd5007fab14ef.png)  
-External partners must use their own credentials and authenticate with their organization's identity management solution.  
+Users of Coho Winery applications must be able to provide access to documents, resources, and applications to external partners.**  
+
+**External partners must use their own credentials and authenticate with their organization's identity management solution.  
 External partner logins must be audited monthly for application use by a user account administrator to maintain company compliance.  
 Storage of e-commerce application settings must be maintained in Azure Key Vault.  
 E-commerce application sign-ins must be secured by using Azure App Service authentication and Azure Active Directory (AAD).  
@@ -5301,8 +5319,7 @@ Azure Monitor Container Health must be used to monitor the performance of worklo
 Kubernetes Service (AKS).  
 You must use Azure Container Registry to publish images that support the AKS deployment.  
 Architecture -  
-![](media/d828d37795f8cfc2299b3744ab5f6591.jpeg)  
-  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0019600001.jpg)  
 Issues -  
 Calls to the Printer API App fail periodically due to printer communication timeouts.  
 Printer communication timeouts occur after 10 seconds. The label printer must only receive up to 5 attempts within one minute.  
@@ -5311,14 +5328,18 @@ Order.json -
 Relevant portions of the app files are shown below. Line numbers are included for reference only.  
 This JSON file contains a representation of the data for an order that includes a single item.  
 Order.json -  
-![](media/5e4ad763068c4257795e7ec0b7213bc5.png)QuestionHOTSPOT -  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0019800001.png)
+Question
+HOTSPOT -  
 You need to configure Azure Cosmos DB.  
 Which settings should you use? To answer, select the appropriate options in the answer area.  
 NOTE: Each correct selection is worth one point.  
-Hot Area:  
-![](media/f17193bd23ca59d54aaf39fd2342b81a.jpeg)**
+Hot Area:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0019900001.jpg)
 
-**Correct Answer:** *![](media/3fd6cd502951d820502c6254bb8e976c.jpeg)*
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004600001.jpg)
+:::
 
 ## Question \#276
 
