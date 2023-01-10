@@ -3247,6 +3247,7 @@ What should you validate?**
 4.  D. Tenant ID
 
 :::tip Answer
+
 A
 
 :::
@@ -3268,7 +3269,2055 @@ NOTE: Each correct selection is worth one point.**
 4.  D. Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions.
 
 :::tip Answer
+
 A & C
 
 :::
 
+## Question #171
+
+**A development team is creating a new REST API. The API will store data in Azure Blob storage. You plan to deploy the API to Azure App Service.  
+Developers must access the Azure Blob storage account to develop the API for the next two months. The Azure Blob storage account must not be accessible by the developers after the two-month time period.  
+You need to grant developers access to the Azure Blob storage account.  
+What should you do?**
+
+1.  A. Generate a shared access signature (SAS) for the Azure Blob storage account and provide the SAS to all developers.
+2.  B. Create and apply a new lifecycle management policy to include a last accessed date value. Apply the policy to the Azure Blob storage account.
+3.  C. Provide all developers with the access key for the Azure Blob storage account. Update the API to include the Coordinated Universal Time (UTC) timestamp for the request header.
+4.  D. Grant all developers access to the Azure Blob storage account by assigning role-based access control (RBAC) roles.
+
+:::tip Answer
+
+A 
+
+:::
+
+## Question #172
+
+**DRAG DROP -  
+You develop a web application.  
+You need to register the application with an active Azure Active Directory (Azure AD) tenant.  
+Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0038600001.jpg)
+
+:::tip Answer
+
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0038700001.jpg) 
+
+:::
+
+## Question #173
+
+**You have a new Azure subscription. You are developing an internal website for employees to view sensitive data. The website uses Azure Active Directory (Azure  
+AD) for authentication.  
+You need to implement multifactor authentication for the website.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Configure the website to use Azure AD B2C.
+2.  B. In Azure AD, create a new conditional access policy.
+3.  C. Upgrade to Azure AD Premium.
+4.  D. In Azure AD, enable application proxy.
+5.  E. In Azure AD conditional access, enable the baseline policy.
+
+:::tip Answer
+
+B & C
+
+:::
+
+## Question #174
+
+**DRAG DROP -  
+An organization plans to deploy Azure storage services.  
+You need to configure shared access signature (SAS) for granting access to Azure Storage.  
+Which SAS types should you use? To answer, drag the appropriate SAS types to the correct requirements. Each SAS type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0038900001.jpg)
+
+:::tip Answer
+
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0038900002.jpg)
+
+:::
+
+## Question #175
+
+**HOTSPOT -  
+You are developing an ASP.NET Core app that includes feature flags which are managed by Azure App Configuration. You create an Azure App Configuration store named AppFeatureflagStore as shown in the exhibit:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0039000001.png)
+
+**You must be able to use the feature in the app by using the following markup:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0039000002.jpg)
+
+**You need to update the app to use the feature flag.  
+Which values should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0039100001.png)
+
+:::tip Answer
+
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0039200001.jpg)
+:::
+
+## Question #176
+
+**HOTSPOT -  
+You have a single page application (SPA) web application that manages information based on data returned by Microsoft Graph from another company's Azure  
+Active Directory (Azure AD) instance.  
+Users must be able to authenticate and access Microsoft Graph by using their own company's Azure AD instance.  
+You need to configure the application manifest for the app registration.  
+How should you complete the manifest? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0039400001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0039500001.png)
+:::
+
+## Question #177
+
+**You manage a data processing application that receives requests from an Azure Storage queue.  
+You need to manage access to the queue. You have the following requirements:  
+✑ Provide other applications access to the Azure queue.  
+✑ Ensure that you can revoke access to the queue without having to regenerate the storage account keys.  
+✑ Specify access at the queue level and not at the storage account level.  
+Which type of shared access signature (SAS) should you use?**
+
+1.  A. Service SAS with a stored access policy
+2.  B. Account SAS
+3.  C. User Delegation SAS
+4.  D. Service SAS with ad hoc SAS
+
+:::tip Answer
+A
+:::
+
+## Question #178
+
+**HOTSPOT -  
+You are developing an application to store and retrieve data in Azure Blob storage. The application will be hosted in an on-premises virtual machine (VM). The  
+VM is connected to Azure by using a Site-to-Site VPN gateway connection. The application is secured by using Azure Active Directory (Azure AD) credentials.  
+The application must be granted access to the Azure Blob storage account with a start time, expiry time, and read permissions. The Azure Blob storage account access must use the Azure AD credentials of the application to secure data access. Data access must be able to be revoked if the client application security is breached.  
+You need to secure the application access to Azure Blob storage.  
+Which security features should you use? To answer select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0039900001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0040000001.jpg)
+:::
+
+## Question #179
+
+**You are building a web application that uses the Microsoft identity platform for user authentication.  
+You are implementing user identification for the web application.  
+You need to retrieve a claim to uniquely identify a user.  
+Which claim type should you use?**
+
+1.  A. aud
+2.  B. nonce
+3.  C. oid
+4.  D. idp
+
+:::tip Answer
+C
+:::
+
+## Question #180
+
+**You are developing an Azure Function that calls external APIs by providing an access token for the API. The access token is stored in a secret named token in an  
+Azure Key Vault named mykeyvault.  
+You need to ensure the Azure Function can access to the token. Which value should you store in the Azure Function App configuration?**
+
+1.  A. KeyVault:mykeyvault;Secret:token
+2.  B. App:Settings:Secret:mykeyvault:token
+3.  C. AZUREKVCONNSTR\_ https://mykeyveult.vault.ezure.net/secrets/token/
+4.  D. @Microsoft.KeyVault(SecretUri=https://mykeyvault.vault.azure.net/secrets/token/)
+
+:::tip Answer
+D
+:::
+
+## Question #181
+
+**A company maintains multiple web and mobile applications. Each application uses custom in-house identity providers as well as social identity providers.  
+You need to implement single sign-on (SSO) for all the applications.  
+What should you do?**
+
+1.  A. Use Azure Active Directory B2C (Azure AD B2C) with custom policies.
+2.  B. Use Azure Active Directory B2B (Azure AD B2B) and enable external collaboration.
+3.  C. Use Azure Active Directory B2C (Azure AD B2C) with user flows.
+4.  D. Use Azure Active Directory B2B (Azure AD B2B).
+
+:::tip Answer
+B
+:::
+
+## Question #182
+
+**You develop a Python application for image rendering that uses GPU resources to optimize rendering processes. You deploy the application to an Azure  
+Container Instances (ACI) Linux container.  
+The application requires a secret value to be passed when the container is started. The value must only be accessed from within the container.  
+You need to pass the secret value.  
+What are two possible ways to achieve this goal? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Create an environment variable Set the secureValue property to the secret value.
+2.  B. Add the secret value to the container image. Use a managed identity.
+3.  C. Add the secret value to the application code Set the container startup command.
+4.  D. Add the secret value to an Azure Blob storage account. Generate a SAS token.
+5.  E. Mount a secret volume containing the secret value in a secrets file.
+
+:::tip Answer
+A & E
+:::
+
+## Question #183
+
+**You are developing a user portal for a company.  
+You need to create a report for the portal that lists information about employees who are subject matter experts for a specific topic. You must ensure that administrators have full control and consent over the data.  
+Which technology should you use?**
+
+1.  A. Microsoft Graph data connect
+2.  B. Microsoft Graph API
+3.  C. Microsoft Graph connectors
+
+:::tip Answer
+A 
+:::
+
+## Question #184
+
+**HOTSPOT -  
+You are a developer building a web site using a web app. The web site stores configuration data in Azure App Configuration.  
+Access to Azure App Configuration has been configured to use the identity of the web app for authentication. Security requirements specify that no other authentication systems must be used.  
+You need to load configuration data from Azure App Configuration.  
+How should you complete the code? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0040600001.png)
+
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0040700001.png) 
+:::
+
+## Question #185
+
+**HOTSPOT -  
+You are building an application that stores sensitive customer data in Azure Blob storage. The data must be encrypted with a key that is unique for each customer.  
+If the encryption key has been corrupted it must not be used for encryption.  
+You need to ensure that the blob is encrypted.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0041000001.png)
+
+:::tip Answer
+  ![](https://www.examtopics.com/assets/media/exam-media/04273/0041100001.png)
+:::
+
+## Question #186
+
+**HOTSPOT-  
+You are developing a web application that uses the Microsoft Identity platform for user and resource authentication. The web application called several REST APIs.  
+You are implementing various authentication and authorization flows for the web application.  
+You need to validate the claims in the authentication token.  
+Which token type should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image395.png)
+
+:::tip Answer
+ ![](https://img.examtopics.com/az-204/image396.png)
+:::
+
+## Question #187
+
+**HOTSPOT-  
+You are developing a content management application for technical manuals. The application is deployed as an Azure Static Web app.  
+Authenticated users can view pages under/manuals but only contributors can access the page /manuals/new.html.  
+You need to configure the routing for the web app.  
+How should you complete the configuration? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point**.
+
+![](https://img.examtopics.com/az-204/image397.png)
+
+:::tip Answer
+ ![](https://img.examtopics.com/az-204/image398.png)
+:::
+
+## Question #188
+
+**You are developing a web application that uses the Microsoft identity platform for user and resource authentication. The web application calls several REST APIs.  
+A REST API call must read the user’s calendar. The web application requires permission to send an email as the user.  
+You need to authorize the web application and the API.  
+Which parameter should you use?**
+
+1.  A. tenant
+2.  B. code_challenge
+3.  C. state
+4.  D. client_id
+5.  E. scope
+
+:::tip Answer
+ E
+:::
+
+## Question #189
+
+**HOTSPOT-  
+You develop and deploy a web app to Azure App service. The web app allows users to authenticate by using social identity providers through the Azure B2C service. All user profile information is stored in Azure B2C.  
+You must update the web app to display common user properties from Azure B2C to include the following information:  
+• Email address  
+• Job title  
+• First name  
+• Last name  
+• Office location  
+You need to implement the user properties in the web app.  
+Which code library and API should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image399.png)
+
+:::tip Answer
+![](https://img.examtopics.com/az-204/image400.png)
+:::
+
+## Question #190
+
+**HOTSPOT-  
+You develop and deploy the following staticwebapp.config.json file to the app_location value specified in the workflow file of an Azure Static Web app:**
+
+![](https://img.examtopics.com/az-204/image401.png)
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image402.png)
+
+:::tip Answer
+![](https://img.examtopics.com/az-204/image403.png)
+:::
+
+## Question #191
+
+**You develop and deploy an Azure App Service web app named App1. You create a new Azure Key Vault named Vault1. You import several API keys, passwords, certificates, and cryptographic keys into Vault1.  
+You need to grant App1 access to Vault1 and automatically rotate credentials. Credentials must not be stored in code.  
+What should you do?**
+
+1.  A. Enable App Service authentication for Appl. Assign a custom RBAC role to Vault1.
+2.  B. Add a TLS/SSL binding to App1.
+3.  C. Upload a self-signed client certificate to Vault1. Update App1 to use the client certificate.
+4.  D. Assign a managed identity to App1.
+
+:::tip Answer
+D
+:::
+
+## Question #192
+
+**You are developing a Java application to be deployed in Azure. The application stores sensitive data in Azure Cosmos DB.  
+You need to configure Always Encrypted to encrypt the sensitive data inside the application.  
+What should you do first?**
+
+1.  A. Create a new container to include an encryption policy with the JSON properties to be encrypted.
+2.  B. Create a customer-managed key (CMK) and store the key in a new Azure Key Vault instance.
+3.  C. Create a data encryption key (DEK) by using the Azure Cosmos DB SDK and store the key in Azure Cosmos DB.
+4.  D. Create an Azure AD managed identity and assign the identity to a new Azure Key Vault instance.
+
+:::tip Answer
+B
+:::
+
+## Question #193
+
+**HOTSPOT-  
+You develop a web app that interacts with Azure Active Directory (Azure AD) groups by using Microsoft Graph.  
+You build a web page that shows all Azure AD groups that are not of the type 'Unified'.  
+You need to build the Microsoft Graph query for the page.  
+How should you complete the query? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image404.png)
+
+:::tip Answer
+![](https://img.examtopics.com/az-204/image405.png)
+:::
+
+## Question #194
+
+**DRAG DROP-  
+You are developing an Azure solution.  
+You need to develop code to access a secret stored in Azure Key Vault.  
+How should you complete the code segment? To answer, drag the appropriate code segments to the correct location. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image406.png)
+
+:::tip Answer
+![](https://img.examtopics.com/az-204/image407.png)
+:::
+
+## Question #195
+
+**HOTSPOT-  
+You are a developer building a web site using a web app. The web site stores configuration data in Azure App Configuration.  
+Access to Azure App Configuration has been configured to use the identity of the web app for authentication. Security requirements specify that no other authentication systems must be used.  
+You need to load configuration data from Azure App Configuration.  
+How should you complete the code? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+**
+
+![](https://img.examtopics.com/az-204/image408.png)
+
+:::tip Answer
+ ![](https://img.examtopics.com/az-204/image409.png)
+:::
+
+
+## Question #196
+
+**DRAG DROP -  
+You develop a web app that uses the tier D1 app service plan by using the Web Apps feature of Microsoft Azure App Service.  
+Spikes in traffic have caused increases in page load times.  
+You need to ensure that the web app automatically scales when CPU load is about 85 percent and minimize costs.  
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0045400001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0045500001.jpg)
+:::
+
+## Question #197
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution. Determine whether the solution meets the stated goals.  
+You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output.  
+You must use a storage mechanism with the following requirements:  
+✑ Share session state across all ASP.NET web applications.  
+✑ Support controlled, concurrent access to the same session state data for multiple readers and a single writer.  
+✑ Save full HTTP responses for concurrent requests.  
+You need to store the information.  
+Proposed Solution: Enable Application Request Routing (ARR).  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+B
+:::
+
+## Question #198
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution. Determine whether the solution meets the stated goals.  
+You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output.  
+You must use a storage mechanism with the following requirements:  
+✑ Share session state across all ASP.NET web applications.  
+✑ Support controlled, concurrent access to the same session state data for multiple readers and a single writer.  
+✑ Save full HTTP responses for concurrent requests.  
+You need to store the information.  
+Proposed Solution: Deploy and configure an Azure Database for PostgreSQL. Update the web applications.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+B
+:::
+
+# Question #199
+
+**HOTSPOT -  
+A company is developing a gaming platform. Users can join teams to play online and see leaderboards that include player statistics. The solution includes an entity named Team.  
+You plan to implement an Azure Redis Cache instance to improve the efficiency of data operations for entities that rarely change.  
+You need to invalidate the cache when team data is changed.  
+How should you complete the code? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0045800001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0045900001.jpg)
+:::
+
+## Question #200
+
+**DRAG DROP -  
+A company has multiple warehouses. Each warehouse contains IoT temperature devices which deliver temperature data to an Azure Service Bus queue.  
+You need to send email alerts to facility supervisors immediately if the temperature at a warehouse goes above or below specified threshold temperatures.  
+Which five actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0046000001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0046100001.png)
+:::
+
+## Question #201
+
+**DRAG DROP -  
+You develop an ASP.NET Core MVC application. You configure the application to track webpages and custom events.  
+You need to identify trends in application usage.  
+Which Azure Application Insights Usage Analysis features should you use? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0046200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0046200002.png)
+:::
+
+## Question #202
+
+**You develop a gateway solution for a public facing news API. The news API back end is implemented as a RESTful service and uses an OpenAPI specification.  
+You need to ensure that you can access the news API by using an Azure API Management service instance.  
+Which Azure PowerShell command should you run?**
+
+1.  A. Import-AzureRmApiManagementApi -Context \$ApiMgmtContext -SpecificationFormat "Swagger" -SpecificationPath \$SwaggerPath -Path \$Path
+2.  B. New-AzureRmApiManagementBackend -Context \$ApiMgmtContext -Url \$Url -Protocol http
+3.  C. New-AzureRmApiManagement -ResourceGroupName \$ResourceGroup -Name \$Name ג€"Location \$Location -Organization \$Org -AdminEmail \$AdminEmail
+4.  D. New-AzureRmApiManagementBackendProxy -Url \$ApiUrl
+
+:::tip Answer
+D
+:::
+
+## Question #203
+
+**You are creating a hazard notification system that has a single signaling server which triggers audio and visual alarms to start and stop.  
+You implement Azure Service Bus to publish alarms. Each alarm controller uses Azure Service Bus to receive alarm signals as part of a transaction. Alarm events must be recorded for audit purposes. Each transaction record must include information about the alarm type that was activated.  
+You need to implement a reply trail auditing solution.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Assign the value of the hazard message SessionID property to the ReplyToSessionId property.
+2.  B. Assign the value of the hazard message MessageId property to the DevileryCount property.
+3.  C. Assign the value of the hazard message SessionID property to the SequenceNumber property.
+4.  D. Assign the value of the hazard message MessageId property to the CorrelationId property.
+5.  E. Assign the value of the hazard message SequenceNumber property to the DeliveryCount property.
+6.  F. Assign the value of the hazard message MessageId property to the SequenceNumber property.
+
+:::tip Answer
+A & D
+:::
+
+## Question \#204
+
+**You are developing an Azure function that connects to an Azure SQL Database instance. The function is triggered by an Azure Storage queue.  
+You receive reports of numerous System.InvalidOperationExceptions with the following message:  
+\`Timeout expired. The timeout period elapsed prior to obtaining a connection from the pool. This may have occurred because all pooled connections were in use and max pool size was reached.\`  
+You need to prevent the exception.  
+What should you do?**
+
+1.  A. In the host.json file, decrease the value of the batchSize option
+2.  B. Convert the trigger to Azure Event Hub
+3.  C. Convert the Azure Function to the Premium plan
+4.  D. In the function.json file, change the value of the type option to queueScaling
+
+:::tip Answer
+C
+:::
+
+## Question \#205
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution. Determine whether the solution meets the stated goals.  
+You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output.  
+You must use a storage mechanism with the following requirements:  
+✑ Share session state across all ASP.NET web applications.  
+✑ Support controlled, concurrent access to the same session state data for multiple readers and a single writer.  
+✑ Save full HTTP responses for concurrent requests.  
+You need to store the information.  
+Proposed Solution: Deploy and configure Azure Cache for Redis. Update the web applications.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+A
+:::
+
+## Question \#206
+
+**HOTSPOT -  
+You are debugging an application that is running on Azure Kubernetes cluster named cluster1. The cluster uses Azure Monitor for containers to monitor the cluster.  
+The application has sticky sessions enabled on the ingress controller.  
+Some customers report a large number of errors in the application over the last 24 hours.  
+You need to determine on which virtual machines (VMs) the errors are occurring.  
+How should you complete the Azure Monitor query? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0046900001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0047100001.png)
+:::
+
+## Question \#207
+
+**HOTSPOT -  
+You plan to deploy a web app to App Service on Linux. You create an App Service plan. You create and push a custom Docker image that contains the web app to Azure Container Registry.  
+You need to access the console logs generated from inside the container in real-time.  
+How should you complete the Azure CLI command? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0047300001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0047300002.png)
+:::
+
+## Question \#208
+
+**You develop and deploy an ASP.NET web app to Azure App Service. You use Application Insights telemetry to monitor the app.  
+You must test the app to ensure that the app is available and responsive from various points around the world and at regular intervals. If the app is not responding, you must send an alert to support staff.  
+You need to configure a test for the web app.  
+Which two test types can you use? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. integration
+2.  B. multi-step web
+3.  C. URL ping
+4.  D. unit
+5.  E. load
+
+:::tip Answer
+B & C
+:::
+
+## Question \#209
+
+**DRAG DROP -  
+A web service provides customer summary information for e-commerce partners. The web service is implemented as an Azure Function app with an HTTP trigger.  
+Access to the API is provided by an Azure API Management instance. The API Management instance is configured in consumption plan mode. All API calls are authenticated by using OAuth.  
+API calls must be cached. Customers must not be able to view cached data for other customers.  
+You need to configure API Management policies for caching.  
+How should you complete the policy statement?  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0047600001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0047600002.jpg)
+:::
+
+## Question \#210
+
+**You are developing applications for a company. You plan to host the applications on Azure App Services.  
+The company has the following requirements:  
+✑ Every five minutes verify that the websites are responsive.  
+✑ Verify that the websites respond within a specified time threshold. Dependent requests such as images and JavaScript files must load properly.  
+✑ Generate alerts if a website is experiencing issues.  
+✑ If a website fails to load, the system must attempt to reload the site three more times.  
+You need to implement this process with the least amount of effort.  
+What should you do?**
+
+1.  A. Create a Selenium web test and configure it to run from your workstation as a scheduled task.
+2.  B. Set up a URL ping test to query the home page.
+3.  C. Create an Azure function to query the home page.
+4.  D. Create a multi-step web test to query the home page.
+5.  E. Create a Custom Track Availability Test to query the home page.
+
+:::tip Answer
+D
+:::
+
+## Question \#211
+
+**You develop and add several functions to an Azure Function app that uses the latest runtime host. The functions contain several REST API endpoints secured by using SSL. The Azure Function app runs in a Consumption plan.  
+You must send an alert when any of the function endpoints are unavailable or responding too slowly.  
+You need to monitor the availability and responsiveness of the functions.  
+What should you do?**
+
+1.  A. Create a URL ping test.
+2.  B. Create a timer triggered function that calls TrackAvailability() and send the results to Application Insights.
+3.  C. Create a timer triggered function that calls GetMetric("Request Size") and send the results to Application Insights.
+4.  D. Add a new diagnostic setting to the Azure Function app. Enable the FunctionAppLogs and Send to Log Analytics options.
+
+:::tip Answer
+B
+:::
+
+## Question \#212
+
+**DRAG DROP -  
+You are developing an application to retrieve user profile information. The application will use the Microsoft Graph SDK.  
+The app must retrieve user profile information by using a Microsoft Graph API call.  
+You need to call the Microsoft Graph API from the application.  
+In which order should you perform the actions? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:  **
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0047900001.jpg)
+
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0048000001.jpg)
+:::
+
+
+## Question \#213
+
+**DRAG DROP -  
+You develop and deploy an Azure Logic App that calls an Azure Function app. The Azure Function App includes an OpenAPI (Swagger) definition and uses an  
+Azure Blob storage account. All resources are secured by using Azure Active Directory (Azure AD).  
+The Logic App must use Azure Monitor logs to record and store information about runtime data and events. The logs must be stored in the Azure Blob storage account.  
+You need to set up Azure Monitor logs and collect diagnostics data for the Azure Logic App.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0048100001.png)
+
+:::tip Answer
+  ![](https://www.examtopics.com/assets/media/exam-media/04273/0048200001.png)
+:::
+
+## Question \#214
+
+**DRAG DROP -  
+You develop an application. You plan to host the application on a set of virtual machines (VMs) in Azure.  
+You need to configure Azure Monitor to collect logs from the application.  
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0048300001.png)
+
+:::tip Answer
+  ![](https://www.examtopics.com/assets/media/exam-media/04273/0048300002.png)
+:::
+
+
+## Question \#215
+
+**You develop and deploy an Azure App Service web app. The app is deployed to multiple regions and uses Azure Traffic Manager. Application Insights is enabled for the app.  
+You need to analyze app uptime for each month.  
+Which two solutions will achieve the goal? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Azure Monitor logs
+2.  B. Application Insights alerts
+3.  C. Azure Monitor metrics
+4.  D. Application Insights web tests
+
+:::tip Answer
+B & D
+:::
+
+## Question \#216
+
+**DRAG DROP -  
+You develop and deploy an Azure App Service web app. The web app accesses data in an Azure SQL database.  
+You must update the web app to store frequently used data in a new Azure Cache for Redis Premium instance.  
+You need to implement the Azure Cache for Redis features.  
+Which feature should you implement? To answer, drag the appropriate feature to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0048700001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0048700002.png)
+:::
+
+
+## Question \#217
+
+**You are developing an ASP.NET Core Web API web service. The web service uses Azure Application Insights for all telemetry and dependency tracking. The web service reads and writes data to a database other than Microsoft SQL Server.  
+You need to ensure that dependency tracking works for calls to the third-party database.  
+Which two dependency telemetry properties should you use? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Telemetry.Context.Cloud.RoleInstance
+2.  B. Telemetry.Id
+3.  C. Telemetry.Name
+4.  D. Telemetry.Context.Operation.Id
+5.  E. Telemetry.Context.Session.Id
+
+:::tip Answer
+B & D
+:::
+
+## Question \#218
+
+**HOTSPOT -  
+You are using Azure Front Door Service.  
+You are expecting inbound files to be compressed by using Brotli compression. You discover that inbound XML files are not compressed. The files are 9 megabytes (MB) in size.  
+You need to determine the root cause for the issue.  
+To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0048900001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0049000001.jpg)
+:::
+
+## Question \#219
+
+**HOTSPOT -  
+You are developing an Azure App Service hosted ASP.NET Core web app to deliver video-on-demand streaming media. You enable an Azure Content Delivery  
+Network (CDN) Standard for the web endpoint. Customer videos are downloaded from the web app by using the following example URL: http://www.contoso.com/ content.mp4?quality=1.  
+All media content must expire from the cache after one hour. Customer videos with varying quality must be delivered to the closest regional point of presence  
+(POP) node.  
+You need to configure Azure CDN caching rules.  
+Which options should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**   
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0049200001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0049300001.jpg)
+:::
+
+## Question \#220
+
+**HOTSPOT -  
+You are developing an ASP.NET Core time sheet application that runs as an Azure Web App. Users of the application enter their time sheet information on the first day of every month.  
+The application uses a third-party web service to validate data.  
+The application encounters periodic server errors due to errors that result from calling a third-party web server. Each request to the third-party server has the same chance of failure.  
+You need to configure an Azure Monitor alert to detect server errors unrelated to the third-party service. You must minimize false-positive alerts.  
+How should you complete the Azure Resource Manager template? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0049500001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0049600001.jpg)
+:::
+
+## Question \#221
+
+**You are developing a web application that uses Azure Cache for Redis. You anticipate that the cache will frequently fill and that you will need to evict keys.  
+You must configure Azure Cache for Redis based on the following predicted usage pattern: A small subset of elements will be accessed much more often than the rest.  
+You need to configure the Azure Cache for Redis to optimize performance for the predicted usage pattern.  
+Which two eviction policies will achieve the goal?  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. noeviction
+2.  B. allkeys-lru
+3.  C. volatile-lru
+4.  D. allkeys-random
+5.  E. volatile-ttl
+6.  F. volatile-random
+
+:::tip Answer
+B & C
+:::
+
+## Question \#222
+
+**DRAG DROP -  
+An organization has web apps hosted in Azure.  
+The organization wants to track events and telemetry data in the web apps by using Application Insights.  
+You need to configure the web apps for Application Insights.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0049800001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0049800002.jpg)
+:::
+
+
+## Question \#223
+
+**An organization hosts web apps in Azure. The organization uses Azure Monitor.  
+You discover that configuration changes were made to some of the web apps.  
+You need to identify the configuration changes.  
+Which Azure Monitor log should you review?**
+
+1.  A. AppServiceAppLogs
+2.  B. AppServiceEnvironmentPlatformlogs
+3.  C. AppServiceConsoleLogs
+4.  D. AppServiceAuditLogs
+
+:::tip Answer
+B
+:::
+
+## Question \#224
+
+**You develop and deploy an Azure App Service web app to a production environment. You enable the Always On setting and the Application Insights site extensions.  
+You deploy a code update and receive multiple failed requests and exceptions in the web app.  
+You need to validate the performance and failure counts of the web app in near real time.  
+Which Application Insights tool should you use?**
+
+1.  A. Profiler
+2.  B. Smart Detection
+3.  C. Live Metrics Stream
+4.  D. Application Map
+5.  E. Snapshot Debugger
+
+:::tip Answer
+C
+:::
+
+## Question \#225
+
+**HOTSPOT -  
+You deploy an ASP.NET web app to Azure App Service.  
+You must monitor the web app by using Application Insights.  
+You need to configure Application Insights to meet the requirements.  
+Which feature should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0050200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0050300001.png)
+:::
+
+## Question \#226
+
+**You are building a web application that performs image analysis on user photos and returns metadata containing objects identified. The image analysis is very costly in terms of time and compute resources. You are planning to use Azure Redis Cache so duplicate uploads do not need to be reprocessed.  
+In case of an Azure data center outage, metadata loss must be kept to a minimum.  
+You need to configure the Azure Redis cache instance.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Configure Azure Redis with AOF persistence.
+2.  B. Configure Azure Redis with RDB persistence.
+3.  C. Configure second storage account for persistence.
+4.  D. Set backup frequency to the minimum value.
+
+:::tip Answer
+B & D
+:::
+
+## Question \#227
+
+**You are developing an Azure-based web application. The application goes offline periodically to perform offline data processing. While the application is offline, numerous Azure Monitor alerts fire which result in the on-call developer being paged.**  
+**The application must always log when the application is offline for any reason.  
+You need to ensure that the on-call developer is not paged during offline processing.  
+What should you do?**
+
+1.  A. Add Azure Monitor alert processing rules to suppress notifications.
+2.  B. Disable Azure Monitor Service Health Alerts during offline processing.
+3.  C. Create an Azure Monitor Metric Alert.
+4.  D. Build an Azure Monitor action group that suppresses the alerts.
+
+:::tip Answer
+D
+:::
+
+## Question \#228
+
+**You are developing an online game that includes a feature that allows players to interact with other players on the same team within a certain distance. The calculation to determine the players in range occurs when players move and are cached in an Azure Cache for Redis instance.  
+The system should prioritize players based on how recently they have moved and should not prioritize players who have logged out of the game.  
+You need to select an eviction policy.  
+Which eviction policy should you use?**
+
+1.  A. allkeys-Iru
+2.  B. volatile-Iru
+3.  C. allkeys-lfu
+4.  D. volatile-ttl
+
+:::tip Answer
+A
+:::
+
+## Question \#229
+
+**You develop an Azure App Service web app and deploy to a production environment. You enable Application Insights for the web app.  
+The web app is throwing multiple exceptions in the environment.  
+You need to examine the state of the source code and variables when the exceptions are thrown.  
+Which Application Insights feature should you configure?**
+
+1.  A. Smart detection
+2.  B. Profiler
+3.  C. Snapshot Debugger
+4.  D. Standard test
+
+:::tip Answer
+C
+:::
+
+## Question \#230
+
+**DRAG DROP  
+\-  
+You develop and deploy a Java application to Azure. The application has been instrumented by using the Application Insights SDK.  
+The telemetry data must be enriched and processed before it is sent to the Application Insights service.  
+You need to modify the telemetry data.  
+Which Application Insights SDK features should you use? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.**  
+  
+![](https://img.examtopics.com/az-204/image410.png)
+
+:::tip Answer
+![](https://img.examtopics.com/az-204/image411.png)
+:::
+
+## Question \#231
+
+**HOTSPOT -  
+You develop new functionality in a web application for a company that provides access to seismic data from around the world. The seismic data is stored in Redis Streams within an Azure Cache for Redis instance.  
+The new functionality includes a real-time display of seismic events as they occur.**  
+**You need to implement the Azure Cache for Redis command to receive seismic data.    
+How should you complete the command? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.**  
+
+![](https://img.examtopics.com/az-204/image412.png)
+
+:::tip Answer
+![](https://img.examtopics.com/az-204/image413.png)
+:::
+
+## Question \#232
+
+**You develop an ASP.NET Core app that uses Azure App Configuration. You also create an App Configuration containing 100 settings.  
+The app must meet the following requirements:  
+• Ensure the consistency of all configuration data when changes to individual settings occur.  
+• Handle configuration data changes dynamically without causing the application to restart.  
+• Reduce the overall number of requests made to App Configuration APIs.  
+You must implement dynamic configuration updates in the app.  
+What are two ways to achieve this goal? Each correct answer presents part of the solution.   
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Create and register a sentinel key in the App Configuration store. Set the refreshAll parameter of the Register method to true.
+2.  B. Increase the App Configuration cache expiration from the default value.
+3.  C. Decrease the App Configuration cache expiration from the default value.
+4.  D. Create and configure Azure Key Vault. Implement the Azure Key Vault configuration provider.
+5.  E. Register all keys in the App Configuration store. Set the refreshAll parameter of the Register method to false.
+6.  F. Create and implement environment variables for each App Configuration store setting.
+
+:::tip Answer
+A & B
+:::
+
+## Question \#233
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.  
+You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.  
+You need to implement a solution to receive the device data.  
+Solution: Provision an Azure Service Bus. Configure a topic to receive the device data by using a correlation filter.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+A 
+:::
+
+## Question \#234
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.  
+You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.  
+You need to implement a solution to receive the device data.  
+Solution: Provision an Azure Event Grid. Configure event filtering to evaluate the device identifier.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+B
+:::
+
+## Question \#235
+
+**DRAG DROP -  
+You manage several existing Logic Apps.  
+You need to change definitions, add new logic, and optimize these apps on a regular basis.  
+What should you use? To answer, drag the appropriate tools to the correct functionalities. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0054900001.jpg)
+
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0054900002.jpg)
+:::
+## Question \#236
+
+**A company is developing a solution that allows smart refrigerators to send temperature information to a central location.  
+The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location.  
+You need to complete the configuration.  
+Which Azure CLI or PowerShell command should you run?**  
+A.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055000001.png)
+B.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055000002.png)
+  
+C.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055000003.png)
+
+D.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055100001.png)
+
+:::tip Answer
+ A
+:::
+
+## Question \#237
+
+**HOTSPOT -  
+You are developing an application that uses Azure Storage Queues.  
+You have the following code:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055200001.jpg)  
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055200002.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055300001.jpg)
+:::
+
+## Question \#238
+
+**A company is developing a solution that allows smart refrigerators to send temperature information to a central location.  
+The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location.  
+You need to complete the configuration.  
+Which Azure CLI or PowerShell command should you run?**  
+A.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055400001.png)
+
+B.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055400002.png)
+
+C.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055400003.png)
+
+D.  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055400004.png)
+
+:::tip Answer
+C
+:::
+
+## Question \#239
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.  
+You have the following requirements:  
+✑ Queue size must not grow larger than 80 gigabytes (GB).  
+✑ Use first-in-first-out (FIFO) ordering of messages.  
+✑ Minimize Azure costs.**  
+**You need to implement the messaging solution.  
+Solution: Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure Function App that uses an Azure Storage  
+Queue trigger.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+B
+:::
+
+## Question \#240
+
+**DRAG DROP -  
+You develop software solutions for a mobile delivery service. You are developing a mobile app that users can use to order from a restaurant in their area. The app uses the following workflow:  
+1\. A driver selects the restaurants for which they will deliver orders.  
+2\. Orders are sent to all available drivers in an area.  
+3\. Only orders for the selected restaurants will appear for the driver.  
+4\. The first driver to accept an order removes it from the list of available orders.  
+You need to implement an Azure Service Bus solution.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.**  
+**Select and Place:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055600001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0055700001.png)
+:::
+
+## Question \#241
+
+**HOTSPOT -  
+You develop a news and blog content app for Windows devices.  
+A notification must arrive on a user's device when there is a new article available for them to view.  
+You need to implement push notifications.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+![](media/25a02c02eb9ab7d60d8ab40886a30b24.png)
+
+**Correct Answer:** *![](media/692e6f3214da47fc940928eb5a6b6086.png)*
+
+## Question \#242
+
+**You are developing an Azure messaging solution.  
+You need to ensure that the solution meets the following requirements:  
+✑ Provide transactional support.  
+✑ Provide duplicate detection.  
+✑ Store the messages for an unlimited period of time.  
+Which two technologies will meet the requirements? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Azure Service Bus Topic
+2.  B. Azure Service Bus Queue
+3.  C. Azure Storage Queue
+4.  D. Azure Event Hub
+
+**Correct Answer:** *A & B*
+
+## Question \#243
+
+**DRAG DROP -  
+You develop a gateway solution for a public facing news API.  
+The news API back end is implemented as a RESTful service and hosted in an Azure App Service instance.  
+You need to configure back-end authentication for the API Management service instance.  
+Which target and gateway credential type should you use? To answer, drag the appropriate values to the correct parameters. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**  
+![](media/4bbef6d63dc1d9aa36adacafcd9e5495.jpeg)
+
+**Correct Answer:** *![](media/34f89fc97a3848a47c43103511d13c97.jpeg)*
+
+## Question \#244
+
+**HOTSPOT -  
+You are creating an app that uses Event Grid to connect with other services. Your app's event data will be sent to a serverless function that checks compliance.  
+This function is maintained by your company.  
+You write a new event subscription at the scope of your resource. The event must be invalidated after a specific period of time.  
+You need to configure Event Grid.  
+What should you do? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+![](media/800e15c6430acf3011b7301a29c29aaa.jpeg)
+
+**Correct Answer:** *![](media/dfb9179df9c675a9bd101e2f818b97fb.jpeg)*
+
+## Question \#245
+
+**HOTSPOT -  
+You are working for Contoso, Ltd.  
+You define an API Policy object by using the following XML markup:**  
+![](media/13bcbdba013f73a8525f076be979a870.png)  
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+![](media/3deab6526487f304ece7fddc63aa1d95.png)
+
+**Correct Answer:** *![](media/ebe7301d680e10149a5b31f3c80a5985.png)*
+
+## Question \#246
+
+**You are developing a solution that will use Azure messaging services.  
+You need to ensure that the solution uses a publish-subscribe model and eliminates the need for constant polling.  
+What are two possible ways to achieve the goal? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Service Bus
+2.  B. Event Hub
+3.  C. Event Grid
+4.  D. Queue
+
+**Correct Answer:** *A & C*
+
+## Question \#247
+
+**A company is implementing a publish-subscribe (Pub/Sub) messaging component by using Azure Service Bus. You are developing the first subscription application.  
+In the Azure portal you see that messages are being sent to the subscription for each topic. You create and initialize a subscription client object by supplying the correct details, but the subscription application is still not consuming the messages.  
+You need to ensure that the subscription client processes all messages.  
+Which code segment should you use?**
+
+1.  A. await subscriptionClient.AddRuleAsync(new RuleDescription(RuleDescription.DefaultRuleName, new TrueFilter()));
+2.  B. subscriptionClient = new SubscriptionClient(ServiceBusConnectionString, TopicName, SubscriptionName);
+3.  C. await subscriptionClient.CloseAsync();
+4.  D. subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);
+
+**Correct Answer:** *D*
+
+## Question \#248
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.  
+You have the following requirements:  
+✑ Queue size must not grow larger than 80 gigabytes (GB).  
+✑ Use first-in-first-out (FIFO) ordering of messages.  
+✑ Minimize Azure costs.  
+You need to implement the messaging solution.  
+Solution: Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure VM that is triggered from Azure Storage  
+Queue events.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+**Correct Answer:** *B*
+
+## Question \#249
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.  
+You have the following requirements:  
+✑ Queue size must not grow larger than 80 gigabytes (GB).  
+✑ Use first-in-first-out (FIFO) ordering of messages.  
+✑ Minimize Azure costs.  
+You need to implement the messaging solution.  
+Solution: Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Windows VM that is triggered from  
+Azure Service Bus Queue.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+**Correct Answer:** *B*
+
+## Question \#250
+
+**DRAG DROP -  
+You are developing a REST web service. Customers will access the service by using an Azure API Management instance.  
+The web service does not correctly handle conflicts. Instead of returning an HTTP status code of 409, the service returns a status code of 500. The body of the status message contains only the word conflict.  
+You need to ensure that conflicts produce the correct response.  
+How should you complete the policy? To answer, drag the appropriate code segments to the correct locations. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:  
+**![](media/f782bec78f69a87d196d01c6864ffdcc.png)
+
+**Correct Answer:** *![](media/9b6c224408acd6ec5ae039b843141f02.png)*
+
+## Question \#251
+
+**DRAG DROP -  
+You are a developer for a Software as a Service (SaaS) company. You develop solutions that provide the ability to send notifications by using Azure Notification  
+Hubs.  
+You need to create sample code that customers can use as a reference for how to send raw notifications to Windows Push Notification Services (WNS) devices.  
+The sample code must not use external packages.  
+How should you complete the code segment? To answer, drag the appropriate code segments to the correct locations. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:  
+**![](media/9047d00df8e911715874e21042ae690f.jpeg)
+
+**Correct Answer:** *![](media/9a11a7d71b2c7e158eec583ca1db71cd.jpeg)*
+
+## Question \#252
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce  
+2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.  
+You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.  
+You need to implement a solution to receive the device data.  
+Solution: Provision an Azure Event Hub. Configure the machine identifier as the partition key and enable capture.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+**Correct Answer:** *A*
+
+## Question \#253
+
+**DRAG DROP -  
+You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing.  
+The solution must meet the following requirements:  
+✑ Begin processing when data is saved to Azure Blob storage.  
+✑ Filter data based on store location information.  
+✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.  
+✑ Enable high availability and geographic distribution.  
+✑ Allow 24-hours for retries.  
+✑ Implement an exponential back off data processing.  
+You need to configure the solution.  
+What should you implement? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:  
+**![](media/534235ae85224d7af07445ad4563e897.png)
+
+**Correct Answer:** *![](media/70c26f17e713e3218d0cc32c4f43fc63.png)*
+
+## Question \#254
+
+**You are creating an app that will use CosmosDB for data storage. The app will process batches of relational data.  
+You need to select an API for the app.  
+Which API should you use?**
+
+1.  A. MongoDB API
+2.  B. Table API
+3.  C. SQL API
+4.  D. Cassandra API
+
+**Correct Answer:** *c*
+
+## Question \#255
+
+**HOTSPOT -  
+You are developing a .NET application that communicates with Azure Storage.  
+A message must be stored when the application initializes.  
+You need to implement the message.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.**  
+**Hot Area:**  
+![](media/5c384462e77ce7798dc39ee5274c2e1d.png)
+
+**Correct Answer:** *![](media/926efcbc050d7b1bdbb0a1c2ef75fe4a.png)*
+
+## Question \#256
+
+**HOTSPOT -  
+A software as a service (SaaS) company provides document management services. The company has a service that consists of several Azure web apps. All  
+Azure web apps run in an Azure App Service Plan named PrimaryASP.  
+You are developing a new web service by using a web app named ExcelParser. The web app contains a third-party library for processing Microsoft Excel files.  
+The license for the third-party library stipulates that you can only run a single instance of the library.  
+You need to configure the service.  
+How should you complete the script? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.**  
+**Hot Area:**  
+![](media/f7daedb0947941ee02b8c4f08f53d1be.png)
+
+**Correct Answer:** *![](media/036711e085d1f6fe12af8e5f8b0f31cd.png)*
+
+## Question \#257
+
+**DRAG DROP -  
+You have an application that provides weather forecasting data to external partners. You use Azure API Management to publish APIs.  
+You must change the behavior of the API to meet the following requirements:  
+✑ Support alternative input parameters  
+✑ Remove formatting text from responses  
+✑ Provide additional context to back-end services  
+Which types of policies should you implement? To answer, drag the policy types to the correct requirements. Each policy type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**  
+![](media/2c52a6f1a6de42ad30eb276dd6ae6f1a.jpeg)
+
+**Correct Answer:** *![](media/4cbaf1b647bc747059cbf9df51fe1cf6.jpeg)*
+
+## Question \#258
+
+**You are developing an e-commerce solution that uses a microservice architecture.  
+You need to design a communication backplane for communicating transactional messages between various parts of the solution. Messages must be communicated in first-in-first-out (FIFO) order.  
+What should you use?**
+
+1.  A. Azure Storage Queue
+2.  B. Azure Event Hub
+3.  C. Azure Service Bus
+4.  D. Azure Event Grid
+
+**Correct Answer:** *A*
+
+## Question \#259
+
+**DRAG DROP -  
+A company backs up all manufacturing data to Azure Blob Storage. Admins move blobs from hot storage to archive tier storage every month.  
+You must automatically move blobs to Archive tier after they have not been modified within 180 days. The path for any item that is not archived must be placed in an existing queue. This operation must be performed automatically once a month. You set the value of TierAgeInDays to -180.  
+How should you configure the Logic App? To answer, drag the appropriate triggers or action blocks to the correct trigger or action slots. Each trigger or action block may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**  
+![](media/628b30373fb7712fa248be21b9371446.jpeg)
+
+**Correct Answer:** *![](media/0180ec3371b2f08c4ca25d9855899607.jpeg)*
+
+## Question \#260
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.  
+You have the following requirements:  
+✑ Queue size must not grow larger than 80 gigabytes (GB).  
+✑ Use first-in-first-out (FIFO) ordering of messages.  
+✑ Minimize Azure costs.  
+You need to implement the messaging solution.  
+Solution: Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Function App that uses an Azure  
+Service Bus Queue trigger.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+**Correct Answer:** *A*
+
+## Question \#261
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.  
+You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.  
+You need to implement a solution to receive the device data.  
+Solution: Provision an Azure Notification Hub. Register all devices with the hub.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+**Correct Answer:** *B*
+
+## Question \#262
+
+**You are building a loyalty program for a major snack producer. When customers buy a snack at any of 100 participating retailers the event is recorded in Azure  
+Event Hub. Each retailer is given a unique identifier that is used as the primary identifier for the loyalty program.  
+Retailers must be able to be added or removed at any time. Retailers must only be able to record sales for themselves.  
+You need to ensure that retailers can record sales.  
+What should you do?**
+
+1.  A. Use publisher policies for retailers.
+2.  B. Create a partition for each retailer.
+3.  C. Define a namespace for each retailer.
+
+**Correct Answer:** *A*
+
+## Question \#263
+
+**DRAG DROP -  
+You develop and deploy a web app to Azure App Service in a production environment. You scale out the web app to four instances and configure a staging slot to support changes.  
+You must monitor the web app in the environment to include the following requirements:  
+✑ Increase web app availability by re-routing requests away from instances with error status codes and automatically replace instances if they remain in an error state after one hour.  
+✑ Send web server logs, application logs, standard output, and standard error messaging to an Azure Storage blob account.  
+You need to configure Azure App Service.  
+Which values should you use? To answer, drag the appropriate configuration value to the correct requirements. Each configuration value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**  
+![](media/0a2229be871d4f0f1b0842fc668d7aa9.jpeg)
+
+**Correct Answer:** *![](media/30cee58096853a4bb0a90e9242bc9ead.jpeg)*
+
+## Question \#264
+
+**You develop a solution that uses Azure Virtual Machines (VMs).  
+The VMs contain code that must access resources in an Azure resource group. You grant the VM access to the resource group in Resource Manager.  
+You need to obtain an access token that uses the VM's system-assigned managed identity.  
+Which two actions should you perform? Each correct answer presents part of the solution.**
+
+1.  A. From the code on the VM, call Azure Resource Manager using an access token.
+2.  B. Use PowerShell on a remote machine to make a request to the local managed identity for Azure resources endpoint.
+3.  C. Use PowerShell on the VM to make a request to the local managed identity for Azure resources endpoint.
+4.  D. From the code on the VM, call Azure Resource Manager using a SAS token.
+5.  E. From the code on the VM, generate a user delegation SAS token.
+
+**Correct Answer:** *B & D*
+
+## Question \#265
+
+**You are developing a road tollway tracking application that sends tracking events by using Azure Event Hubs using premium tier.  
+Each road must have a throttling policy uniquely assigned.  
+You need to configure the event hub to allow for per-road throttling.  
+What should you do?**
+
+1.  A. Use a unique consumer group for each road.
+2.  B. Ensure each road stores events in a different partition.
+3.  C. Ensure each road has a unique connection string.
+4.  D. Use a unique application group for each road.
+
+**Correct Answer:** *B*
+
+## Question \#266
+
+**You develop and deploy an ASP.NET Core application that connects to an Azure Database for MySQL instance.  
+Connections to the database appear to drop intermittently and the application code does not handle the connection failure.  
+You need to handle the transient connection errors in code by implementing retries.  
+What are three possible ways to achieve this goal? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Close the database connection and immediately report an error.
+2.  B. Disable connection pooling and configure a second Azure Database for MySQL instance.
+3.  C. Wait five seconds before repeating the connection attempt to the database.
+4.  D. Set a maximum number of connection attempts to 10 and report an error on subsequent connections.
+5.  E. Increase connection repeat attempts exponentially up to 120 seconds.
+
+**Correct Answer:** *A & C & D*
+
+## Question \#267
+
+**You are building a B2B web application that uses Azure B2B collaboration for authentication. Paying customers authenticate to Azure B2B using federation.  
+The application allows users to sign up for trial accounts using any email address.  
+When a user converts to a paying customer, the data associated with the trial should be kept, but the user must authenticate using federation.  
+You need to update the user in Azure Active Directory (Azure AD) when they convert to a paying customer.  
+Which Graph API parameter is used to change authentication from one-time passcodes to federation?**
+
+1.  A. resetRedemption
+2.  B. Status
+3.  C. userFlowType
+4.  D. invitedUser
+
+**Correct Answer:** *B*
+
+## Question \#268
+
+**HOTSPOT  
+\-  
+You develop an image upload service that is exposed using Azure API Management. Images are analyzed after upload for automatic tagging.  
+Images over 500 KB are processed by a different backend that offers a lower tier of service that costs less money. The lower tier of service is denoted by a header named x-large-request. Images over 500 KB must never be processed by backends for smaller images and must always be charged the lower price.  
+You need to implement API Management policies to ensure that images are processed correctly.  
+How should you complete the API Management inbound policy? To answer, select the appropriate options in the answer area.**  
+**NOTE: Each correct selection is worth one point.**
+
+![](media/f33f1058d07fb961a4a9aa37032aa76b.png)
+
+**Correct Answer:** *![](media/a465e5ce5613357e357a32baec2e1009.png)*
+
+## Question \#269
+
+**HOTSPOT  
+\-  
+You develop several Azure Functions app functions to process JSON documents from a third-party system. The third-party system publishes events to Azure Event Grid to include hundreds of event types, such as billing, inventory, and shipping updates.  
+Events must be sent to a single endpoint for the Azure Functions app to process. The events must be filtered by event type before processing. You must have authorization and authentication control to partition your tenants to receive the event data.  
+You need to configure Azure Event Grid.  
+Which configuration should you use? To answer, select the appropriate values in the answer area.  
+NOTE: Each correct selection is worth one point.**  
+  
+![](media/64a400a6805cd8a3c09d30f83049152f.png)
+
+**Correct Answer:** *![](media/e532d8ceb64698f9fda4c3236df77fd0.png)*
+
+## Question \#270
+
+**A company is developing a solution that allows smart refrigerators to send temperature information to a central location.  
+The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location.  
+You need to complete the configuration.  
+Which Azure CLI or PowerShell command should you run?**
+
+-   A. ![](media/b417c888eefdf32873924b86249ab5d4.png)
+-   B. ![](media/b8b2aac57bdfa87b0dbaab3086435b65.png)
+-   C. ![](media/b6d6ddcb18be16b822a0ce8a1875795f.png)
+-   D. ![](media/0540880f51451d298b039d1630e3e50e.png)
+
+**Correct Answer:** *B*
+
+## Question \#271
+
+**Introductory InfoCase study -  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+To start the case study -  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.  
+Background -  
+Wide World Importers is moving all their datacenters to Azure. The company has developed several applications and services to support supply chain operations and would like to leverage serverless computing where possible.  
+Current environment -  
+Windows Server 2016 virtual machine  
+This virtual machine (VM) runs BizTalk Server 2016. The VM runs the following workflows:  
+Ocean Transport \`" This workflow gathers and validates container information including container contents and arrival notices at various shipping ports.  
+Inland Transport \`" This workflow gathers and validates trucking information including fuel usage, number of stops, and routes.  
+The VM supports the following REST API calls:  
+Container API \`" This API provides container information including weight, contents, and other attributes.  
+Location API \`" This API provides location information regarding shipping ports of call and trucking stops.  
+Shipping REST API \`" This API provides shipping information for use and display on the shipping website.  
+Shipping Data -  
+The application uses MongoDB JSON document storage database for all container and transport information.  
+Shipping Web Site -  
+The site displays shipping container tracking information and container contents. The site is located at http://shipping.wideworldimporters.com/  
+Proposed solution -  
+The on-premises shipping application must be moved to Azure. The VM has been migrated to a new Standard_D16s_v3 Azure VM by using Azure Site Recovery and must remain running in Azure to complete the BizTalk component migrations. You create a Standard_D16s_v3 Azure VM to host BizTalk Server. The Azure architecture diagram for the proposed solution is shown below:  
+![](media/9493bedb4408ecedb1c4d271ef891f7f.jpeg)  
+  
+Requirements -  
+Shipping Logic app -  
+The Shipping Logic app must meet the following requirements:  
+Support the ocean transport and inland transport workflows by using a Logic App.  
+Support industry-standard protocol X12 message format for various messages including vessel content details and arrival notices.  
+Secure resources to the corporate VNet and use dedicated storage resources with a fixed costing model.  
+Maintain on-premises connectivity to support legacy applications and final BizTalk migrations.  
+Shipping Function app -  
+Implement secure function endpoints by using app-level security and include Azure Active Directory (Azure AD).  
+REST APIs -  
+The REST API's that support the solution must meet the following requirements:  
+Secure resources to the corporate VNet.  
+Allow deployment to a testing location within Azure while not incurring additional costs.  
+Automatically scale to double capacity during peak shipping times while not causing application downtime.  
+Minimize costs when selecting an Azure payment model.  
+Shipping data -  
+Data migration from on-premises to Azure must minimize costs and downtime.  
+Shipping website -  
+Use Azure Content Delivery Network (CDN) and ensure maximum performance for dynamic content while minimizing latency and costs.  
+Issues -  
+  
+Windows Server 2016 VM -  
+The VM shows high network latency, jitter, and high CPU utilization. The VM is critical and has not been backed up in the past. The VM must enable a quick restore from a 7-day snapshot to include in-place restore of disks in case of failure.  
+Shipping website and REST APIs -  
+The following error message displays while you are testing the website:  
+Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.QuestionHOTSPOT -  
+You need to configure Azure CDN for the Shipping web site.  
+Which configuration options should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:  
+![](media/2e71466b1671531d3e6a4321c092b125.jpeg)**
+
+**Correct Answer:** *![](media/fb0e6f825b54ccfe6b5d2f7dbe6b644f.jpeg)*
+
+## Question \#2*72*
+
+**Introductory InfoCase study -  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+To start the case study -  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.  
+Background -  
+Wide World Importers is moving all their datacenters to Azure. The company has developed several applications and services to support supply chain operations and would like to leverage serverless computing where possible.  
+Current environment -  
+Windows Server 2016 virtual machine  
+This virtual machine (VM) runs BizTalk Server 2016. The VM runs the following workflows:  
+Ocean Transport \`" This workflow gathers and validates container information including container contents and arrival notices at various shipping ports.  
+Inland Transport \`" This workflow gathers and validates trucking information including fuel usage, number of stops, and routes.  
+The VM supports the following REST API calls:  
+Container API \`" This API provides container information including weight, contents, and other attributes.  
+Location API \`" This API provides location information regarding shipping ports of call and trucking stops.  
+Shipping REST API \`" This API provides shipping information for use and display on the shipping website.  
+Shipping Data -  
+The application uses MongoDB JSON document storage database for all container and transport information.  
+Shipping Web Site -  
+The site displays shipping container tracking information and container contents. The site is located at http://shipping.wideworldimporters.com/  
+Proposed solution -  
+The on-premises shipping application must be moved to Azure. The VM has been migrated to a new Standard_D16s_v3 Azure VM by using Azure Site Recovery and must remain running in Azure to complete the BizTalk component migrations. You create a Standard_D16s_v3 Azure VM to host BizTalk Server. The Azure architecture diagram for the proposed solution is shown below:  
+![](media/9493bedb4408ecedb1c4d271ef891f7f.jpeg)  
+  
+Requirements -  
+Shipping Logic app -  
+The Shipping Logic app must meet the following requirements:  
+Support the ocean transport and inland transport workflows by using a Logic App.  
+Support industry-standard protocol X12 message format for various messages including vessel content details and arrival notices.  
+Secure resources to the corporate VNet and use dedicated storage resources with a fixed costing model.  
+Maintain on-premises connectivity to support legacy applications and final BizTalk migrations.  
+Shipping Function app -  
+Implement secure function endpoints by using app-level security and include Azure Active Directory (Azure AD).  
+REST APIs -  
+The REST API's that support the solution must meet the following requirements:  
+Secure resources to the corporate VNet.  
+Allow deployment to a testing location within Azure while not incurring additional costs.  
+Automatically scale to double capacity during peak shipping times while not causing application downtime.  
+Minimize costs when selecting an Azure payment model.  
+Shipping data -  
+Data migration from on-premises to Azure must minimize costs and downtime.  
+Shipping website -  
+Use Azure Content Delivery Network (CDN) and ensure maximum performance for dynamic content while minimizing latency and costs.  
+Issues -  
+Windows Server 2016 VM -  
+The VM shows high network latency, jitter, and high CPU utilization. The VM is critical and has not been backed up in the past. The VM must enable a quick restore from a 7-day snapshot to include in-place restore of disks in case of failure.  
+Shipping website and REST APIs -  
+The following error message displays while you are testing the website:  
+Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.QuestionHOTSPOT -  
+You need to correct the VM issues.  
+Which tools should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:  
+**![](media/98790b6fce115a75d22bd7e55aa70131.jpeg)
+
+**Correct Answer:** *![](media/8197e6453c2411659999e93ce59dab02.jpeg)*
+
+## Question \#273
+
+**Introductory InfoCase study -  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+To start the case study -  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.  
+Background -  
+You are a developer for Litware Inc., a SaaS company that provides a solution for managing employee expenses. The solution consists of an ASP.NET Core Web  
+API project that is deployed as an Azure Web App.  
+Overall architecture -  
+Employees upload receipts for the system to process. When processing is complete, the employee receives a summary report email that details the processing results. Employees then use a web application to manage their receipts and perform any additional tasks needed for reimbursement.  
+Receipt processing -  
+Employees may upload receipts in two ways:  
+Uploading using an Azure Files mounted folder  
+Uploading using the web application  
+Data Storage -  
+Receipt and employee information is stored in an Azure SQL database.  
+Documentation -  
+Employees are provided with a getting started document when they first use the solution. The documentation includes details on supported operating systems for  
+Azure File upload, and instructions on how to configure the mounted folder.  
+Solution details -  
+Users table -  
+![](media/72cee77de572da51bf2346d9aa622016.png)  
+Web Application -  
+You enable MSI for the Web App and configure the Web App to use the security principal name WebAppIdentity.  
+Processing -  
+Processing is performed by an Azure Function that uses version 2 of the Azure Function runtime. Once processing is completed, results are stored in Azure Blob  
+Storage and an Azure SQL database. Then, an email summary is sent to the user with a link to the processing report. The link to the report must remain valid if the email is forwarded to another user.  
+Logging -  
+Azure Application Insights is used for telemetry and logging in both the processor and the web application. The processor also has TraceWriter logging enabled.  
+Application Insights must always contain all log messages.  
+Requirements -  
+Receipt processing -  
+Concurrent processing of a receipt must be prevented.  
+Disaster recovery -  
+Regional outage must not impact application availability. All DR operations must not be dependent on application running and must ensure that data in the DR region is up to date.  
+Security -  
+User's SecurityPin must be stored in such a way that access to the database does not allow the viewing of SecurityPins. The web application is the only system that should have access to SecurityPins.  
+All certificates and secrets used to secure data must be stored in Azure Key Vault.  
+You must adhere to the principle of least privilege and provide privileges which are essential to perform the intended function.  
+All access to Azure Storage and Azure SQL database must use the application's Managed Service Identity (MSI).  
+Receipt data must always be encrypted at rest.  
+All data must be protected in transit.  
+User's expense account number must be visible only to logged in users. All other views of the expense account number should include only the last segment, with the remaining parts obscured.  
+In the case of a security breach, access to all summary reports must be revoked without impacting other parts of the system.  
+Issues -  
+Upload format issue -  
+Employees occasionally report an issue with uploading a receipt using the web application. They report that when they upload a receipt using the Azure File  
+Share, the receipt does not appear in their profile. When this occurs, they delete the file in the file share and use the web application, which returns a 500 Internal  
+Server error page.  
+Capacity issue -  
+During busy periods, employees report long delays between the time they upload the receipt and when it appears in the web application.  
+Log capacity issue -  
+Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.  
+Application code -  
+Processing.cs -  
+![](media/f4678626bc8ac6680adafa9759d7c7d7.jpeg)  
+Database.cs -  
+![](media/a036d518b1be25b150ffc8fa8c9b5f45.jpeg)  
+ReceiptUploader.cs -  
+![](media/a8ffa08dd32e6ef3907c75374d15744e.jpeg)  
+ConfigureSSE.ps1 -  
+![](media/eabdc914002ecdc7e096322b795a8a3a.jpeg)QuestionDRAG DROP -  
+You need to add code at line PC32 in Processing.cs to implement the GetCredentials method in the Processing class.  
+How should you complete the code? To answer, drag the appropriate code segments to the correct locations. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:  
+![](media/8d73bb4fb921dcf76fa3d929eac99c2c.jpeg)**
+
+**Correct Answer:** *![](media/2c5612546ed74ea3ff5eacecb7c503a5.jpeg)*
+
+## Question \#274
+
+**Introductory InfoCase study -  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+To start the case study -  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.  
+Background -  
+You are a developer for Litware Inc., a SaaS company that provides a solution for managing employee expenses. The solution consists of an ASP.NET Core Web  
+API project that is deployed as an Azure Web App.  
+Overall architecture -  
+Employees upload receipts for the system to process. When processing is complete, the employee receives a summary report email that details the processing results. Employees then use a web application to manage their receipts and perform any additional tasks needed for reimbursement.  
+Receipt processing -  
+Employees may upload receipts in two ways:  
+Uploading using an Azure Files mounted folder  
+Uploading using the web application  
+Data Storage -  
+Receipt and employee information is stored in an Azure SQL database.  
+Documentation -  
+Employees are provided with a getting started document when they first use the solution. The documentation includes details on supported operating systems for  
+Azure File upload, and instructions on how to configure the mounted folder.  
+Solution details -  
+Users table -  
+![](media/72cee77de572da51bf2346d9aa622016.png)  
+  
+Web Application -  
+You enable MSI for the Web App and configure the Web App to use the security principal name WebAppIdentity.  
+Processing -  
+Processing is performed by an Azure Function that uses version 2 of the Azure Function runtime. Once processing is completed, results are stored in Azure Blob  
+Storage and an Azure SQL database. Then, an email summary is sent to the user with a link to the processing report. The link to the report must remain valid if the email is forwarded to another user.  
+Logging -  
+Azure Application Insights is used for telemetry and logging in both the processor and the web application. The processor also has TraceWriter logging enabled.  
+Application Insights must always contain all log messages.  
+Requirements -  
+Receipt processing -  
+Concurrent processing of a receipt must be prevented.  
+Disaster recovery -  
+Regional outage must not impact application availability. All DR operations must not be dependent on application running and must ensure that data in the DR region is up to date.  
+Security -  
+User's SecurityPin must be stored in such a way that access to the database does not allow the viewing of SecurityPins. The web application is the only system that should have access to SecurityPins.  
+All certificates and secrets used to secure data must be stored in Azure Key Vault.  
+You must adhere to the principle of least privilege and provide privileges which are essential to perform the intended function.  
+All access to Azure Storage and Azure SQL database must use the application's Managed Service Identity (MSI).  
+Receipt data must always be encrypted at rest.  
+All data must be protected in transit.  
+User's expense account number must be visible only to logged in users. All other views of the expense account number should include only the last segment, with the remaining parts obscured.  
+In the case of a security breach, access to all summary reports must be revoked without impacting other parts of the system.  
+Issues -  
+Upload format issue -  
+Employees occasionally report an issue with uploading a receipt using the web application. They report that when they upload a receipt using the Azure File  
+Share, the receipt does not appear in their profile. When this occurs, they delete the file in the file share and use the web application, which returns a 500 Internal  
+Server error page.  
+Capacity issue -  
+During busy periods, employees report long delays between the time they upload the receipt and when it appears in the web application.  
+Log capacity issue -  
+Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.  
+  
+Application code -  
+Processing.cs -  
+![](media/f4678626bc8ac6680adafa9759d7c7d7.jpeg)  
+Database.cs -  
+![](media/a036d518b1be25b150ffc8fa8c9b5f45.jpeg)  
+ReceiptUploader.cs -  
+![](media/a8ffa08dd32e6ef3907c75374d15744e.jpeg)  
+  
+ConfigureSSE.ps1 -  
+![](media/eabdc914002ecdc7e096322b795a8a3a.jpeg)QuestionDRAG DROP -  
+You need to ensure disaster recovery requirements are met.  
+What code should you add at line PC16?  
+To answer, drag the appropriate code fragments to the correct locations. Each code fragment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:  
+![](media/e401db8bad34cc8d0ed3e820cc037e02.jpeg)**
+
+**Correct Answer:** *![](media/b603c56388ece26523b13b9674ff1b78.jpeg)*
+
+## Question \#275
+
+**Introductory InfoCase study -  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+To start the case study -  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.  
+LabelMaker app -  
+Coho Winery produces, bottles, and distributes a variety of wines globally. You are a developer implementing highly scalable and resilient applications to support online order processing by using Azure solutions.  
+Coho Winery has a LabelMaker application that prints labels for wine bottles. The application sends data to several printers. The application consists of five modules that run independently on virtual machines (VMs). Coho Winery plans to move the application to Azure and continue to support label creation.  
+External partners send data to the LabelMaker application to include artwork and text for custom label designs.  
+  
+Requirements. Data -  
+You identify the following requirements for data management and manipulation:  
+Order data is stored as nonrelational JSON and must be queried using SQL.  
+Changes to the Order data must reflect immediately across all partitions. All reads to the Order data must fetch the most recent writes.  
+Requirements. Security -  
+You have the following security requirements:  
+Users of Coho Winery applications must be able to provide access to documents, resources, and applications to external partners.  
+![](media/dcc405400d958ddc5adcd5007fab14ef.png)  
+External partners must use their own credentials and authenticate with their organization's identity management solution.  
+External partner logins must be audited monthly for application use by a user account administrator to maintain company compliance.  
+Storage of e-commerce application settings must be maintained in Azure Key Vault.  
+E-commerce application sign-ins must be secured by using Azure App Service authentication and Azure Active Directory (AAD).  
+Conditional access policies must be applied at the application level to protect company content.  
+The LabelMaker application must be secured by using an AAD account that has full access to all namespaces of the Azure Kubernetes Service (AKS) cluster.  
+Requirements. LabelMaker app -  
+Azure Monitor Container Health must be used to monitor the performance of workloads that are deployed to Kubernetes environments and hosted on Azure  
+Kubernetes Service (AKS).  
+You must use Azure Container Registry to publish images that support the AKS deployment.  
+Architecture -  
+![](media/d828d37795f8cfc2299b3744ab5f6591.jpeg)  
+  
+Issues -  
+Calls to the Printer API App fail periodically due to printer communication timeouts.  
+Printer communication timeouts occur after 10 seconds. The label printer must only receive up to 5 attempts within one minute.  
+The order workflow fails to run upon initial deployment to Azure.  
+Order.json -  
+Relevant portions of the app files are shown below. Line numbers are included for reference only.  
+This JSON file contains a representation of the data for an order that includes a single item.  
+Order.json -  
+![](media/5e4ad763068c4257795e7ec0b7213bc5.png)QuestionHOTSPOT -  
+You need to configure Azure Cosmos DB.  
+Which settings should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:  
+![](media/f17193bd23ca59d54aaf39fd2342b81a.jpeg)**
+
+**Correct Answer:** *![](media/3fd6cd502951d820502c6254bb8e976c.jpeg)*
+
+## Question \#276
+
+**Introductory InfoCase study -  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+To start the case study -  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.  
+LabelMaker app -  
+Coho Winery produces, bottles, and distributes a variety of wines globally. You are a developer implementing highly scalable and resilient applications to support online order processing by using Azure solutions.  
+Coho Winery has a LabelMaker application that prints labels for wine bottles. The application sends data to several printers. The application consists of five modules that run independently on virtual machines (VMs). Coho Winery plans to move the application to Azure and continue to support label creation.  
+External partners send data to the LabelMaker application to include artwork and text for custom label designs.  
+Requirements. Data -  
+You identify the following requirements for data management and manipulation:  
+Order data is stored as nonrelational JSON and must be queried using SQL.  
+Changes to the Order data must reflect immediately across all partitions. All reads to the Order data must fetch the most recent writes.  
+Requirements. Security -  
+You have the following security requirements:  
+Users of Coho Winery applications must be able to provide access to documents, resources, and applications to external partners.  
+![](media/dcc405400d958ddc5adcd5007fab14ef.png)  
+External partners must use their own credentials and authenticate with their organization's identity management solution.  
+External partner logins must be audited monthly for application use by a user account administrator to maintain company compliance.  
+Storage of e-commerce application settings must be maintained in Azure Key Vault.  
+E-commerce application sign-ins must be secured by using Azure App Service authentication and Azure Active Directory (AAD).  
+Conditional access policies must be applied at the application level to protect company content.  
+The LabelMaker application must be secured by using an AAD account that has full access to all namespaces of the Azure Kubernetes Service (AKS) cluster.  
+Requirements. LabelMaker app -  
+Azure Monitor Container Health must be used to monitor the performance of workloads that are deployed to Kubernetes environments and hosted on Azure  
+Kubernetes Service (AKS).  
+You must use Azure Container Registry to publish images that support the AKS deployment.  
+Architecture -  
+![](media/d828d37795f8cfc2299b3744ab5f6591.jpeg)  
+  
+Issues -  
+Calls to the Printer API App fail periodically due to printer communication timeouts.  
+Printer communication timeouts occur after 10 seconds. The label printer must only receive up to 5 attempts within one minute.  
+The order workflow fails to run upon initial deployment to Azure.  
+Order.json -  
+Relevant portions of the app files are shown below. Line numbers are included for reference only.  
+This JSON file contains a representation of the data for an order that includes a single item.  
+Order.json -  
+![](media/5e4ad763068c4257795e7ec0b7213bc5.png)QuestionHOTSPOT -  
+You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.  
+How should you complete the code? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:  
+![](media/7aa02841e77793535124fa78f0a45147.jpeg)**
+
+**Correct Answer:** *![](media/76a85e69a1001bbf47292fde787bbeec.jpeg)*
+
+## Question \#277
+
+**Introductory InfoCase study -  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+To start the case study -  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.  
+Background -  
+VanArsdel, Ltd. is a global office supply company. The company is based in Canada and has retail store locations across the world. The company is developing several cloud-based solutions to support their stores, distributors, suppliers, and delivery services.  
+Current environment -  
+Corporate website -  
+The company provides a public website located at http://www.vanarsdelltd.com. The website consists of a React JavaScript user interface, HTML, CSS, image assets, and several APIs hosted in Azure Functions.  
+Retail Store Locations -  
+The company supports thousands of store locations globally. Store locations send data every hour to an Azure Blob storage account to support inventory, purchasing and delivery services. Each record includes a location identifier and sales transaction information.  
+Requirements -  
+The application components must meet the following requirements:  
+Corporate website -  
+Secure the website by using SSL.  
+Minimize costs for data storage and hosting.  
+Implement native GitHub workflows for continuous integration and continuous deployment (CI/CD).  
+Distribute the website content globally for local use.  
+Implement monitoring by using Application Insights and availability web tests including SSL certificate validity and custom header value verification.  
+The website must have 99.95 percent uptime.  
+Retail store locations -  
+Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using native SQL language queries.  
+Audit store sale transaction information nightly to validate data, process sales financials, and reconcile inventory.  
+Delivery services -  
+Store service telemetry data in Azure Cosmos DB by using an Azure Function. Data must include an item id, the delivery vehicle license plate, vehicle package capacity, and current vehicle location coordinates.  
+Store delivery driver profile information in Azure Active Directory (Azure AD) by using an Azure Function called from the corporate website.  
+Inventory services -  
+The company has contracted a third-party to develop an API for inventory processing that requires access to a specific blob within the retail store storage account for three months to include read-only access to the data.  
+Security -  
+All Azure Functions must centralize management and distribution of configuration data for different environments and geographies, encrypted by using a company-provided RSA-HSM key.  
+Authentication and authorization must use Azure AD and services must use managed identities where possible.  
+Issues -  
+Retail Store Locations -  
+You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.  
+Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.QuestionHOTSPOT -  
+You need to implement the Azure Function for delivery driver profile information.  
+Which configurations should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:  
+![](media/c61692eb1453ba6ed8f2fc7edd55d812.jpeg)**
+
+**Correct Answer:** *![](media/f8864b4e9834e9fbc9a5076f1bf0fe89.jpeg)*
