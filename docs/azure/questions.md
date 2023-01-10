@@ -1919,9 +1919,11 @@ Select and Place:**
 
 **You are implementing an order processing system. A point of sale application publishes orders to topics in an Azure Service Bus queue. The Label property for the topic includes the following data:**
 
-![](https://www.examtopics.com/assets/media/exam-media/04273/0023700002.png)
+![](https://www.examtopics.com/assets/media/exam-media/04273/0023700001.png)
 
 **The system has the following requirements for subscriptions:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0023700002.png)
 
 **You need to implement filtering and maximize throughput while evaluating filters.**
 **Which filter types should you implement? To answer, drag the appropriate filter types to the correct subscriptions. Each filter type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.**
@@ -2313,13 +2315,960 @@ Select and Place:
 ![](https://www.examtopics.com/assets/media/exam-media/04223/0015800001.jpg)
 :::
 
+## Question #121
 
+**HOTSPOT -  
+You are developing an application that uses a premium block blob storage account. The application will process a large volume of transactions daily. You enable  
+Blob storage versioning.  
+You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. (Line numbers are included for reference only.)**
 
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025800001.png)
 
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
 
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025900001.png)
 
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0025900002.png)
+:::
 
+## Question #122
 
+**An organization deploys Azure Cosmos DB.  
+You need to ensure that the index is updated as items are created, updated, or deleted.  
+What should you do?**
 
+1.  A. Set the indexing mode to Lazy.
+2.  B. Set the value of the automatic property of the indexing policy to False.
+3.  C. Set the value of the EnableScanInQuery option to True.
+4.  D. Set the indexing mode to Consistent.
 
+:::tip Answer
+ D
+:::
+
+## Question #123
+
+**You are developing a .Net web application that stores data in Azure Cosmos DB. The application must use the Core API and allow millions of reads and writes.  
+The Azure Cosmos DB account has been created with multiple write regions enabled. The application has been deployed to the East US2 and Central US regions.  
+You need to update the application to support multi-region writes.  
+What are two possible ways to achieve this goal? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Update the ConnectionPolicy class for the Cosmos client and populate the PreferredLocations property based on the geo-proximity of the application.
+2.  B. Update Azure Cosmos DB to use the Strong consistency level. Add indexed properties to the container to indicate region.
+3.  C. Update the ConnectionPolicy class for the Cosmos client and set the UseMultipleWriteLocations property to true.
+4.  D. Create and deploy a custom conflict resolution policy.
+5.  E. Update Azure Cosmos DB to use the Session consistency level. Send the SessionToken property value from the FeedResponse object of the write action to the end-user by using a cookie.
+
+:::tip Answer
+ C & D
+:::
+
+## Question #124
+
+**HOTSPOT -  
+You are developing a solution to store documents in Azure Blob storage. Customers upload documents to multiple containers. Documents consist of PDF, CSV,  
+Microsoft Office format and plain text files.  
+The solution must process millions of documents across hundreds of containers. The solution must meet the following requirements:  
+✑ Documents must be categorized by a customer identifier as they are uploaded to the storage account.  
+✑ Allow filtering by the customer identifier.  
+✑ Allow searching of information contained within a document  
+✑ Minimize costs.  
+You create and configure a standard general-purpose v2 storage account to support the solution.  
+You need to implement the solution.  
+What should you implement? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0026300001.png)
+
+:::tip Answer
+  ![](https://www.examtopics.com/assets/media/exam-media/04273/0026400001.png)
+:::
+
+## Question #125
+
+**HOTSPOT -  
+You are developing a web application by using the Azure SDK. The web application accesses data in a zone-redundant BlockBlobStorage storage account.  
+The application must determine whether the data has changed since the application last read the data. Update operations must use the latest data changes when writing data to the storage account.  
+You need to implement the update operations.  
+Which values should you use? To answer, select the appropriate option in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0026600001.png)
+
+:::tip Answer
+  ![](https://www.examtopics.com/assets/media/exam-media/04273/0026700001.png)
+:::
+
+## Question #126
+
+**HOTSPOT -  
+An organization deploys a blob storage account. Users take multiple snapshots of the blob storage account over time.  
+You need to delete all snapshots of the blob storage account. You must not delete the blob storage account itself.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0026800001.png)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0026900001.jpg)
+
+:::
+
+## Question #127
+
+**HOTSPOT -  
+An organization deploys a blob storage account. Users take multiple snapshots of the blob storage account over time.  
+You need to delete all snapshots of the blob storage account. You must not delete the blob storage account itself.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0027000001.jpg)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0027000002.jpg)
+
+:::
+
+## Question #128
+
+**HOTSPOT-  
+You are developing an application that monitors data added to an Azure Blob storage account.  
+You need to process each change made to the storage account.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image389.png)
+
+:::tip Answer
+  
+![](https://img.examtopics.com/az-204/image390.png)
+
+:::
+
+## Question #129
+
+**HOTSPOT-  
+You develop an application that sells AI generated images based on user input. You recently started a marketing campaign that displays unique ads every second day.  
+Sales data is stored in Azure Cosmos DB with the date of each sale being stored in a property named ‘whenFinished’.   
+The marketing department requires a view that shows the number of sales for each unique ad.  
+You need to implement the query for the view.    
+How should you complete the query? To answer, select the appropriate options in the answer area.   
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image391.png)
+
+:::tip Answer
+  
+![](https://img.examtopics.com/az-204/image392.png)
+
+:::
+
+## Question #130
+
+**HOTSPOT-  
+You implement an Azure solution to include Azure Cosmos DB, the latest Azure Cosmos DB SDK, and the Core (SQL) API. You also implement a change feed processor on a new container instance by using the Azure Functions trigger for Azure Cosmos DB.  
+A large batch of documents continues to fail when reading one of the documents in the batch. The same batch of documents is continuously retried by the triggered function and a new batch of documents must be read.  
+You need to implement the change feed processor to read the documents.  
+Which feature should you implement? To answer, select the appropriate features in the answer area.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/az-204/image393.png)
+
+:::tip Answer
+  
+ ![](https://img.examtopics.com/az-204/image394.png)
+
+:::
+
+## Question #131
+
+**You are developing an application to store business-critical data in Azure Blob storage.  
+The application must meet the following requirements:  
+• Data must not be modified or deleted for a user-specified interval.  
+• Data must be protected from overwrites and deletes.  
+• Data must be written once and allowed to be read many times.  
+You need to protect the data in the Azure Blob storage account.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Configure a time-based retention policy for the storage account.
+2.  B. Create an account shared-access signature (SAS).
+3.  C. Enable the blob change feed for the storage account.
+4.  D. Enable version-level immutability support for the storage account.
+5.  E. Enable point-in-time restore for containers in the storage account.
+6.  F. Create a service shared-access signature (SAS).
+
+:::tip Answer
+  
+ A & F
+
+:::
+
+## Question #132
+
+**You are updating an application that stores data on Azure and uses Azure Cosmos DB for storage. The application stores data in multiple documents associated with a single username.  
+The application requires the ability to update multiple documents for a username in a single ACID operation.  
+You need to configure Azure Cosmos DB.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Create a collection sharded on username to store documents.
+2.  B. Configure Azure Cosmos DB to use the Gremlin API.
+3.  C. Create an unsharded collection to store documents.
+4.  D. Configure Azure Cosmos DB to use the MongoDB API.
+
+:::tip Answer
+  
+ C & D
+
+:::
+
+## Question #133
+
+**You develop Azure solutions.  
+You must connect to a No-SQL globally-distributed database by using the .NET API.  
+You need to create an object to configure and execute requests in the database.  
+Which code segment should you use?**
+
+1.  A. database_name = 'MyDatabase'  
+    database = client.create_database_if_not_exists(id=database_name)
+2.  B. client = CosmosClient(endpoint, key)
+3.  C. container_name = 'MyContainer'  
+    container = database.create_container_if_not_exists(  
+    id=container_name, partition_key=PartitionKey(path="/lastName"), offer_throughput=400 )
+
+:::tip Answer
+  
+ C
+
+:::
+
+## Question #134
+
+**You are developing a Java application that uses Cassandra to store key and value data. You plan to use a new Azure Cosmos DB resource and the Cassandra  
+API in the application. You create an Azure Active Directory (Azure AD) group named Cosmos DB Creators to enable provisioning of Azure Cosmos accounts, databases, and containers.  
+The Azure AD group must not be able to access the keys that are required to access the data.  
+You need to restrict access to the Azure AD group.  
+Which role-based access control should you use?**
+
+1.  A. DocumentDB Accounts Contributor
+2.  B. Cosmos Backup Operator
+3.  C. Cosmos DB Operator
+4.  D. Cosmos DB Account Reader
+
+:::tip Answer
+  
+ C
+
+:::
+
+## Question #135
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.  
+You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.  
+You need to configure authorization.  
+Solution: Configure the Azure Web App for the website to allow only authenticated requests and require Azure AD log on.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+ B
+
+:::
+
+## Question #136
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.  
+You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.  
+You need to configure authorization.  
+Solution:  
+✑ Create a new Azure AD application. In the application's manifest, set value of the groupMembershipClaims option to All.  
+✑ In the website, use the value of the groups claim from the JWT for the user to determine permissions.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+ A
+
+:::
+
+## Question #137
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.  
+You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.  
+You need to configure authorization.  
+Solution:  
+✑ Create a new Azure AD application. In the application's manifest, define application roles that match the required permission levels for the application.  
+✑ Assign the appropriate Azure AD group to each role. In the website, use the value of the roles claim from the JWT for the user to determine permissions.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+ B
+
+:::
+
+## Question #138
+
+**DRAG DROP -  
+You are developing an application to securely transfer data between on-premises file systems and Azure Blob storage. The application stores keys, secrets, and certificates in Azure Key Vault. The application uses the Azure Key Vault APIs.  
+The application must allow recovery of an accidental deletion of the key vault or key vault objects. Key vault objects must be retained for 90 days after deletion.  
+You need to protect the key vault and key vault objects.  
+Which Azure Key Vault feature should you use? To answer, drag the appropriate features to the correct actions. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0033400001.png)
+
+:::tip Answer
+  
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0033400002.png)
+
+:::
+
+## Question #139
+
+**You provide an Azure API Management managed web service to clients. The back-end web service implements HTTP Strict Transport Security (HSTS).  
+Every request to the backend service must include a valid HTTP authorization header.  
+You need to configure the Azure API Management instance with an authentication policy.  
+Which two policies can you use? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Basic Authentication
+2.  B. Digest Authentication
+3.  C. Certificate Authentication
+4.  D. OAuth Client Credential Grant
+
+:::tip Answer
+  
+ C & D
+
+:::
+
+## Question #140
+
+**DRAG DROP -  
+You are developing an ASP.NET Core website that can be used to manage photographs which are stored in Azure Blob Storage containers.  
+Users of the website authenticate by using their Azure Active Directory (Azure AD) credentials.  
+You implement role-based access control (RBAC) role permissions on the containers that store photographs. You assign users to RBAC roles.  
+You need to configure the website's Azure AD Application so that user's permissions can be used with the Azure Blob containers.  
+How should you configure the application? To answer, drag the appropriate setting to the correct location. Each setting can be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0033600001.png)
+
+:::tip Answer
+  
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0033600002.png)
+
+:::
+
+## Question #141
+
+**HOTSPOT -  
+You are developing an ASP.NET Core app that includes feature flags which are managed by Azure App Configuration. You create an Azure App Configuration store named AppFeatureFlagStore that contains a feature flag named Export.  
+You need to update the app to meet the following requirements:  
+✑ Use the Export feature in the app without requiring a restart of the app.  
+✑ Validate users before users are allowed access to secure resources.  
+✑ Permit users to access secure resources.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0033800001.png)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0033900001.png)
+
+:::
+
+## Question #142
+
+**You have an application that includes an Azure Web app and several Azure Function apps. Application secrets including connection strings and certificates are stored in Azure Key Vault.  
+Secrets must not be stored in the application or application runtime environment. Changes to Azure Active Directory (Azure AD) must be minimized.  
+You need to design the approach to loading application secrets.  
+What should you do?**
+
+1.  A. Create a single user-assigned Managed Identity with permission to access Key Vault and configure each App Service to use that Managed Identity.
+2.  B. Create a single Azure AD Service Principal with permission to access Key Vault and use a client secret from within the App Services to access Key Vault.
+3.  C. Create a system assigned Managed Identity in each App Service with permission to access Key Vault.
+4.  D. Create an Azure AD Service Principal with Permissions to access Key Vault for each App Service and use a certificate from within the App Services to access Key Vault.
+
+:::tip Answer
+  
+C
+
+:::
+
+## Question #143
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing a medical records document management website. The website is used to store scanned copies of patient intake forms.  
+If the stored intake forms are downloaded from storage by a third party, the contents of the forms must not be compromised.  
+You need to store the intake forms according to the requirements.  
+Solution:** 
+1. **Create an Azure Key Vault key named skey.**  
+2. **Encrypt the intake forms using the public key portion of skey.**  
+3. **Store the encrypted data in Azure Blob storage.**  
+**Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+A
+
+:::
+
+## Question #144
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing a medical records document management website. The website is used to store scanned copies of patient intake forms.  
+If the stored intake forms are downloaded from storage by a third party, the contents of the forms must not be compromised.  
+You need to store the intake forms according to the requirements.  
+Solution:**  
+1. **Create an Azure Cosmos DB database with Storage Service Encryption enabled.**  
+2. **Store the intake forms in the Azure Cosmos DB database.**  
+**Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+B
+
+:::
+
+## Question #145
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing a medical records document management website. The website is used to store scanned copies of patient intake forms.  
+If the stored intake forms are downloaded from storage by a third party, the contents of the forms must not be compromised.  
+You need to store the intake forms according to the requirements.  
+Solution: Store the intake forms as Azure Key Vault secrets.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+B
+
+:::
+
+## Question #146
+
+**HOTSPOT -  
+You plan to deploy a new application to a Linux virtual machine (VM) that is hosted in Azure.  
+The entire VM must be secured at rest by using industry-standard encryption technology to address organizational security and compliance requirements.  
+You need to configure Azure Disk Encryption for the VM.  
+How should you complete the Azure CLI commands? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0034400001.jpg)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0034500001.jpg)
+
+:::
+
+## Question #147
+
+**Your company is developing an Azure API hosted in Azure.  
+You need to implement authentication for the Azure API to access other Azure resources. You have the following requirements:  
+✑ All API calls must be authenticated.  
+✑ Callers to the API must not send credentials to the API.  
+Which authentication mechanism should you use?**
+
+1.  A. Basic
+2.  B. Anonymous
+3.  C. Managed identity
+4.  D. Client certificate
+
+:::tip Answer
+  
+C
+
+:::
+
+## Question #148
+
+**DRAG DROP -  
+You are developing an application. You have an Azure user account that has access to two subscriptions.  
+You need to retrieve a storage account key secret from Azure Key Vault.  
+In which order should you arrange the PowerShell commands to develop the solution? To answer, move all commands from the list of commands to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0034900001.png)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0035000001.png)
+
+:::
+
+## Question #149
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You develop Azure solutions.  
+You must grant a virtual machine (VM) access to specific resource groups in Azure Resource Manager.  
+You need to obtain an Azure Resource Manager access token.  
+Solution: Use an X.509 certificate to authenticate the VM with Azure Resource Manager.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+B
+
+:::
+
+## Question #150
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You develop Azure solutions.  
+You must grant a virtual machine (VM) access to specific resource groups in Azure Resource Manager.  
+You need to obtain an Azure Resource Manager access token.  
+Solution: Use the Reader role-based access control (RBAC) role to authenticate the VM with Azure Resource Manager.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+B
+
+:::
+
+## Question #151
+
+**HOTSPOT -  
+You are building a website that is used to review restaurants. The website will use an Azure CDN to improve performance and add functionality to requests.  
+You build and deploy a mobile app for Apple iPhones. Whenever a user accesses the website from an iPhone, the user must be redirected to the app store.  
+You need to implement an Azure CDN rule that ensures that iPhone users are redirected to the app store.  
+How should you complete the Azure Resource Manager template? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0035300001.png)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0035400001.png)
+
+:::
+
+## Question #152
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.  
+You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.  
+You need to configure authorization.  
+Solution:  
+✑ Configure and use Integrated Windows Authentication in the website.  
+✑ In the website, query Microsoft Graph API to load the groups to which the user is a member.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+B
+
+:::
+
+## Question #153
+
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You develop Azure solutions.  
+You must grant a virtual machine (VM) access to specific resource groups in Azure Resource Manager.  
+You need to obtain an Azure Resource Manager access token.  
+Solution: Run the Invoke-RestMethod cmdlet to make a request to the local managed identity for Azure resources endpoint.  
+Does the solution meet the goal?**
+
+1.  A. Yes
+2.  B. No
+
+:::tip Answer
+  
+A
+
+:::
+
+## Question #154
+
+**HOTSPOT -  
+You are building a website to access project data related to teams within your organization. The website does not allow anonymous access. Authentication is performed using an Azure Active Directory (Azure AD) app named internal.  
+The website has the following authentication requirements:  
+✑ Azure AD users must be able to login to the website.  
+✑ Personalization of the website must be based on membership in Active Directory groups.  
+You need to configure the application's manifest to meet the authentication requirements.  
+How should you configure the manifest? To answer, select the appropriate configuration in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0035800001.png)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0035900001.png)
+
+:::
+
+## Question #155
+
+**You develop an app that allows users to upload photos and videos to Azure storage. The app uses a storage REST API call to upload the media to a blob storage account named Account1. You have blob storage containers named Container1 and Container2.  
+Uploading of videos occurs on an irregular basis.  
+You need to copy specific blobs from Container1 to Container2 when a new video is uploaded.  
+What should you do?**
+
+1.  A. Copy blobs to Container2 by using the Put Blob operation of the Blob Service REST API
+2.  B. Create an Event Grid topic that uses the Start-AzureStorageBlobCopy cmdlet
+3.  C. Use AzCopy with the Snapshot switch to copy blobs to Container2
+4.  D. Download the blob to a virtual machine and then upload the blob to Container2
+
+:::tip Answer
+  
+B
+
+:::
+
+## Question #156
+
+**You are developing an ASP.NET Core website that uses Azure FrontDoor. The website is used to build custom weather data sets for researchers. Data sets are downloaded by users as Comma Separated Value (CSV) files. The data is refreshed every 10 hours.  
+Specific files must be purged from the FrontDoor cache based upon Response Header values.  
+You need to purge individual assets from the Front Door cache.  
+Which type of cache purge should you use?**
+
+1.  A. single path
+2.  B. wildcard
+3.  C. root domain
+
+:::tip Answer
+  
+A
+
+:::
+
+## Question #157
+
+**Your company is developing an Azure API.  
+You need to implement authentication for the Azure API. You have the following requirements:  
+All API calls must be secure.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0036100004.png)
+
+✑ **Callers to the API must not send credentials to the API.  
+Which authentication mechanism should you use?**
+
+1.  A. Basic
+2.  B. Anonymous
+3.  C. Managed identity
+4.  D. Client certificate
+
+:::tip Answer
+  
+C
+
+:::
+
+## Question #158
+
+**You are a developer for a SaaS company that offers many web services.  
+All web services for the company must meet the following requirements:  
+✑ Use API Management to access the services  
+✑ Use OpenID Connect for authentication  
+✑ Prevent anonymous usage  
+A recent security audit found that several web services can be called without any authentication.  
+Which API Management policy should you implement?**
+
+1.  A. jsonp
+2.  B. authentication-certificate
+3.  C. check-header
+4.  D. validate-jwt
+
+:::tip Answer
+  
+D
+
+:::
+
+## Question #159
+
+**DRAG DROP -  
+Contoso, Ltd. provides an API to customers by using Azure API Management (APIM). The API authorizes users with a JWT token.  
+You must implement response caching for the APIM gateway. The caching mechanism must detect the user ID of the client that accesses data for a given location and cache the response for that user ID.  
+You need to add the following policies to the policies file:  
+✑ a set-variable policy to store the detected user identity  
+✑ a cache-lookup-value policy  
+✑ a cache-store-value policy  
+✑ a find-and-replace policy to update the response body with the user profile information  
+To which policy section should you add the policies? To answer, drag the appropriate sections to the correct policies. Each section may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0036400001.jpg)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0036500001.jpg)
+
+:::
+
+## Question #160
+
+**DRAG DROP -  
+You are developing an Azure solution.  
+You need to develop code to access a secret stored in Azure Key Vault.  
+How should you complete the code segment? To answer, drag the appropriate code segments to the correct location. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0036700001.png)
+
+:::tip Answer
+  
+![](https://www.examtopics.com/assets/media/exam-media/04273/0036700002.png)
+
+:::
+
+## Question #161
+
+**You are developing an Azure App Service REST API.  
+The API must be called by an Azure App Service web app. The API must retrieve and update user profile information stored in Azure Active Directory (Azure AD).  
+You need to configure the API to make the updates.  
+Which two tools should you use? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Microsoft Graph API
+2.  B. Microsoft Authentication Library (MSAL)
+3.  C. Azure API Management
+4.  D. Microsoft Azure Security Center
+5.  E. Microsoft Azure Key Vault SDK
+
+:::tip Answer
+ A & C
+
+:::
+
+## Question #162
+
+**You develop a REST API. You implement a user delegation SAS token to communicate with Azure Blob storage.  
+The token is compromised.  
+You need to revoke the token.  
+What are two possible ways to achieve this goal? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Revoke the delegation key.
+2.  B. Delete the stored access policy.
+3.  C. Regenerate the account key.
+4.  D. Remove the role assignment for the security principle.
+
+:::tip Answer
+ A & B
+
+:::
+
+## Question #163
+
+**DRAG DROP -  
+You are developing an Azure-hosted application that must use an on-premises hardware security module (HSM) key.  
+The key must be transferred to your existing Azure Key Vault by using the Bring Your Own Key (BYOK) process.  
+You need to securely transfer the key to Azure Key Vault.  
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0037000001.jpg)
+
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0037000002.jpg)
+
+:::
+
+## Question #164
+
+**You develop and deploy an Azure Logic app that calls an Azure Function app. The Azure Function app includes an OpenAPI (Swagger) definition and uses an  
+Azure Blob storage account. All resources are secured by using Azure Active Directory (Azure AD).  
+The Azure Logic app must securely access the Azure Blob storage account. Azure AD resources must remain if the Azure Logic app is deleted.  
+You need to secure the Azure Logic app.  
+What should you do?**
+
+1.  A. Create a user-assigned managed identity and assign role-based access controls.
+2.  B. Create an Azure AD custom role and assign the role to the Azure Blob storage account.
+3.  C. Create an Azure Key Vault and issue a client certificate.
+4.  D. Create a system-assigned managed identity and issue a client certificate.
+5.  E. Create an Azure AD custom role and assign role-based access controls.
+
+:::tip Answer
+ A
+
+:::
+
+## Question #165
+
+**HOTSPOT -  
+You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers.  
+You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.)**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0037300001.png)
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0037400001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0037400002.png)
+
+:::
+
+## Question #166
+
+**HOTSPOT -  
+You have an Azure Web app that uses Cosmos DB as a data store. You create a CosmosDB container by running the following PowerShell script:  
+\$resourceGroupName = "testResourceGroup"  
+\$accountName = "testCosmosAccount"  
+\$databaseName = "testDatabase"  
+\$containerName = "testContainer"  
+\$partitionKeyPath = "/EmployeeId"  
+\$autoscaleMaxThroughput = 5000**
+  
+**New-AzCosmosDBSqlContainer -  
+\-ResourceGroupName \$resourceGroupName  
+\-AccountName \$accountName  
+\-DatabaseName \$databaseName  
+\-Name \$containerName  
+\-PartitionKeyKind Hash  
+\-PartitionKeyPath \$partitionKeyPath  
+\-AutoscaleMaxThroughput \$autoscaleMaxThroughput  
+You create the following queries that target the container:  
+SELECT \* FROM c WHERE c.EmployeeId \> '12345'  
+SELECT \* FROM c WHERE c.UserID = '12345'  
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0037800001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0037800002.png)
+
+:::
+
+## Question #167
+
+**HOTSPOT -  
+You are developing a web application that makes calls to the Microsoft Graph API. You register the application in the Azure portal and upload a valid X509 certificate.  
+You create an appsettings.json file containing the certificate name, client identifier for the application, and the tenant identifier of the Azure Active Directory (Azure  
+AD). You create a method named ReadCertificate to return the X509 certificate by name.  
+You need to implement code that acquires a token by using the certificate.  
+How should you complete the code segment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0038000001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0038000002.png)
+
+:::
+
+## Question #168
+
+**HOTSPOT -  
+You develop a containerized application. You plan to deploy the application to a new Azure Container instance by using a third-party continuous integration and continuous delivery (CI/CD) utility.  
+The deployment must be unattended and include all application assets. The third-party utility must only be able to push and pull images from the registry. The authentication must be managed by Azure Active Directory (Azure AD). The solution must use the principle of least privilege.  
+You need to ensure that the third-party utility can access the registry.  
+Which authentication options should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0038200001.png)
+
+:::tip Answer
+ ![](https://www.examtopics.com/assets/media/exam-media/04273/0038300001.png)
+
+:::
+
+## Question #169
+
+**You deploy an Azure App Service web app. You create an app registration for the app in Azure Active Directory (Azure AD) and Twitter.  
+The app must authenticate users and must use SSL for all communications. The app must use Twitter as the identity provider.  
+You need to validate the Azure AD request in the app code.  
+What should you validate?**
+
+1.  A. ID token header
+2.  B. ID token signature
+3.  C. HTTP response code
+4.  D. Tenant ID
+
+:::tip Answer
+A
+
+:::
+
+## Question #170
+
+**You are developing a solution that will use a multi-partitioned Azure Cosmos DB database. You plan to use the latest Azure Cosmos DB SDK for development.  
+The solution must meet the following requirements:  
+✑ Send insert and update operations to an Azure Blob storage account.  
+✑ Process changes to all partitions immediately.  
+✑ Allow parallelization of change processing.  
+You need to process the Azure Cosmos DB operations.  
+What are two possible ways to achieve this goal? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1.  A. Create an Azure App Service API and implement the change feed estimator of the SDK. Scale the API by using multiple Azure App Service instances.
+2.  B. Create a background job in an Azure Kubernetes Service and implement the change feed feature of the SDK.
+3.  C. Create an Azure Function to use a trigger for Azure Cosmos DB. Configure the trigger to connect to the container.
+4.  D. Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions.
+
+:::tip Answer
+A & C
+
+:::
 
