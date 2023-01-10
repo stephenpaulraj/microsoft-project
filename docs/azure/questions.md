@@ -1841,7 +1841,7 @@ What should you use?**
 A
 :::
 
-## Question \#97
+## Question #97
 
 **DRAG DROP -  
 You are developing a web service that will run on Azure virtual machines that use Azure Storage. You configure all virtual machines to use managed identities.  
@@ -1914,3 +1914,412 @@ Select and Place:**
 :::tip Answer
  ![](https://www.examtopics.com/assets/media/exam-media/04273/0023600001.jpg)
 :::
+
+## Question #101
+
+**You are implementing an order processing system. A point of sale application publishes orders to topics in an Azure Service Bus queue. The Label property for the topic includes the following data:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0023700002.png)
+
+**The system has the following requirements for subscriptions:**
+
+**You need to implement filtering and maximize throughput while evaluating filters.**
+**Which filter types should you implement? To answer, drag the appropriate filter types to the correct subscriptions. Each filter type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.**
+
+NOTE: Each correct selection is worth one point.
+
+**Select and Place:**
+![](https://www.examtopics.com/assets/media/exam-media/04273/0023800001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0023900001.png)
+:::
+
+## Question #102
+**Your company has several websites that use a company logo image. You use Azure Content Delivery Network (CDN) to store the static image.**
+
+**You need to determine the correct process of how the CDN and the Point of Presence (POP) server will distribute the image and list the items in the correct order.**
+
+**In which order do the actions occur? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.**
+
+**Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024100001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024100002.jpg)
+:::
+
+## Question #103
+
+**You are developing an Azure Cosmos DB solution by using the Azure Cosmos DB SQL API. The data includes millions of documents. Each document may contain hundreds of properties.**
+
+**The properties of the documents do not contain distinct values for partitioning. Azure Cosmos DB must scale individual containers in the database to meet the performance needs of the application by spreading the workload evenly across all partitions over time.**
+
+**You need to select a partition key.**
+
+**Which two partition keys can you use? Each correct answer presents a complete solution.**
+
+**NOTE: Each correct selection is worth one point.**
+
+1. A. a single property value that does not appear frequently in the documents
+2. B. a value containing the collection name
+3. C. a single property value that appears frequently in the documents
+4. D. a concatenation of multiple property values with a random suffix appended
+5. E. a hash suffix appended to a property value
+
+:::tip Answer
+D & E
+:::
+
+## Question #104
+**You are developing an Azure-hosted e-commerce web application. The application will use Azure Cosmos DB to store sales orders. You are using the latest SDK to manage the sales orders in the database.**
+
+**You create a new Azure Cosmos DB instance. You include a valid endpoint and valid authorization key to an appSettings.json file in the code project.**
+
+**You are evaluating the following application code: (Line number are included for reference only.)**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024400001.png)
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+Hot Area:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024500001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024500002.jpg)
+:::
+
+## Question #105
+**You develop an Azure solution that uses Cosmos DB.**
+
+**The current Cosmos DB container must be replicated and must use a partition key that is optimized for queries. You need to implement a change feed processor solution.**
+
+**Which change feed processor components should you use? To answer, drag the appropriate components to the correct requirements. Each component may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view the content.**
+
+**NOTE: Each correct selection is worth one point.**
+
+**Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024700001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024700002.png)
+:::
+
+## Question #106
+**You are developing a web application that will use Azure Storage. Older data will be less frequently used than more recent data.**
+
+**You need to configure data storage for the application. You have the following requirements:**
+✑ Retain copies of data for five years.
+✑ Minimize costs associated with storing data that is over one year old.
+✑ Implement Zone Redundant Storage for application data.
+
+**What should you do? To answer, select the appropriate options in the answer area.**
+
+**NOTE: Each correct selection is worth one point.**
+
+**Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024800004.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0024900001.png)
+:::
+## Question #107
+**A company develops a series of mobile games. All games use a single leaderboard service.**
+
+**You have the following requirements:**
+✑ Code must be scalable and allow for growth.
+✑ Each record must consist of a playerId, gameId, score, and time played.
+✑ When users reach a new high score, the system will save the new score using the SaveScore function below.
+
+**Each game is assigned an Id based on the series title.**
+
+You plan to store customer information in Azure Cosmos DB. The following data already exists in the database:
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025000001.png)
+
+You develop the following code to save scores in the data store. (Line numbers are included for reference only.)
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025000002.png)
+
+You develop the following code to query the database. (Line numbers are included for reference only.)
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025000003.jpg)
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.**
+
+NOTE: Each correct selection is worth one point.
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025100001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025100002.png)
+:::
+
+## Question #108
+
+**You develop and deploy a web application to Azure App Service. The application accesses data stored in an Azure Storage account. The account contains several containers with several blobs with large amounts of data. You deploy all Azure resources to a single region.**
+
+**You need to move the Azure Storage account to the new region. You must copy all data to the new region.**
+
+**What should you do first?**
+
+1. A. Export the Azure Storage account Azure Resource Manager template
+2. B. Initiate a storage account failover
+3. C. Configure object replication for all blobs
+4. D. Use the AzCopy command line tool
+5. E. Create a new Azure Storage account in the current region
+6. F. Create a new subscription in the current region
+
+:::tip Answer
+A
+:::
+
+## Question #109
+**You are developing an application to collect the following telemetry data for delivery drivers: first name, last name, package count, item id, and current location coordinates. The app will store the data in Azure Cosmos DB.**
+
+**You need to configure Azure Cosmos DB to query the data.**
+
+**Which values should you use? To answer, select the appropriate options in the answer area.**
+
+**NOTE: Each correct selection is worth one point.**
+
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025400001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025500001.png)
+:::
+
+## Question #110
+
+**You are implementing an Azure solution that uses Azure Cosmos DB and the latest Azure Cosmos DB SDK. You add a change feed processor to a new container instance.**
+
+**You attempt to read a batch of 100 documents. The process fails when reading one of the documents. The solution must monitor the progress of the change feed processor instance on the new container as the change feed is read. You must prevent the change feed processor from retrying the entire batch when one document cannot be read.**
+
+**You need to implement the change feed processor to read the documents.**
+
+**Which features should you use? To answer, drag the appropriate features to the cored requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.**
+
+**NOTE: Each cored selection is worth one point.**
+
+**Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025600001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0025700001.jpg)
+:::
+
+## Question #111
+**You have an Azure subscription named Subscription1 that contains the storage accounts shown in the following table:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014000001.png)
+
+**You plan to use the Azure Import/Export service to export data from Subscription1.**
+**You need to identify which storage account can be used to export the data.**
+**What should you identify?**
+
+1. A. storage1
+2. B. storage2
+3. C. storage3
+4. D. storage4
+
+:::tip Answer
+D
+:::
+
+## Question #112
+
+**You have Azure Storage accounts as shown in the following exhibit.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014100001.jpg)
+
+**Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.**
+
+**NOTE: Each correct selection is worth one point.**
+
+Hot Area:
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014200001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014200002.jpg)
+:::
+
+## Question #113
+**You have Azure subscription that includes data in following locations:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014300004.png)
+
+**You plan to export data by using Azure import/export job named Export1.**
+**You need to identify the data that can be exported by using Export1.**
+**Which data should you identify?**
+
+1. A. DB1
+2. B. container1
+3. C. share1
+4. D. Table1
+
+:::tip Answer
+B
+:::
+
+## Question #114
+
+**You have an Azure Storage account named storage1.**
+**You have an Azure App Service app named App1 and an app named App2 that runs in an Azure container instance. Each app uses a managed identity.**
+**You need to ensure that App1 and App2 can read blobs from storage1. The solution must meet the following requirements:**
+✑ Minimize the number of secrets used.
+✑ Ensure that App2 can only read from storage1 for the next 30 days.
+**What should you configure in storage1 for each app? To answer, select the appropriate options in the answer area.**
+
+**NOTE: Each correct selection is worth one point.**
+
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014500001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014600001.jpg)
+:::
+
+## Question #115
+
+**You need to create an Azure Storage account that meets the following requirements:**
+✑ Minimizes costs
+✑ Supports hot, cool, and archive blob tiers
+✑ Provides fault tolerance if a disaster affects the Azure region where the account resides
+
+**How should you complete the command? To answer, select the appropriate options in the answer area.**
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014700004.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014800001.jpg)
+:::
+
+## Question #116
+
+**You have an Azure subscription that contains the resources in the following table.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0014900001.png)
+
+**Store1 contains a file share named data. Data contains 5,000 files.**
+**You need to synchronize the files in the file share named data to an on-premises server named Server1.**
+
+**Which three actions should you perform? Each correct answer presents part of the solution.**
+
+NOTE: Each correct selection is worth one point.
+
+1. A. Create a container instance
+2. B. Register Server1
+3. C. Install the Azure File Sync agent on Server1
+4. D. Download an automation script
+5. E. Create a sync group
+
+:::tip Answer
+BCE
+:::
+
+## Question #117
+
+**You have an Azure subscription that contains the resources shown in the following table.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015000001.png)
+
+**The status of VM1 is Running.**
+**You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)**
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015100001.jpg)
+
+**You assign the policy by using the following parameters:**
+**Microsoft.ClassicNetwork/virtualNetworks**
+**Microsoft.Network/virtualNetworks**
+**Microsoft.Compute/virtualMachines**
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.**
+
+**NOTE: Each correct selection is worth one point.**
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015200002.png)
+:::
+
+## Question #118
+
+**You have an Azure subscription that contains a storage account.**
+**You have an on-premises server named Server1 that runs Windows Server 2016. Server1 has 2 TB of data.**
+**You need to transfer the data to the storage account by using the Azure Import/Export service.**
+
+**In which order should you perform the actions? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.**
+
+**NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.**
+
+Select and Place:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015300001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015400001.jpg)
+:::
+
+## Question #119
+You have Azure subscription that includes following Azure file shares:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015500001.png)
+
+You have the following on-premises servers:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015500002.png)
+
+**You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint.**
+**You register Server1 and Server2 in Sync1. You add D:\Folder1 on Server1 as a server endpoint of Group1.**
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.**
+
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015600001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015600002.jpg)
+:::
+
+## Question #120
+
+**You have an Azure subscription named Subscription1.**
+**You create an Azure Storage account named contosostorage, and then you create a file share named data.**
+
+**Which UNC path should you include in a script that references files from the data file share? To answer, drag the appropriate values to the correct targets.**
+**Each value may be used once, more than once or not at all. You may need to drag the split bar between panes or scroll to view content.**
+
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015700001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04223/0015800001.jpg)
+:::
+
+
+
+
+
+
+
+
+
+
+
