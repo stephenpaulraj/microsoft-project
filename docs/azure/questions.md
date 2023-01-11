@@ -5477,7 +5477,7 @@ Hot Area:
 
 
 :::tip Answer 
-![](https://www.examtopics.com/assets/media/f8864b4e9834e9fbc9a5076f1bf0fe89.jpeg)
+![](https://www.examtopics.com/assets/media/exam-media/04273/0027500001.jpg)
 :::tip
 
 ## Question #278
