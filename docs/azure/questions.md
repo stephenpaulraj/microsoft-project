@@ -7547,6 +7547,857 @@ D. Add a new diagnostic setting to the Azure Function app to send logs to Log An
 **A**
 :::
 
+## Question #301
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+City Power & Light company provides electrical infrastructure monitoring solutions for homes and businesses. The company is migrating solutions to Azure.
+
+Current environment -
+
+Architecture overview -
+The company has a public website located at http://www.cpandl.com/. The site is a single-page web application that runs in Azure App Service on Linux. The website uses files stored in Azure Storage and cached in Azure Content Delivery Network (CDN) to serve static content.
+API Management and Azure Function App functions are used to process and store data in Azure Database for PostgreSQL. API Management is used to broker communications to the Azure Function app functions for Logic app integration. Logic apps are used to orchestrate the data processing while Service Bus and
+Event Grid handle messaging and events.
+The solution uses Application Insights, Azure Monitor, and Azure Key Vault.
+
+Architecture diagram -
+The company has several applications and services that support their business. The company plans to implement serverless computing where possible. The overall architecture is shown below.
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0042500001.png)
+
+
+User authentication -
+The following steps detail the user authentication process:
+1. The user selects Sign in in the website.
+2. The browser redirects the user to the Azure Active Directory (Azure AD) sign in page.
+3. The user signs in.
+4. Azure AD redirects the user's session back to the web application. The URL includes an access token.
+5. The web application calls an API and includes the access token in the authentication header. The application ID is sent as the audience ('aud') claim in the access token.
+6. The back-end API validates the access token.
+
+Requirements -
+
+Corporate website -
+Communications and content must be secured by using SSL.
+Communications must use HTTPS.
+Data must be replicated to a secondary region and three availability zones.
+Data storage costs must be minimized.
+
+Azure Database for PostgreSQL -
+The database connection string is stored in Azure Key Vault with the following attributes:
+Azure Key Vault name: cpandlkeyvault
+Secret name: PostgreSQLConn
+Id: 80df3e46ffcd4f1cb187f79905e9a1e8
+The connection information is updated frequently. The application must always use the latest information to connect to the database.
+Azure Service Bus and Azure Event Grid
+Azure Event Grid must use Azure Service Bus for queue-based load leveling.
+Events in Azure Event Grid must be routed directly to Service Bus queues for use in buffering.
+Events from Azure Service Bus and other Azure services must continue to be routed to Azure Event Grid for processing.
+
+Security -
+All SSL certificates and credentials must be stored in Azure Key Vault.
+File access must restrict access by IP, protocol, and Azure AD rights.
+All user accounts and processes must receive only those privileges which are essential to perform their intended function.
+
+Compliance -
+Auditing of the file updates and transfers must be enabled to comply with General Data Protection Regulation (GDPR). The file updates must be read-only, stored in the order in which they occurred, include only create, update, delete, and copy operations, and be retained for compliance reasons.
+
+Issues -
+
+Corporate website -
+While testing the site, the following error message displays:
+CryptographicException: The system cannot find the file specified.
+
+Function app -
+You perform local testing for the RequestUserApproval function. The following error message displays:
+'Timeout value of 00:10:00 exceeded by function: RequestUserApproval'
+The same error message displays when you test the function in an Azure development environment when you run the following Kusto query:
+
+FunctionAppLogs -
+| where FunctionName = = "RequestUserApproval"
+
+Logic app -
+You test the Logic app in a development environment. The following error message displays:
+'400 Bad Request'
+Troubleshooting of the error shows an HttpTrigger action to call the RequestUserApproval function.
+
+Code -
+
+Corporate website -
+Security.cs:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0042700001.jpg)
+
+
+Function app -
+RequestUserApproval.cs:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0042800001.jpg)
+
+Question
+HOTSPOT -
+You need to configure security and compliance for the corporate website files.
+Which Azure Blob storage settings should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0042900001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043000001.png)
+:::
+
+## Question #302
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+City Power & Light company provides electrical infrastructure monitoring solutions for homes and businesses. The company is migrating solutions to Azure.
+
+Current environment -
+
+Architecture overview -
+The company has a public website located at http://www.cpandl.com/. The site is a single-page web application that runs in Azure App Service on Linux. The website uses files stored in Azure Storage and cached in Azure Content Delivery Network (CDN) to serve static content.
+API Management and Azure Function App functions are used to process and store data in Azure Database for PostgreSQL. API Management is used to broker communications to the Azure Function app functions for Logic app integration. Logic apps are used to orchestrate the data processing while Service Bus and
+Event Grid handle messaging and events.
+The solution uses Application Insights, Azure Monitor, and Azure Key Vault.
+
+Architecture diagram -
+The company has several applications and services that support their business. The company plans to implement serverless computing where possible. The overall architecture is shown below.
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0004900001.png)
+
+
+User authentication -
+The following steps detail the user authentication process:
+1. The user selects Sign in in the website.
+2. The browser redirects the user to the Azure Active Directory (Azure AD) sign in page.
+3. The user signs in.
+4. Azure AD redirects the user's session back to the web application. The URL includes an access token.
+5. The web application calls an API and includes the access token in the authentication header. The application ID is sent as the audience ('aud') claim in the access token.
+6. The back-end API validates the access token.
+
+Requirements -
+
+Corporate website -
+Communications and content must be secured by using SSL.
+Communications must use HTTPS.
+Data must be replicated to a secondary region and three availability zones.
+Data storage costs must be minimized.
+
+Azure Database for PostgreSQL -
+The database connection string is stored in Azure Key Vault with the following attributes:
+Azure Key Vault name: cpandlkeyvault
+Secret name: PostgreSQLConn
+Id: 80df3e46ffcd4f1cb187f79905e9a1e8
+The connection information is updated frequently. The application must always use the latest information to connect to the database.
+Azure Service Bus and Azure Event Grid
+Azure Event Grid must use Azure Service Bus for queue-based load leveling.
+Events in Azure Event Grid must be routed directly to Service Bus queues for use in buffering.
+Events from Azure Service Bus and other Azure services must continue to be routed to Azure Event Grid for processing.
+
+Security -
+All SSL certificates and credentials must be stored in Azure Key Vault.
+File access must restrict access by IP, protocol, and Azure AD rights.
+All user accounts and processes must receive only those privileges which are essential to perform their intended function.
+
+Compliance -
+Auditing of the file updates and transfers must be enabled to comply with General Data Protection Regulation (GDPR). The file updates must be read-only, stored in the order in which they occurred, include only create, update, delete, and copy operations, and be retained for compliance reasons.
+
+Issues -
+
+Corporate website -
+While testing the site, the following error message displays:
+CryptographicException: The system cannot find the file specified.
+
+Function app -
+You perform local testing for the RequestUserApproval function. The following error message displays:
+'Timeout value of 00:10:00 exceeded by function: RequestUserApproval'
+The same error message displays when you test the function in an Azure development environment when you run the following Kusto query:
+
+FunctionAppLogs -
+| where FunctionName = = "RequestUserApproval"
+
+Logic app -
+You test the Logic app in a development environment. The following error message displays:
+'400 Bad Request'
+Troubleshooting of the error shows an HttpTrigger action to call the RequestUserApproval function.
+
+Code -
+
+Corporate website -
+Security.cs:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0005100001.jpg)
+
+
+Function app -
+RequestUserApproval.cs:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0005200001.jpg)
+
+Question
+You need to correct the RequestUserApproval Function app error.
+
+What should you do?
+A. Update line RA13 to use the async keyword and return an HttpRequest object value.
+B. Configure the Function app to use an App Service hosting plan. Enable the Always On setting of the hosting plan.
+C. Update the function to be stateful by using Durable Functions to process the request payload.
+D. Update the functionTimeout property of the host.json project file to 15 minutes.
+
+:::tip Answer
+**C**
+:::
+
+## Question #303
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+You are a developer for Proseware, Inc. You are developing an application that applies a set of governance policies for Proseware's internal services, external services, and applications. The application will also provide a shared library for common functionality.
+
+Requirements -
+
+Policy service -
+You develop and deploy a stateful ASP.NET Core 2.1 web application named Policy service to an Azure App Service Web App. The application reacts to events from Azure Event Grid and performs policy actions based on those events.
+The application must include the Event Grid Event ID field in all Application Insights telemetry.
+Policy service must use Application Insights to automatically scale with the number of policy actions that it is performing.
+
+Policies -
+
+Log policy -
+All Azure App Service Web Apps must write logs to Azure Blob storage. All log files should be saved to a container named logdrop. Logs must remain in the container for 15 days.
+
+Authentication events -
+Authentication events are used to monitor users signing in and signing out. All authentication events must be processed by Policy service. Sign outs must be processed as quickly as possible.
+
+PolicyLib -
+You have a shared library named PolicyLib that contains functionality common to all ASP.NET Core web services and applications. The PolicyLib library must:
+Exclude non-user actions from Application Insights telemetry.
+Provide methods that allow a web service to scale itself.
+Ensure that scaling actions do not disrupt application usage.
+
+Other -
+
+Anomaly detection service -
+You have an anomaly detection service that analyzes log information for anomalies. It is implemented as an Azure Machine Learning model. The model is deployed as a web service. If an anomaly is detected, an Azure Function that emails administrators is called by using an HTTP WebHook.
+
+Health monitoring -
+All web applications and services have health monitoring at the /health service endpoint.
+
+Issues -
+
+Policy loss -
+When you deploy Policy service, policies may not be applied if they were in the process of being applied during the deployment.
+
+Performance issue -
+When under heavy load, the anomaly detection service undergoes slowdowns and rejects connections.
+
+Notification latency -
+Users report that anomaly detection emails can sometimes arrive several minutes after an anomaly is detected.
+
+App code -
+
+EventGridController.cs -
+Relevant portions of the app files are shown below. Line numbers are included for reference only and include a two-character prefix that denotes the specific file to which they belong.
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043500001.png)
+
+
+LoginEvent.cs -
+Relevant portions of the app files are shown below. Line numbers are included for reference only and include a two-character prefix that denotes the specific file to which they belong.
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043600001.png)
+
+**Question
+DRAG DROP -**
+
+You need to implement the Log policy.
+How should you complete the Azure Event Grid subscription? To answer, drag the appropriate JSON segments to the correct locations. Each JSON segment may be used once, more than once, or not at all. You may need to drag the split bar between panes to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043700001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043700002.png)
+:::
+
+## Question #304
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+You are a developer for Proseware, Inc. You are developing an application that applies a set of governance policies for Proseware's internal services, external services, and applications. The application will also provide a shared library for common functionality.
+
+Requirements -
+
+Policy service -
+You develop and deploy a stateful ASP.NET Core 2.1 web application named Policy service to an Azure App Service Web App. The application reacts to events from Azure Event Grid and performs policy actions based on those events.
+The application must include the Event Grid Event ID field in all Application Insights telemetry.
+Policy service must use Application Insights to automatically scale with the number of policy actions that it is performing.
+
+Policies -
+
+Log policy -
+All Azure App Service Web Apps must write logs to Azure Blob storage. All log files should be saved to a container named logdrop. Logs must remain in the container for 15 days.
+
+Authentication events -
+Authentication events are used to monitor users signing in and signing out. All authentication events must be processed by Policy service. Sign outs must be processed as quickly as possible.
+
+PolicyLib -
+You have a shared library named PolicyLib that contains functionality common to all ASP.NET Core web services and applications. The PolicyLib library must:
+Exclude non-user actions from Application Insights telemetry.
+Provide methods that allow a web service to scale itself.
+Ensure that scaling actions do not disrupt application usage.
+
+Other -
+
+Anomaly detection service -
+You have an anomaly detection service that analyzes log information for anomalies. It is implemented as an Azure Machine Learning model. The model is deployed as a web service. If an anomaly is detected, an Azure Function that emails administrators is called by using an HTTP WebHook.
+
+Health monitoring -
+All web applications and services have health monitoring at the /health service endpoint.
+
+Issues -
+
+Policy loss -
+When you deploy Policy service, policies may not be applied if they were in the process of being applied during the deployment.
+
+Performance issue -
+When under heavy load, the anomaly detection service undergoes slowdowns and rejects connections.
+
+Notification latency -
+Users report that anomaly detection emails can sometimes arrive several minutes after an anomaly is detected.
+
+App code -
+
+EventGridController.cs -
+Relevant portions of the app files are shown below. Line numbers are included for reference only and include a two-character prefix that denotes the specific file to which they belong.
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043500001.png)
+
+
+LoginEvent.cs -
+Relevant portions of the app files are shown below. Line numbers are included for reference only and include a two-character prefix that denotes the specific file to which they belong.
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043600001.png)
+
+Question
+
+You need to ensure that the solution can meet the scaling requirements for Policy Service.
+Which Azure Application Insights data model should you use?
+A. an Application Insights dependency
+B. an Application Insights event
+C. an Application Insights trace
+D. an Application Insights metric
+
+:::tip Answer
+**D**
+:::
+
+## Question #305
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+You are a developer for Proseware, Inc. You are developing an application that applies a set of governance policies for Proseware's internal services, external services, and applications. The application will also provide a shared library for common functionality.
+
+Requirements -
+
+Policy service -
+You develop and deploy a stateful ASP.NET Core 2.1 web application named Policy service to an Azure App Service Web App. The application reacts to events from Azure Event Grid and performs policy actions based on those events.
+The application must include the Event Grid Event ID field in all Application Insights telemetry.
+Policy service must use Application Insights to automatically scale with the number of policy actions that it is performing.
+
+Policies -
+
+Log policy -
+All Azure App Service Web Apps must write logs to Azure Blob storage. All log files should be saved to a container named logdrop. Logs must remain in the container for 15 days.
+
+Authentication events -
+Authentication events are used to monitor users signing in and signing out. All authentication events must be processed by Policy service. Sign outs must be processed as quickly as possible.
+
+PolicyLib -
+You have a shared library named PolicyLib that contains functionality common to all ASP.NET Core web services and applications. The PolicyLib library must:
+Exclude non-user actions from Application Insights telemetry.
+Provide methods that allow a web service to scale itself.
+Ensure that scaling actions do not disrupt application usage.
+
+Other -
+
+Anomaly detection service -
+You have an anomaly detection service that analyzes log information for anomalies. It is implemented as an Azure Machine Learning model. The model is deployed as a web service. If an anomaly is detected, an Azure Function that emails administrators is called by using an HTTP WebHook.
+
+Health monitoring -
+All web applications and services have health monitoring at the /health service endpoint.
+
+Issues -
+
+Policy loss -
+When you deploy Policy service, policies may not be applied if they were in the process of being applied during the deployment.
+
+Performance issue -
+When under heavy load, the anomaly detection service undergoes slowdowns and rejects connections.
+
+Notification latency -
+Users report that anomaly detection emails can sometimes arrive several minutes after an anomaly is detected.
+
+App code -
+
+EventGridController.cs -
+Relevant portions of the app files are shown below. Line numbers are included for reference only and include a two-character prefix that denotes the specific file to which they belong.
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043500001.png)
+
+
+LoginEvent.cs -
+Relevant portions of the app files are shown below. Line numbers are included for reference only and include a two-character prefix that denotes the specific file to which they belong.
+![](https://www.examtopics.com/assets/media/exam-media/04273/0043600001.png)
+
+Question
+DRAG DROP -
+
+You need to implement telemetry for non-user actions.
+How should you complete the Filter class? To answer, drag the appropriate code segments to the correct locations. Each code segment may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044200002.png)
+:::
+
+## Question #306
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+You are a developer for Litware Inc., a SaaS company that provides a solution for managing employee expenses. The solution consists of an ASP.NET Core Web
+API project that is deployed as an Azure Web App.
+
+Overall architecture -
+Employees upload receipts for the system to process. When processing is complete, the employee receives a summary report email that details the processing results. Employees then use a web application to manage their receipts and perform any additional tasks needed for reimbursement.
+
+Receipt processing -
+Employees may upload receipts in two ways:
+Uploading using an Azure Files mounted folder
+Uploading using the web application
+
+Data Storage -
+Receipt and employee information is stored in an Azure SQL database.
+
+Documentation -
+Employees are provided with a getting started document when they first use the solution. The documentation includes details on supported operating systems for
+Azure File upload, and instructions on how to configure the mounted folder.
+
+Solution details -
+
+Users table -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044500001.png)
+
+Web Application -
+You enable MSI for the Web App and configure the Web App to use the security principal name WebAppIdentity.
+
+Processing -
+Processing is performed by an Azure Function that uses version 2 of the Azure Function runtime. Once processing is completed, results are stored in Azure Blob
+Storage and an Azure SQL database. Then, an email summary is sent to the user with a link to the processing report. The link to the report must remain valid if the email is forwarded to another user.
+
+Logging -
+Azure Application Insights is used for telemetry and logging in both the processor and the web application. The processor also has TraceWriter logging enabled.
+Application Insights must always contain all log messages.
+
+Requirements -
+
+Receipt processing -
+Concurrent processing of a receipt must be prevented.
+
+Disaster recovery -
+Regional outage must not impact application availability. All DR operations must not be dependent on application running and must ensure that data in the DR region is up to date.
+
+Security -
+User's SecurityPin must be stored in such a way that access to the database does not allow the viewing of SecurityPins. The web application is the only system that should have access to SecurityPins.
+All certificates and secrets used to secure data must be stored in Azure Key Vault.
+You must adhere to the principle of least privilege and provide privileges which are essential to perform the intended function.
+All access to Azure Storage and Azure SQL database must use the application's Managed Service Identity (MSI).
+Receipt data must always be encrypted at rest.
+All data must be protected in transit.
+User's expense account number must be visible only to logged in users. All other views of the expense account number should include only the last segment, with the remaining parts obscured.
+In the case of a security breach, access to all summary reports must be revoked without impacting other parts of the system.
+
+Issues -
+
+Upload format issue -
+Employees occasionally report an issue with uploading a receipt using the web application. They report that when they upload a receipt using the Azure File
+Share, the receipt does not appear in their profile. When this occurs, they delete the file in the file share and use the web application, which returns a 500 Internal
+Server error page.
+
+Capacity issue -
+During busy periods, employees report long delays between the time they upload the receipt and when it appears in the web application.
+
+Log capacity issue -
+Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.
+
+Application code -
+
+Processing.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044700001.jpg)
+
+
+Database.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044800001.jpg)
+
+
+ReceiptUploader.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044900001.jpg)
+
+ConfigureSSE.ps1 -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044900002.jpg)
+
+Question
+You need to ensure receipt processing occurs correctly.
+What should you do?
+A. Use blob properties to prevent concurrency problems
+B. Use blob SnapshotTime to prevent concurrency problems
+C. Use blob metadata to prevent concurrency problems
+D. Use blob leases to prevent concurrency problems
+
+:::tip Answer
+**B**
+:::
+
+## Question #307
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+You are a developer for Litware Inc., a SaaS company that provides a solution for managing employee expenses. The solution consists of an ASP.NET Core Web
+API project that is deployed as an Azure Web App.
+
+Overall architecture -
+Employees upload receipts for the system to process. When processing is complete, the employee receives a summary report email that details the processing results. Employees then use a web application to manage their receipts and perform any additional tasks needed for reimbursement.
+
+Receipt processing -
+Employees may upload receipts in two ways:
+Uploading using an Azure Files mounted folder
+Uploading using the web application
+
+Data Storage -
+Receipt and employee information is stored in an Azure SQL database.
+
+Documentation -
+Employees are provided with a getting started document when they first use the solution. The documentation includes details on supported operating systems for
+Azure File upload, and instructions on how to configure the mounted folder.
+
+Solution details -
+
+Users table -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044500001.png)
+
+
+Web Application -
+You enable MSI for the Web App and configure the Web App to use the security principal name WebAppIdentity.
+
+Processing -
+Processing is performed by an Azure Function that uses version 2 of the Azure Function runtime. Once processing is completed, results are stored in Azure Blob
+Storage and an Azure SQL database. Then, an email summary is sent to the user with a link to the processing report. The link to the report must remain valid if the email is forwarded to another user.
+
+Logging -
+Azure Application Insights is used for telemetry and logging in both the processor and the web application. The processor also has TraceWriter logging enabled.
+Application Insights must always contain all log messages.
+
+Requirements -
+
+Receipt processing -
+Concurrent processing of a receipt must be prevented.
+
+Disaster recovery -
+Regional outage must not impact application availability. All DR operations must not be dependent on application running and must ensure that data in the DR region is up to date.
+
+Security -
+User's SecurityPin must be stored in such a way that access to the database does not allow the viewing of SecurityPins. The web application is the only system that should have access to SecurityPins.
+All certificates and secrets used to secure data must be stored in Azure Key Vault.
+You must adhere to the principle of least privilege and provide privileges which are essential to perform the intended function.
+All access to Azure Storage and Azure SQL database must use the application's Managed Service Identity (MSI).
+Receipt data must always be encrypted at rest.
+All data must be protected in transit.
+User's expense account number must be visible only to logged in users. All other views of the expense account number should include only the last segment, with the remaining parts obscured.
+In the case of a security breach, access to all summary reports must be revoked without impacting other parts of the system.
+
+Issues -
+
+Upload format issue -
+Employees occasionally report an issue with uploading a receipt using the web application. They report that when they upload a receipt using the Azure File
+Share, the receipt does not appear in their profile. When this occurs, they delete the file in the file share and use the web application, which returns a 500 Internal
+Server error page.
+
+Capacity issue -
+During busy periods, employees report long delays between the time they upload the receipt and when it appears in the web application.
+
+Log capacity issue -
+Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.
+
+Application code -
+
+Processing.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044700001.jpg)
+
+
+Database.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044800001.jpg)
+
+
+ReceiptUploader.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044900001.jpg)
+
+
+ConfigureSSE.ps1 -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044900002.jpg)
+
+Question
+
+You need to resolve the capacity issue.
+What should you do?
+A. Convert the trigger on the Azure Function to an Azure Blob storage trigger
+B. Ensure that the consumption plan is configured correctly to allow scaling
+C. Move the Azure Function to a dedicated App Service Plan
+D. Update the loop starting on line PC09 to process items in parallel
+
+:::tip Answer
+**D**
+:::
+
+## Question #308
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+You are a developer for Litware Inc., a SaaS company that provides a solution for managing employee expenses. The solution consists of an ASP.NET Core Web
+API project that is deployed as an Azure Web App.
+
+Overall architecture -
+Employees upload receipts for the system to process. When processing is complete, the employee receives a summary report email that details the processing results. Employees then use a web application to manage their receipts and perform any additional tasks needed for reimbursement.
+
+Receipt processing -
+Employees may upload receipts in two ways:
+Uploading using an Azure Files mounted folder
+Uploading using the web application
+
+Data Storage -
+Receipt and employee information is stored in an Azure SQL database.
+
+Documentation -
+Employees are provided with a getting started document when they first use the solution. The documentation includes details on supported operating systems for
+Azure File upload, and instructions on how to configure the mounted folder.
+
+Solution details -
+
+Users table -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044500001.png)
+
+
+Web Application -
+You enable MSI for the Web App and configure the Web App to use the security principal name WebAppIdentity.
+
+Processing -
+Processing is performed by an Azure Function that uses version 2 of the Azure Function runtime. Once processing is completed, results are stored in Azure Blob
+Storage and an Azure SQL database. Then, an email summary is sent to the user with a link to the processing report. The link to the report must remain valid if the email is forwarded to another user.
+
+Logging -
+Azure Application Insights is used for telemetry and logging in both the processor and the web application. The processor also has TraceWriter logging enabled.
+Application Insights must always contain all log messages.
+
+Requirements -
+
+Receipt processing -
+Concurrent processing of a receipt must be prevented.
+
+Disaster recovery -
+Regional outage must not impact application availability. All DR operations must not be dependent on application running and must ensure that data in the DR region is up to date.
+
+Security -
+User's SecurityPin must be stored in such a way that access to the database does not allow the viewing of SecurityPins. The web application is the only system that should have access to SecurityPins.
+All certificates and secrets used to secure data must be stored in Azure Key Vault.
+You must adhere to the principle of least privilege and provide privileges which are essential to perform the intended function.
+All access to Azure Storage and Azure SQL database must use the application's Managed Service Identity (MSI).
+Receipt data must always be encrypted at rest.
+All data must be protected in transit.
+User's expense account number must be visible only to logged in users. All other views of the expense account number should include only the last segment, with the remaining parts obscured.
+In the case of a security breach, access to all summary reports must be revoked without impacting other parts of the system.
+
+Issues -
+
+Upload format issue -
+Employees occasionally report an issue with uploading a receipt using the web application. They report that when they upload a receipt using the Azure File
+Share, the receipt does not appear in their profile. When this occurs, they delete the file in the file share and use the web application, which returns a 500 Internal
+Server error page.
+
+Capacity issue -
+During busy periods, employees report long delays between the time they upload the receipt and when it appears in the web application.
+
+Log capacity issue -
+Developers report that the number of log messages in the trace output for the processor is too high, resulting in lost log messages.
+
+Application code -
+
+Processing.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044700001.jpg)
+
+
+Database.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044800001.jpg)
+
+
+ReceiptUploader.cs -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044900001.jpg)
+
+
+ConfigureSSE.ps1 -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0044900002.jpg)
+
+Question
+You need to resolve the log capacity issue.
+What should you do?
+
+A. Create an Application Insights Telemetry Filter
+B. Change the minimum log level in the host.json file for the function
+C. Implement Application Insights Sampling
+D. Set a LogCategoryFilter during startup
+
+:::tip Answer
+**C**
+:::
+
+## Question #309
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+VanArsdel, Ltd. is a global office supply company. The company is based in Canada and has retail store locations across the world. The company is developing several cloud-based solutions to support their stores, distributors, suppliers, and delivery services.
+
+Current environment -
+
+Corporate website -
+The company provides a public website located at http://www.vanarsdelltd.com. The website consists of a React JavaScript user interface, HTML, CSS, image assets, and several APIs hosted in Azure Functions.
+
+Retail Store Locations -
+The company supports thousands of store locations globally. Store locations send data every hour to an Azure Blob storage account to support inventory, purchasing and delivery services. Each record includes a location identifier and sales transaction information.
+
+Requirements -
+The application components must meet the following requirements:
+
+Corporate website -
+Secure the website by using SSL.
+Minimize costs for data storage and hosting.
+Implement native GitHub workflows for continuous integration and continuous deployment (CI/CD).
+Distribute the website content globally for local use.
+Implement monitoring by using Application Insights and availability web tests including SSL certificate validity and custom header value verification.
+The website must have 99.95 percent uptime.
+
+Retail store locations -
+Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using native SQL language queries.
+Audit store sale transaction information nightly to validate data, process sales financials, and reconcile inventory.
+
+Delivery services -
+Store service telemetry data in Azure Cosmos DB by using an Azure Function. Data must include an item id, the delivery vehicle license plate, vehicle package capacity, and current vehicle location coordinates.
+Store delivery driver profile information in Azure Active Directory (Azure AD) by using an Azure Function called from the corporate website.
+
+Inventory services -
+The company has contracted a third-party to develop an API for inventory processing that requires access to a specific blob within the retail store storage account for three months to include read-only access to the data.
+
+Security -
+All Azure Functions must centralize management and distribution of configuration data for different environments and geographies, encrypted by using a company-provided RSA-HSM key.
+Authentication and authorization must use Azure AD and services must use managed identities where possible.
+
+Issues -
+
+Retail Store Locations -
+You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
+
+Question
+HOTSPOT -
+You need to implement event routing for retail store location data.
+Which configurations should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0050900001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0051000001.jpg)
+:::
+
+## Question #310
+
+
+
+
+
+
+
+
+
+
+
 
 
 
