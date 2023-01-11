@@ -9207,6 +9207,761 @@ D. Ensure that the Azure Function is set to use a consumption plan.
 **A,B**
 :::
 
+## Question #320
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+
+Overview -
+You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage.
+You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
+Messages are sent to ContentUploadService.
+Content is processed by ContentAnalysisService.
+After processing is complete, the content is posted to the social network or a rejection message is posted in its place.
+The ContentAnalysisService is deployed with Azure Container Instances from a private Azure Container Registry named contosoimages.
+The solution will use eight CPU cores.
+
+Azure Active Directory -
+Contoso, Ltd. uses Azure Active Directory (Azure AD) for both internal and guest accounts.
+
+Requirements -
+
+ContentAnalysisService -
+The company's data science group built ContentAnalysisService which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd.
+You must create an Azure Function named CheckUserContent to perform the content checks.
+
+Costs -
+You must minimize costs for all Azure services.
+
+Manual review -
+To review content, the user must authenticate to the website portion of the ContentAnalysisService using their Azure AD credentials. The website is built using
+React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes.
+
+High availability -
+All services must run in multiple regions. The failure of any service in a region must not impact overall application availability.
+
+Monitoring -
+An alert must be raised if the ContentUploadService uses more than 80 percent of available CPU cores.
+
+Security -
+You have the following security requirements:
+Any web service accessible over the Internet must be protected from cross site scripting attacks.
+All websites and services must use SSL from a valid root certificate authority.
+Azure Storage access keys must only be stored in memory and must be available only to the service.
+All Internal services must only be accessible from internal Virtual Networks (VNets).
+All parts of the system must support inbound and outbound traffic restrictions.
+All service calls must be authenticated by using Azure AD.
+
+User agreements -
+When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses.
+Information regarding agreements is used by multiple divisions within Contoso, Ltd.
+User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour.
+
+Validation testing -
+When a new version of the ContentAnalysisService is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version.
+
+Issues -
+Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+
+Code -
+
+ContentUploadService -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0006200001.jpg)
+
+ApplicationManifest -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0006300001.jpg)
+
+Question
+HOTSPOT -
+You need to ensure that validation testing is triggered per the requirements.
+How should you complete the code segment? To answer, select the appropriate values in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0006400001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0006500001.jpg)
+:::
+
+## Question #321
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+
+Overview -
+You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage.
+You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
+Messages are sent to ContentUploadService.
+Content is processed by ContentAnalysisService.
+After processing is complete, the content is posted to the social network or a rejection message is posted in its place.
+The ContentAnalysisService is deployed with Azure Container Instances from a private Azure Container Registry named contosoimages.
+The solution will use eight CPU cores.
+
+Azure Active Directory -
+Contoso, Ltd. uses Azure Active Directory (Azure AD) for both internal and guest accounts.
+
+Requirements -
+
+ContentAnalysisService -
+The company's data science group built ContentAnalysisService which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd.
+You must create an Azure Function named CheckUserContent to perform the content checks.
+
+Costs -
+You must minimize costs for all Azure services.
+
+Manual review -
+To review content, the user must authenticate to the website portion of the ContentAnalysisService using their Azure AD credentials. The website is built using
+React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes.
+
+High availability -
+All services must run in multiple regions. The failure of any service in a region must not impact overall application availability.
+
+Monitoring -
+An alert must be raised if the ContentUploadService uses more than 80 percent of available CPU cores.
+
+Security -
+You have the following security requirements:
+Any web service accessible over the Internet must be protected from cross site scripting attacks.
+All websites and services must use SSL from a valid root certificate authority.
+Azure Storage access keys must only be stored in memory and must be available only to the service.
+All Internal services must only be accessible from internal Virtual Networks (VNets).
+All parts of the system must support inbound and outbound traffic restrictions.
+All service calls must be authenticated by using Azure AD.
+
+User agreements -
+When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses.
+Information regarding agreements is used by multiple divisions within Contoso, Ltd.
+User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour.
+
+Validation testing -
+When a new version of the ContentAnalysisService is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version.
+
+Issues -
+Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+
+Code -
+
+ContentUploadService -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0006200001.jpg)
+
+
+ApplicationManifest -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0006300001.jpg)
+
+Question
+You need to deploy the CheckUserContent Azure Function. The solution must meet the security and cost requirements.
+Which hosting model should you use?
+A. Premium plan
+B. App Service plan
+C. Consumption plan
+
+:::tip Answer
+**B**
+:::
+
+## Question #322
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+LabelMaker app -
+Coho Winery produces, bottles, and distributes a variety of wines globally. You are a developer implementing highly scalable and resilient applications to support online order processing by using Azure solutions.
+Coho Winery has a LabelMaker application that prints labels for wine bottles. The application sends data to several printers. The application consists of five modules that run independently on virtual machines (VMs). Coho Winery plans to move the application to Azure and continue to support label creation.
+External partners send data to the LabelMaker application to include artwork and text for custom label designs.
+
+Requirements. Data -
+You identify the following requirements for data management and manipulation:
+Order data is stored as nonrelational JSON and must be queried using SQL.
+Changes to the Order data must reflect immediately across all partitions. All reads to the Order data must fetch the most recent writes.
+
+Requirements. Security -
+You have the following security requirements:
+Users of Coho Winery applications must be able to provide access to documents, resources, and applications to external partners.
+
+External partners must use their own credentials and authenticate with their organization's identity management solution.
+External partner logins must be audited monthly for application use by a user account administrator to maintain company compliance.
+Storage of e-commerce application settings must be maintained in Azure Key Vault.
+E-commerce application sign-ins must be secured by using Azure App Service authentication and Azure Active Directory (AAD).
+Conditional access policies must be applied at the application level to protect company content.
+The LabelMaker application must be secured by using an AAD account that has full access to all namespaces of the Azure Kubernetes Service (AKS) cluster.
+
+Requirements. LabelMaker app -
+Azure Monitor Container Health must be used to monitor the performance of workloads that are deployed to Kubernetes environments and hosted on Azure
+Kubernetes Service (AKS).
+You must use Azure Container Registry to publish images that support the AKS deployment.
+
+Architecture -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0007000001.jpg)
+
+
+Issues -
+Calls to the Printer API App fail periodically due to printer communication timeouts.
+Printer communication timeouts occur after 10 seconds. The label printer must only receive up to 5 attempts within one minute.
+The order workflow fails to run upon initial deployment to Azure.
+
+Order.json -
+Relevant portions of the app files are shown below. Line numbers are included for reference only.
+This JSON file contains a representation of the data for an order that includes a single item.
+
+Order.json -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0007200001.png)
+
+Question
+DRAG DROP -
+You need to deploy a new version of the LabelMaker application to ACR.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0007300001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0007400001.jpg)
+:::
+
+## Question #323
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+LabelMaker app -
+Coho Winery produces, bottles, and distributes a variety of wines globally. You are a developer implementing highly scalable and resilient applications to support online order processing by using Azure solutions.
+Coho Winery has a LabelMaker application that prints labels for wine bottles. The application sends data to several printers. The application consists of five modules that run independently on virtual machines (VMs). Coho Winery plans to move the application to Azure and continue to support label creation.
+External partners send data to the LabelMaker application to include artwork and text for custom label designs.
+
+Requirements. Data -
+You identify the following requirements for data management and manipulation:
+Order data is stored as nonrelational JSON and must be queried using SQL.
+Changes to the Order data must reflect immediately across all partitions. All reads to the Order data must fetch the most recent writes.
+
+Requirements. Security -
+You have the following security requirements:
+Users of Coho Winery applications must be able to provide access to documents, resources, and applications to external partners.
+
+External partners must use their own credentials and authenticate with their organization's identity management solution.
+External partner logins must be audited monthly for application use by a user account administrator to maintain company compliance.
+Storage of e-commerce application settings must be maintained in Azure Key Vault.
+E-commerce application sign-ins must be secured by using Azure App Service authentication and Azure Active Directory (AAD).
+Conditional access policies must be applied at the application level to protect company content.
+The LabelMaker application must be secured by using an AAD account that has full access to all namespaces of the Azure Kubernetes Service (AKS) cluster.
+
+Requirements. LabelMaker app -
+Azure Monitor Container Health must be used to monitor the performance of workloads that are deployed to Kubernetes environments and hosted on Azure
+Kubernetes Service (AKS).
+You must use Azure Container Registry to publish images that support the AKS deployment.
+
+Architecture -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0007000001.jpg)
+
+
+Issues -
+Calls to the Printer API App fail periodically due to printer communication timeouts.
+Printer communication timeouts occur after 10 seconds. The label printer must only receive up to 5 attempts within one minute.
+The order workflow fails to run upon initial deployment to Azure.
+
+Order.json -
+Relevant portions of the app files are shown below. Line numbers are included for reference only.
+This JSON file contains a representation of the data for an order that includes a single item.
+
+Order.json -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0007200001.png)
+
+Question
+You need to access data from the user claim object in the e-commerce web app.
+What should you do first?
+A. Write custom code to make a Microsoft Graph API call from the e-commerce web app.
+B. Assign the Contributor RBAC role to the e-commerce web app by using the Resource Manager create role assignment API.
+C. Update the e-commerce web app to read the HTTP request header values.
+D. Using the Azure CLI, enable Cross-origin resource sharing (CORS) from the e-commerce checkout API to the e-commerce web app.
+
+:::tip Answer
+**C**
+:::
+
+## Question #324
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+VanArsdel, Ltd. is a global office supply company. The company is based in Canada and has retail store locations across the world. The company is developing several cloud-based solutions to support their stores, distributors, suppliers, and delivery services.
+
+Current environment -
+
+Corporate website -
+The company provides a public website located at http://www.vanarsdelltd.com. The website consists of a React JavaScript user interface, HTML, CSS, image assets, and several APIs hosted in Azure Functions.
+
+Retail Store Locations -
+The company supports thousands of store locations globally. Store locations send data every hour to an Azure Blob storage account to support inventory, purchasing and delivery services. Each record includes a location identifier and sales transaction information.
+
+Requirements -
+The application components must meet the following requirements:
+
+Corporate website -
+Secure the website by using SSL.
+Minimize costs for data storage and hosting.
+Implement native GitHub workflows for continuous integration and continuous deployment (CI/CD).
+Distribute the website content globally for local use.
+Implement monitoring by using Application Insights and availability web tests including SSL certificate validity and custom header value verification.
+The website must have 99.95 percent uptime.
+
+Retail store locations -
+Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using native SQL language queries.
+Audit store sale transaction information nightly to validate data, process sales financials, and reconcile inventory.
+
+Delivery services -
+Store service telemetry data in Azure Cosmos DB by using an Azure Function. Data must include an item id, the delivery vehicle license plate, vehicle package capacity, and current vehicle location coordinates.
+Store delivery driver profile information in Azure Active Directory (Azure AD) by using an Azure Function called from the corporate website.
+
+Inventory services -
+The company has contracted a third-party to develop an API for inventory processing that requires access to a specific blob within the retail store storage account for three months to include read-only access to the data.
+
+Security -
+All Azure Functions must centralize management and distribution of configuration data for different environments and geographies, encrypted by using a company-provided RSA-HSM key.
+Authentication and authorization must use Azure AD and services must use managed identities where possible.
+
+Issues -
+
+Retail Store Locations -
+You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
+Question
+HOTSPOT -
+You need to implement the retail store location Azure Function.
+How should you configure the solution? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+![](https://www.examtopics.com/assets/media/exam-media/04273/0007900001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0008100001.png)
+:::
+
+## Question #325
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+VanArsdel, Ltd. is a global office supply company. The company is based in Canada and has retail store locations across the world. The company is developing several cloud-based solutions to support their stores, distributors, suppliers, and delivery services.
+
+Current environment -
+
+Corporate website -
+The company provides a public website located at http://www.vanarsdelltd.com. The website consists of a React JavaScript user interface, HTML, CSS, image assets, and several APIs hosted in Azure Functions.
+
+Retail Store Locations -
+The company supports thousands of store locations globally. Store locations send data every hour to an Azure Blob storage account to support inventory, purchasing and delivery services. Each record includes a location identifier and sales transaction information.
+
+Requirements -
+The application components must meet the following requirements:
+
+Corporate website -
+Secure the website by using SSL.
+Minimize costs for data storage and hosting.
+Implement native GitHub workflows for continuous integration and continuous deployment (CI/CD).
+Distribute the website content globally for local use.
+Implement monitoring by using Application Insights and availability web tests including SSL certificate validity and custom header value verification.
+The website must have 99.95 percent uptime.
+
+Retail store locations -
+Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using native SQL language queries.
+Audit store sale transaction information nightly to validate data, process sales financials, and reconcile inventory.
+
+Delivery services -
+Store service telemetry data in Azure Cosmos DB by using an Azure Function. Data must include an item id, the delivery vehicle license plate, vehicle package capacity, and current vehicle location coordinates.
+Store delivery driver profile information in Azure Active Directory (Azure AD) by using an Azure Function called from the corporate website.
+
+Inventory services -
+The company has contracted a third-party to develop an API for inventory processing that requires access to a specific blob within the retail store storage account for three months to include read-only access to the data.
+
+Security -
+All Azure Functions must centralize management and distribution of configuration data for different environments and geographies, encrypted by using a company-provided RSA-HSM key.
+Authentication and authorization must use Azure AD and services must use managed identities where possible.
+
+Issues -
+
+Retail Store Locations -
+You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
+Question
+HOTSPOT -
+You need to implement the corporate website.
+How should you configure the solution? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0008300001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0008400001.png)
+:::
+
+## Question #326
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+VanArsdel, Ltd. is a global office supply company. The company is based in Canada and has retail store locations across the world. The company is developing several cloud-based solutions to support their stores, distributors, suppliers, and delivery services.
+
+Current environment -
+
+Corporate website -
+The company provides a public website located at http://www.vanarsdelltd.com. The website consists of a React JavaScript user interface, HTML, CSS, image assets, and several APIs hosted in Azure Functions.
+
+Retail Store Locations -
+The company supports thousands of store locations globally. Store locations send data every hour to an Azure Blob storage account to support inventory, purchasing and delivery services. Each record includes a location identifier and sales transaction information.
+
+Requirements -
+The application components must meet the following requirements:
+
+Corporate website -
+Secure the website by using SSL.
+Minimize costs for data storage and hosting.
+Implement native GitHub workflows for continuous integration and continuous deployment (CI/CD).
+Distribute the website content globally for local use.
+Implement monitoring by using Application Insights and availability web tests including SSL certificate validity and custom header value verification.
+The website must have 99.95 percent uptime.
+
+Retail store locations -
+Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using native SQL language queries.
+Audit store sale transaction information nightly to validate data, process sales financials, and reconcile inventory.
+
+Delivery services -
+Store service telemetry data in Azure Cosmos DB by using an Azure Function. Data must include an item id, the delivery vehicle license plate, vehicle package capacity, and current vehicle location coordinates.
+Store delivery driver profile information in Azure Active Directory (Azure AD) by using an Azure Function called from the corporate website.
+
+Inventory services -
+The company has contracted a third-party to develop an API for inventory processing that requires access to a specific blob within the retail store storage account for three months to include read-only access to the data.
+
+Security -
+All Azure Functions must centralize management and distribution of configuration data for different environments and geographies, encrypted by using a company-provided RSA-HSM key.
+Authentication and authorization must use Azure AD and services must use managed identities where possible.
+
+Issues -
+
+Retail Store Locations -
+You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
+Question
+You need to implement a solution to resolve the retail store location data issue.
+Which three Azure Blob features should you enable? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Soft delete
+B. Change feed
+C. Snapshots
+D. Versioning
+E. Object replication
+F. Immutability
+
+:::tip Answer
+**A,B,D**
+:::
+
+## Question #327
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+
+Overview -
+You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage.
+You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
+* Messages are sent to ContentUploadService.
+* Content is processed by ContentAnalysisService.
+* After processing is complete, the content is posted to the social network or a rejection message is posted in its place.
+The ContentAnalysisService is deployed with Azure Container Instances from a private Azure Container Registry named contosoimages.
+The solution will use eight CPU cores.
+
+Azure Active Directory -
+Contoso, Ltd. uses Azure Active Directory (Azure AD) for both internal and guest accounts.
+
+Requirements -
+
+ContentAnalysisService -
+The company's data science group built ContentAnalysisService which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd.
+You must create an Azure Function named CheckUserContent to perform the content checks.
+
+Costs -
+You must minimize costs for all Azure services.
+
+Manual review -
+To review content, the user must authenticate to the website portion of the ContentAnalysisService using their Azure AD credentials. The website is built using
+React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes.
+
+High availability -
+All services must run in multiple regions. The failure of any service in a region must not impact overall application availability.
+
+Monitoring -
+An alert must be raised if the ContentUploadService uses more than 80 percent of available CPU cores.
+
+Security -
+You have the following security requirements:
+Any web service accessible over the Internet must be protected from cross site scripting attacks.
+All websites and services must use SSL from a valid root certificate authority.
+Azure Storage access keys must only be stored in memory and must be available only to the service.
+All Internal services must only be accessible from internal Virtual Networks (VNets).
+All parts of the system must support inbound and outbound traffic restrictions.
+All service calls must be authenticated by using Azure AD.
+
+User agreements -
+When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses.
+Information regarding agreements is used by multiple divisions within Contoso, Ltd.
+User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour.
+
+Validation testing -
+When a new version of the ContentAnalysisService is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version.
+
+Issues -
+Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+
+Code -
+
+ContentUploadService -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0016800001.jpg)
+
+
+ApplicationManifest -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0016900001.jpg)
+
+Question
+You need to store the user agreements.
+Where should you store the agreement after it is completed?
+A. Azure Storage queue
+B. Azure Event Hub
+C. Azure Service Bus topic
+D. Azure Event Grid topic
+
+:::tip Answer
+**B**
+:::
+
+## Question #328
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+
+Overview -
+You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage.
+You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
+* Messages are sent to ContentUploadService.
+* Content is processed by ContentAnalysisService.
+* After processing is complete, the content is posted to the social network or a rejection message is posted in its place.
+The ContentAnalysisService is deployed with Azure Container Instances from a private Azure Container Registry named contosoimages.
+The solution will use eight CPU cores.
+
+Azure Active Directory -
+Contoso, Ltd. uses Azure Active Directory (Azure AD) for both internal and guest accounts.
+
+Requirements -
+
+ContentAnalysisService -
+The company's data science group built ContentAnalysisService which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd.
+You must create an Azure Function named CheckUserContent to perform the content checks.
+
+Costs -
+You must minimize costs for all Azure services.
+
+Manual review -
+To review content, the user must authenticate to the website portion of the ContentAnalysisService using their Azure AD credentials. The website is built using
+React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes.
+
+High availability -
+All services must run in multiple regions. The failure of any service in a region must not impact overall application availability.
+
+Monitoring -
+An alert must be raised if the ContentUploadService uses more than 80 percent of available CPU cores.
+
+Security -
+You have the following security requirements:
+Any web service accessible over the Internet must be protected from cross site scripting attacks.
+All websites and services must use SSL from a valid root certificate authority.
+Azure Storage access keys must only be stored in memory and must be available only to the service.
+All Internal services must only be accessible from internal Virtual Networks (VNets).
+All parts of the system must support inbound and outbound traffic restrictions.
+All service calls must be authenticated by using Azure AD.
+
+User agreements -
+When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses.
+Information regarding agreements is used by multiple divisions within Contoso, Ltd.
+User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour.
+
+Validation testing -
+When a new version of the ContentAnalysisService is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version.
+
+Issues -
+Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+
+Code -
+
+ContentUploadService -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0016800001.jpg)
+
+ApplicationManifest -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0016900001.jpg)
+
+Question
+HOTSPOT -
+You need to implement the bindings for the CheckUserContent function.
+How should you complete the code segment? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+![](https://www.examtopics.com/assets/media/exam-media/04273/0017100001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04273/0017200001.jpg)
+:::
+
+## Question #329
+
+Introductory Info
+Case study -
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+To start the case study -
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+
+Background -
+
+Overview -
+You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage.
+You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
+* Messages are sent to ContentUploadService.
+* Content is processed by ContentAnalysisService.
+* After processing is complete, the content is posted to the social network or a rejection message is posted in its place.
+The ContentAnalysisService is deployed with Azure Container Instances from a private Azure Container Registry named contosoimages.
+The solution will use eight CPU cores.
+
+Azure Active Directory -
+Contoso, Ltd. uses Azure Active Directory (Azure AD) for both internal and guest accounts.
+
+Requirements -
+
+ContentAnalysisService -
+The company's data science group built ContentAnalysisService which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd.
+You must create an Azure Function named CheckUserContent to perform the content checks.
+
+Costs -
+You must minimize costs for all Azure services.
+
+Manual review -
+To review content, the user must authenticate to the website portion of the ContentAnalysisService using their Azure AD credentials. The website is built using
+React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes.
+
+High availability -
+All services must run in multiple regions. The failure of any service in a region must not impact overall application availability.
+
+Monitoring -
+An alert must be raised if the ContentUploadService uses more than 80 percent of available CPU cores.
+
+Security -
+You have the following security requirements:
+Any web service accessible over the Internet must be protected from cross site scripting attacks.
+All websites and services must use SSL from a valid root certificate authority.
+Azure Storage access keys must only be stored in memory and must be available only to the service.
+All Internal services must only be accessible from internal Virtual Networks (VNets).
+All parts of the system must support inbound and outbound traffic restrictions.
+All service calls must be authenticated by using Azure AD.
+
+User agreements -
+When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses.
+Information regarding agreements is used by multiple divisions within Contoso, Ltd.
+User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour.
+
+Validation testing -
+When a new version of the ContentAnalysisService is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version.
+
+Issues -
+Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+
+Code -
+
+ContentUploadService -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0016800001.jpg)
+
+
+ApplicationManifest -
+![](https://www.examtopics.com/assets/media/exam-media/04273/0016900001.jpg)
+
+Question
+You need to configure the ContentUploadService deployment.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Add the following markup to line CS23: type: Private
+B. Add the following markup to line CS24: osType: Windows
+C. Add the following markup to line CS24: osType: Linux
+D. Add the following markup to line CS23: type: Public
+
+:::tip Answer
+**A**
+:::
+
+
+
+
+
+
+
 
 
 
