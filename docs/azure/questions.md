@@ -17,7 +17,7 @@ What should you do?**
 2. B. From the Overview blade, move VM1 to a different subscription.
 3. C. From the Redeploy blade, click Redeploy.
 4. D. From the Profile blade, modify the usage location.
-5. 
+ 
 :::tip Answer
 C
 
