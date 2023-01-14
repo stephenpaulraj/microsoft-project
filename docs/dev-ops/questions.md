@@ -4845,3 +4845,2871 @@ To complete this task, sign in to the Microsoft Azure portal.**
 
 ![](https://www.examtopics.com/assets/media/exam-media/04257/0037100001.jpg)
 :::
+
+## Question #271
+**HOTSPOT -
+Your company uses Team Foundation Server 2013 (TFS 2013).
+You plan to migrate to Azure DevOps.  
+You need to recommend a migration strategy that meets the following requirements:**  
+✑ **Preserves the dates of Team Foundation Version Control changesets**  
+✑ **Preserves the changed dates of work items revisions**
+
+**Minimizes migration effort -**
+
+✑ **Migrates all TFS artifacts  
+What should you recommend? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0037300002.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0037400001.png)
+:::
+
+## Question #272
+**Your company is building a new solution in Java.  
+The company currently uses a SonarQube server to analyze the code of .NET solutions.  
+You need to analyze and monitor the code quality of the Java solution.  
+Which task types should you add to the build pipeline?**
+
+1. A. Octopus
+2. B. Chef
+3. C. CocoaPods
+4. D. Gradle
+
+:::tip Answer
+D
+:::
+
+## Question #273
+**Your company is building a new solution in Java.  
+The company currently uses a SonarQube server to analyze the code of .NET solutions.  
+You need to analyze and monitor the code quality of the Java solution.  
+Which task types should you add to the build pipeline?**
+
+1. A. Maven
+2. B. CocoaPods
+3. C. Xcode
+4. D. Gulp
+
+:::tip Answer
+A
+:::
+
+## Question #274
+**You have an Azure subscription named Subscription1 that contains a custom Azure policy named Policy1. Policy1 is an audit policy that monitors naming convention compliance for the resources deployed to Subscription1.    
+You have a pipeline named Pipeline1 in Azure Pipelines.     Pipeline1 deploys Azure Resource Manager (ARM) resources to Subscription1.    
+You need to ensure that the resources deployed by Pipeline1 comply with Policy1.  
+What should you add to Pipeline1?**
+
+1. A. a pre-deployment task that runs a security and compliance assessment
+2. B. a post-deployment task that runs a security and compliance assessment
+3. C. an ARM template deployment task to assign Policy1 to Subscription1
+4. D. an ARM template deployment task to deploy Policy1 to Subscription1
+
+:::tip Answer
+A
+:::
+
+## Question #275
+**HOTSPOT -
+You plan to use Desired State Configuration (DSC) to maintain the configuration state of virtual machines that run Windows Server.  
+You need to perform the following:  
+✑ Install Internet Information Services (IIS) on the virtual machines.  
+✑ Update the default home page of the IIS web server.  
+How should you configure the DSC configuration file? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0038000001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0038100001.png)
+:::
+
+## Question #276
+**You have a project in Azure DevOps.  
+You need to push notifications about pull requests to a Microsoft Teams channel. The solution must minimize development effort.  
+What should you do?**
+
+1. A. Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in the channel.
+2. B. Use Azure Automation to connect to the Azure DevOps REST API and send messages to Teams.
+3. C. Install the Azure Repos app for Teams and configure a subscription to receive notifications in the channel.
+4. D. Use an Azure function to connect to the Azure DevOps REST API and send messages to Teams.
+
+:::tip Answer
+C
+:::
+
+## Question #277
+**HOTSPOT -  
+You are creating a YAML-based Azure pipeline to deploy an Azure Data Factory instance that has the following requirements:  
+✑ If a Data Factory instance exists already, the instance must be overwritten.  
+✑ No other resources in a resource group named Fabrikam must be affected.  
+How should you complete the code? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0038400001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0038500001.jpg)
+:::
+
+## Question #278
+**HOTSPOT -  
+You manage the Git repository for a large enterprise application.  
+You need to minimize the data size of the repository.  
+How should you complete the commands? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0039900001.png)
+
+:::tip Answer  
+![](https://www.examtopics.com/assets/media/exam-media/04257/0040000001.png)  
+:::
+
+## Question #279
+**SIMULATION -  
+You plan to deploy a template named D:\Deploy.json to a resource group named Deploy-lod123456789.  
+You need to modify the template to meet the following requirements, and then to deploy the template:  
+✑ The address space must be reduced to support only 256 total IP addresses.  
+✑ The subnet address space must be reduced to support only 64 total IP addresses.  
+To complete this task, sign in to the Microsoft Azure portal.**
+
+:::tip Answer  
+1. Sign in to the portal.  
+2. Choose template Deploy-lod123456789  
+3. Select Edit template, and then paste your JSON template code into the code window.  
+4. Change the ASddressPrefixes to 10.0.0.0/24 in order to support only 256 total IP addresses. addressSpace":{"addressPrefixes": ["10.0.0.0/24"]},  
+5. Change the firstSubnet addressprefix to 10.0.0.0/26 to support only 64 total IP addresses.  
+"subnets":[  
+{  
+"name":"firstSubnet",  
+"properties":{  
+"addressPrefix":"10.0.0.0/24"  
+}  
+6. Select Save.  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0040200001.jpg)  
+7. Select Edit parameters, provide values for the parameters that are shown, and then select OK.  
+8. Select Subscription. Choose the subscription you want to use, and then select OK.  
+9. Select Resource group. Choose an existing resource group or create a new one, and then select OK.  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0040400001.jpg)  
+10. Select Create. A new tile on the dashboard tracks the progress of your template deployment.  
+:::
+
+## Question #280
+**SIMULATION -  
+You need to configure an Azure web app named az400-123456789-main to contain an environmental variable named `MAX_ITEMS`. The environmental variable must have a value of 50.  
+To complete this task, sign in to the Microsoft Azure portal.**
+
+:::tip Answer  
+1. In the Azure portal, navigate to the az400-123456789-main app's management page. In the app's left menu, click Configuration > Application settings.
+
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0040600001.png)
+2. Click New Application settings  
+3. Enter the following:  
+✑ Name: MAX_ITEMS  
+✑ Value: 50   
+:::
+
+## Question #281
+**DRAG DROP -  
+You provision an Azure Kubernetes Service (AKS) cluster that has RBAC enabled. You have a Helm chart for a client application.  
+You need to configure Helm and Tiller on the cluster and install the chart.  
+Which three commands should you recommend be run in sequence? To answer, move the appropriate commands from the list of commands to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0040700001.png)
+
+:::tip Answer  
+![](https://www.examtopics.com/assets/media/exam-media/04257/0040700002.png)  
+:::
+
+## Question #282
+**Your company builds a multi-tier web application.
+You use Azure DevOps and host the production application on Azure virtual machines.  
+Your team prepares an Azure Resource Manager template of the virtual machine that you will use to test new features.  
+You need to create a staging environment in Azure that meets the following requirements:  
+✑ Minimizes the cost of Azure hosting  
+✑ Provisions the virtual machines automatically  
+✑ Uses the custom Azure Resource Manager template to provision the virtual machines  
+What should you do?**  
+1. A. In Azure Cloud Shell, run Azure CLI commands to create and delete the new virtual machines in a staging resource group.  
+2. B. In Azure DevOps, configure new tasks in the release pipeline to deploy to Azure Cloud Services.  
+3. C. From Azure Cloud Shell, run Azure PowerShell commands to create and delete the new virtual machines in a staging resource group.  
+4. D. In Azure DevOps, configure new tasks in the release pipeline to create and delete the virtual machines in Azure DevTest Labs.  
+
+:::tip Answer
+D
+:::
+
+## Question #283
+**DRAG DROP -  
+You are implementing an Azure DevOps strategy for mobile devices using App Center.  
+You plan to use distribution groups to control access to releases.  
+You need to create the distribution groups shown in the following table.**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0040900004.png)
+
+**Which type of distribution group should you use for each group? To answer, drag the appropriate group types to the correct locations. Each group type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041000001.png)
+
+:::tip Answer  
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041000002.png)  
+:::
+
+
+## Question #284
+SIMULATION -  
+You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az400123456789acr1 receives a new version of an image named dotnetapp.  
+To complete this task, sign in to the Microsoft Azure portal.
+
+:::tip Answer  
+1. Sign in to the Azure portal.  
+2. Navigate to the container registry az400123456789acr1.  
+3. Under Services, select Webhooks.  
+4. Select the existing webhook https://contoso.com/statushook, and double-click on it to get its properties.  
+5. For Trigger actions select image push  
+Example web hook:  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041200001.jpg)
+:::
+
+## Question #285
+**HOTSPOT -   
+You need to create deployment files for an Azure Kubernetes Service (AKS) cluster. The deployments must meet the provisioning storage requirements shown in the following table.  
+**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041300001.png)
+
+**Which resource type should you use for each deployment? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041300002.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041400001.png)
+:::
+
+## Question #286
+**Your company uses Azure DevOps to manage the build and release processes for applications.  
+You use a Git repository for applications source control.  
+You plan to create a new branch from an existing pull request. Later, you plan to merge the new branch and the target branch of the pull request.  
+You need to use a pull request action to create the new branch. The solution must ensure that the branch uses only a portion of the code in the pull request.  
+Which pull request action should you use?**
+
+1. A. Set as default branch
+2. B. Approve with suggestions
+3. C. Cherry-pick
+4. D. Reactivate
+5. E. Revert
+
+:::tip Answer
+C
+:::
+
+## Question #287
+**DRAG DROP -  
+You manage the Git repository for a large enterprise application.  
+During the development of the application, you use a file named Config.json.  
+You need to prevent Config.json from being committed to the source control whenever changes to the application are committed.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041600001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041700001.png)
+:::
+
+## Question #288
+**You are designing a build pipeline in Azure Pipelines.  
+The pipeline requires a self-hosted agent. The build pipeline will run once daily and will take 30 minutes to complete.  
+You need to recommend a compute type for the agent. The solution must minimize costs.  
+What should you recommend?**  
+
+1. A. an Azure Kubernetes Service (AKS) cluster
+2. B. Azure Container Instances
+3. C. an Azure virtual machine scale set
+4. D. Azure virtual machines
+
+:::tip Answer
+B
+:::
+
+## Question #289
+**HOTSPOT -
+You are finalizing a release in GitHub.  
+You need to apply the following labels to the release:  
+✑ Name  
+✑ Email  
+✑ Release v3.0  
+✑ Release date  
+How should you complete the git command? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041900001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0041900002.png)
+:::
+
+## Question #290
+**You have a project in Azure DevOps. You have an Azure Resource Group deployment project in Microsoft Visual Studio that is checked in to the Azure DevOps project.  
+You need to create a release pipeline that will deploy resources by using Azure Resource Manager templates. The solution must minimize administrative effort.  
+Which task type should you include in the solution?**
+
+1. A. Azure Cloud Service Deployment
+2. B. Azure RM Web App Deployment
+3. C. Azure PowerShell
+4. D. Azure App Service Manage
+
+:::tip Answer
+C
+:::
+
+## Question #291
+**DRAG DROP -
+Your company has a project in Azure DevOps.
+You plan to create a release pipeline that will deploy resources by using Azure Resource Manager templates. The templates will reference secrets stored in Azure
+Key Vault.
+You need to recommend a solution for accessing the secrets stored in the key vault during deployments. The solution must use the principle of least privilege.
+What should you include in the recommendation? To answer, drag the appropriate configurations to the correct targets. Each configuration may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0042100001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0042100002.jpg)
+:::
+
+## Question #292
+**DRAG DROP -
+As part of your application build process, you need to deploy a group of resources to Azure by using an Azure Resource Manager template located on GitHub.  
+Which three action should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0042300001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0042300002.png)
+:::
+
+## Question #293
+**You have an Azure DevOps project that contains a release pipeline and a Git repository.
+When a new code revision is committed to the repository, a build and release is triggered.
+You need to ensure that release information for the pipeline is added automatically to the work items associated to the Git commit.
+What should you do?**  
+
+1. A. Modify the Integrations options for the pipeline.  
+2. B. Modify the post-deployment conditions for the last stage of the pipeline.  
+3. C. Add an agentless job to the pipeline.  
+4. D. Modify the service hooks for the project.  
+
+:::tip Answer
+B
+:::
+
+## Question #294
+**SIMULATION -  
+You plan to add a new web farm that will be published by using an IP address of 10.0.0.5.
+You need to allow traffic from the web farm to an Azure Database for MySQL server named az400-123456789-mysql.  
+To complete this task, sign in to the Microsoft Azure portal.**
+
+:::tip Answer  
+Server-level firewall rules can be used to manage access to an Azure Database for MySQL Server from a specified IP address or a range of IP addresses.  
+Create a server-level firewall rule in the Azure portal   
+1. On the MySQL server page, under Settings heading, click Connection Security to open the Connection Security page for the Azure Database for MySQL.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0042600001.jpg)  
+2. In the firewall rules for the Azure Database for MySQL, you can specify a single IP address or a range of addresses. If you want to limit the rule to a single IP address, type the same address in the Start IP and End IP fields. Opening the firewall enables administrators, users, and application to access any database on the MySQL server to which they have valid credentials.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0042700001.jpg)  
+3. Click Save on the toolbar to save this server-level firewall rule. Wait for the confirmation that the update to the firewall rules is successful.  
+:::
+
+## Question #295
+**Your company has a release pipeline in an Azure DevOps project.
+You plan to deploy to an Azure Kubernetes Services (AKS) cluster by using the Helm package and deploy task.
+You need to install a service in the AKS namespace for the planned deployment.  
+Which service should you install?**
+
+1. A. Azure Container Registry
+2. B. Chart
+3. C. Kubectl
+4. D. Tiller
+
+:::tip Answer
+D
+:::
+
+## Question #296
+**SIMULATION -  
+You need to create a virtual machine template in an Azure DevTest Labs environment named az400-123456789-dtl1. The template must be based on Windows
+Server 2019 Datacenter. Virtual machines created from the template must include the selenium tool and the Google Chrome browser.  
+To complete this task, sign in to the Microsoft Azure portal.**
+
+:::tip Answer  
+1. Open Microsoft Azure Portal  
+2. Select All Services, and then select DevTest Labs in the DEVOPS section.  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0042900001.jpg)
+3. From the list of labs, select the az400-123456789-dtl1 lab.  
+4. On the home page for your lab, select + Add on the toolbar.  
+5. Select the Windows Server 2019 Datacenter base image for the VM.  
+6. Select automation options at the bottom of the page above the Submit button.  
+7. You see the Azure Resource Manager template for creating the virtual machine.  
+8. The JSON segment in the resources section has the definition for the image type you selected earlier.  
+:::
+
+## Question #297
+**HOTSPOT -  
+You are configuring a release pipeline in Azure DevOps as shown in the exhibit.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043000001.jpg)
+
+**Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043000002.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043100001.png)  
+:::
+
+## Question #298
+**DRAG DROP -
+Your company plans to deploy an application to the following endpoints:**  
+✑ **Ten virtual machines hosted in Azure**  
+✑ **Ten virtual machines hosted in an on-premises data center environment**  
+**All the virtual machines have the Azure Pipelines agent.  
+You need to implement a release strategy for deploying the application to the endpoints.  
+What should you recommend using to deploy the application to the endpoints? To answer, drag the appropriate components to the correct endpoints. Each component may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043200003.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043300001.png)  
+:::
+
+## Question #299
+**You plan to use Terraform to deploy an Azure resource group from a Windows system.
+You need to install the required frameworks to support the planned deployment.  
+Which two frameworks should you install? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. Vault
+2. B. Terratest
+3. C. Node.js
+4. D. Yeoman
+5. E. Tiller
+
+:::tip Answer
+B & D
+:::
+
+## Question #300
+**SIMULATION -  
+You plan to implement a CI/CD strategy for an Azure Web App named az400-123456789-main.  
+You need to configure a staging environment for az400-123456789-main.  
+To complete this task, sign in to the Microsoft Azure portal.**
+
+:::tip Answer  
+Add a slot -
+1. In the Azure portal, search for and select App Services and select your app az400-123456789-main.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043500001.png)
+2. In the left pane, select Deployment slots > Add Slot.
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043600001.png)
+3. In the Add a slot dialog box, give the slot a name, and select whether to clone an app configuration from another deployment slot. Select Add to continue.  
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043700001.jpg)
+4. After the slot is added, select Close to close the dialog box. The new slot is now shown on the Deployment slots page.  
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043800001.png)
+:::
+
+## Question #301
+**SIMULATION -  
+You have several apps that use an Azure SQL Database named db1.
+You need to ensure that queries to db1 are tuned by Azure over time. The solution must only apply to db1.  
+To complete this task, sign in to the Microsoft Azure portal.**
+
+:::tip Answer  
+1. To enable automatic tuning on a single database, navigate to the database in the Azure portal and select Automatic tuning.  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0043900001.jpg)
+2. Select the automatic tuning options you want to enable and select Apply.  
+**Note: Individual automatic tuning settings can be separately configured for each database. You can manually configure an individual automatic tuning option, or specify that an option inherits its settings from the server.**  
+:::
+
+## Question #302
+**HOTSPOT -  
+You use Azure Pipelines to manage the build and deployment of apps.
+You are planning the release strategies for a new app.
+You need to choose strategies for the following scenarios:
+Releases will be made available to users who are grouped by their tolerance for software faults.**
+
+✑ **Code will be deployed to enable functionality that will be available in later releases of the app.**  
+✑ **When a new release occurs, the existing deployment will remain active to minimize recovery time if a return to the previous version is required.  
+Which strategy should you choose for each scenario? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0044000003.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0044100001.png)
+:::
+
+## Question #303
+**DRAG DROP -  
+You have a project in Azure DevOps.  
+You need to associate an automated test to a test case.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0044300001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0044400001.png)
+:::
+
+## Question #304
+**DRAG DROP -  
+You have an Azure Kubernetes Service (AKS) cluster.  
+You need to deploy an application to the cluster by using Azure DevOps.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0044500001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0044600001.png)
+:::
+
+## Question #305
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed.  
+You have a policy stating that approvals must occur within eight hours.  
+You discover that deployment fail if the approvals take longer than two hours.  
+You need to ensure that the deployments only fail if the approvals take longer than eight hours.  
+Solution: From Post-deployment conditions, you modify the Time between re-evaluation of gates option.  
+Does this meet the goal?**
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+B
+:::
+
+## Question #306
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed.  
+You have a policy stating that approvals must occur within eight hours.  
+You discover that deployment fail if the approvals take longer than two hours.  
+You need to ensure that the deployments only fail if the approvals take longer than eight hours.  
+Solution: From Pre-deployment conditions, you modify the Time between re-evaluation of gates option.  
+Does this meet the goal?**
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+A
+:::
+
+## Question #307
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed.  
+You have a policy stating that approvals must occur within eight hours.  
+You discover that deployment fail if the approvals take longer than two hours.  
+You need to ensure that the deployments only fail if the approvals take longer than eight hours.  
+Solution: From Pre-deployment conditions, you modify the Timeout setting for pre-deployment approvals.  
+Does this meet the goal?**
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+B
+:::
+
+## Question #308
+**DRAG DROP -  
+You are defining release strategies for two applications as shown in the following table.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045000001.png)
+
+**Which release strategy should you use for each application? To answer, drag the appropriate release strategies to the correct applications. Each release strategy may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045100001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045100002.png)
+:::
+
+## Question #309
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed.  
+You have a policy stating that approvals must occur within eight hours.  
+You discover that deployment fail if the approvals take longer than two hours.  
+You need to ensure that the deployments only fail if the approvals take longer than eight hours.  
+Solution: From Post-deployment conditions, you modify the Timeout setting for post-deployment approvals.  
+Does this meet the goal?** 
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+B
+:::
+
+## Question #310
+**DRAG DROP -
+You have an Azure DevOps organization named Contoso.
+You have 10 Azure virtual machines that run Windows Server 2019. The virtual machines host an application that you build and deploy by using Azure Pipelines.  
+Each virtual machine has the Web Server (IIS) role installed and configured.  
+You need to ensure that the web server configurations on the virtual machines is maintained automatically. The solution must provide centralized management of the configuration settings and minimize management overhead.  
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045300001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045400001.png)
+:::
+
+## Question #311
+**You have a free tier of an Azure DevOps organization named Contoso. Contoso contains 10 private projects. Each project has multiple jobs with no dependencies. The build process requires access to resource files located in an on-premises file system.  
+You frequently run the jobs on five self-hosted agents but experience long build times and frequently queued builds.
+You need to minimize the number of queued builds and the time it takes to run the builds.  
+What should you do?**  
+1. A. Configure the pipelines to use the Microsoft-hosted agents.  
+2. B. Register additional self-hosted agents.  
+3. C. Purchase self-hosted parallel jobs.  
+4. D. Purchase Microsoft-hosted parallel jobs.  
+
+:::tip Answer
+B
+:::
+
+## Question #312
+**SIMULATION -  
+You need to ensure that an Azure web app named az400-123456789-main supports rolling upgrades. The solution must ensure that only 10 percent of users who connect to az400-123456789-main use update versions of the app.
+The solution must minimize administrative effort.  
+To complete this task, sign in to the Microsoft Azure portal.**  
+:::tip Answer  
+Set up staging environments in Azure App Service  
+1. Open Microsoft Azure Portal  
+2. Log into your Azure account, select your app's resource page, in the left pane, select Deployment slots > Add Slot.  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045600001.png)
+3. In the Add a slot dialog box, give the slot a name, and select whether to clone an app configuration from another deployment slot. Select Add to continue.  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045700001.png)  
+4. After the slot is added, select Close to close the dialog box. The new slot is now shown on the Deployment slots page. By default, Traffic % is set to 0 for the new slot, with all customer traffic routed to the production slot.  
+5. Select the new deployment slot to open that slot's resource page.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0045800001.png)
+6. Change TRAFFIC % to 10  
+:::
+
+## Question #313
+**You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. Sub1 contains an Azure SQL database named DB1.  
+You need to create a release pipeline that uses the Azure SQL Database Deployment task to update DB1.  
+Which artifact should you deploy?**
+
+1. A. a BACPAC
+2. B. a DACPAC
+3. C. an LDF file
+4. D. an MDF file
+
+:::tip Answer
+B
+:::
+
+## Question #314
+**HOTSPOT -  
+You have a project in Azure DevOps.  
+You plan to create a build pipeline that will deploy resources by using Azure Resource Manager templates. The templates will reference secrets stored in Azure
+Key Vault.  
+You need to ensure that you can dynamically generate the resource ID of the key vault during template deployment.
+What should you include in the template? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0046000001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0046100001.png)
+:::
+
+## Question #315
+**Your company has a project in Azure DevOps for a new web application.  
+The company uses ServiceNow for change management.  
+You need to ensure that a change request is processed before any components can be deployed to the production environment.  
+What are two ways to integrate ServiceNow into the Azure DevOps release pipeline? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. Define a deployment control that invokes the ServiceNow REST API.
+2. B. Define a pre-deployment gate before the deployment to the Prod stage.
+3. C. Define a deployment control that invokes the ServiceNow SOAP API.
+4. D. Define a post-deployment gate after the deployment to the QA stage.
+
+:::tip Answer
+B & D
+:::
+
+## Question #316
+**Your company develops an application named App1 that is deployed in production.  
+As part of an application update, a new service is being added to App1. The new service requires access to an application named App2 that is currently in development.  
+You need to ensure that you can deploy the update to App1 before App2 becomes available. You must be able to enable the service in App1 once App2 is deployed.  
+What should you do?**
+
+1. A. Implement a feature flag.
+2. B. Create a fork in the build.
+3. C. Create a branch in the build.
+4. D. Implement a branch policy.
+
+:::tip Answer
+A
+:::
+
+## Question #317
+**You have a private distribution group that contains provisioned and unprovisioned devices.  
+You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center.  
+What should you do?**
+
+1. A. Request the Apple ID associated with the user of each device.
+2. B. Register the devices on the Apple Developer portal.
+3. C. Create an active subscription in App Center Test.
+4. D. Add the device owner to the organization in App Center.
+
+:::tip Answer
+B
+:::
+
+## Question #318
+**You are developing an iOS application by using Azure DevOps.
+You need to test the application manually on 10 devices without releasing the application to the public.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. Create a Microsoft Intune device compliance policy.
+2. B. Deploy a certificate from an internal certification authority (CA) to each device.
+3. C. Register the application in the iTunes store.
+4. D. Onboard the devices into Microsoft Intune.
+5. E. Distribute a new release of the application.
+6. F. Register the IDs of the devices in the Apple Developer portal.
+
+:::tip Answer
+B & F
+:::
+
+## Question #319
+**You have a private distribution group that contains provisioned and unprovisioned devices.  
+You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center.  
+What should you do?**
+
+1. A. Select Register devices and sign my app.
+2. B. Create an active subscription in App Center Test.
+3. C. Create an unsigned build.
+4. D. Add the device owner to the collaborators group.
+
+:::tip Answer
+A
+:::
+
+## Question #320
+**SIMULATION -  
+You plan to deploy a website that will be hosted in two Azure regions.  
+You need to create an Azure Traffic Manager profile named az400123456789n1-tm in a resource group named RG1lod123456789. The solution must ensure that users will always connect to a copy of the website that is in the same country.  
+To complete this task, sign in to the Microsoft Azure portal.**
+
+:::tip Answer  
+1. Go to the Azure portal, navigate to Traffic Manager profiles and click on the Add button to create a routing profile.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0046800001.jpg)
+2, In the Create Traffic Manager profile, enter, or select these settings:
+
+Name: az400123456789n1-tm -
+
+Routing method: Geographic -
+
+Resource group: RG1lod123456789 -  
+![](https://www.examtopics.com/assets/media/exam-media/04257/0046900001.jpg)  
+**Note: Traffic Manager profiles can be configured to use the Geographic routing method so that users are directed to specific endpoints (Azure, External or Nested) based on which geographic location their DNS query originates from. This empowers Traffic Manager customers to enable scenarios where knowing a user's geographic region and routing them based on that is important.**  
+:::
+
+## Question #321
+**Your company has an on-premises Bitbucket Server that is used for Git-based source control. The server is protected by a firewall that blocks inbound Internet traffic.  
+You plan to use Azure DevOps to manage the build and release processes.  
+Which two components are required to integrate Azure DevOps and Bitbucket? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. a deployment group
+2. B. a Microsoft-hosted agent
+3. C. service hooks
+4. D. a self-hosted agent
+5. E. an External Git service connection
+
+:::tip Answer
+D & E
+:::
+
+## Question #322
+**HOTSPOT -  
+Your company uses Git as a source code control system for a complex app named App1.  
+You plan to add a new functionality to App1.  
+You need to design a branching model for the new functionality.  
+Which branch lifetime and branch time should you use in the branching model? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:
+**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047100001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047200001.png)  
+:::
+
+## Question #323
+**You have a project in Azure DevOps.  
+You plan to deploy a self-hosted agent by using an unattended configuration script.  
+Which two values should you define in the configuration script? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. authorization credentials
+2. B. the project name
+3. C. the deployment group name
+4. D. the organization URL
+5. E. the agent pool name
+
+:::tip Answer
+A & D
+:::
+
+## Question #324
+**HOTSPOT -  
+You have an Azure virtual machine named VM1 that runs Linux.
+You plan to deploy the Desired State Configuration (DSC) extension to VM1.  
+You need to grant the Log Analytics agent the appropriate directory permissions.  
+How should you complete the command? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047400001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047400002.jpg)  
+:::
+
+## Question #325
+**HOTSPOT -  
+You are using PowerShell to administer Azure Log Analytics workspaces.  
+You need to list the available workspaces and their properties.  
+How should you complete the command? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047500001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047500002.png)
+:::
+
+## Question #326
+**You have Azure Pipelines and GitHub integrated as a source code repository.  
+The build pipeline has continuous integration enabled.  
+You plan to trigger an automated build whenever code changes are committed to the repository.  
+You need to ensure that the system will wait until a build completes before queuing another build.  
+What should you implement?**
+
+1. A. path filters
+2. B. batch changes
+3. C. scheduled builds
+4. D. branch filters
+
+:::tip Answer
+B
+:::
+
+## Question #327
+**You are using GitHub as a source code repository.  
+You create a client-side Git hook on the commit-msg event.   The hook requires that each commit message contain a custom work item tag.  
+You need to make a commit that does not have a work item tag.  
+Which git commit parameter should you use?**
+
+1. A. --squash
+2. B. --no-verify
+3. C. --message ''
+4. D. --no-post-rewrite
+
+:::tip Answer
+B
+:::
+
+## Question #328
+**You have a private distribution group that contains provisioned and unprovisioned devices.  
+You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center.  
+What should you do?**
+
+1. A. Select Register devices and sign my app.
+2. B. Create an active subscription in App Center Test.
+3. C. Add the device owner to the organization in App Center.
+4. D. Create an unsigned build.
+
+:::tip Answer
+A
+:::
+
+## Question #329
+**DRAG DROP -  
+You need to deploy Internet Information Services (IIS) to an Azure virtual machine that runs Windows Server 2019.  
+How should you complete the Desired State Configuration (DSC) configuration script? To answer, drag the appropriate values to the correct locations. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047900001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0047900002.png)
+:::
+
+## Question #330
+**HOTSPOT -  
+You plan to use Desired State Configuration (DSC) to maintain the configuration of a server that runs Windows Server 2019.
+The server must have the following features installed:  
+✑ A web server  
+✑ An email server  
+How should you complete the DSC configuration file? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0048100001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0048200001.jpg)
+:::
+
+## Question #331
+**You have a private distribution group that contains provisioned and unprovisioned devices.  
+You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center.  
+What should you do?**
+
+1. A. Register the devices on the Apple Developer portal.
+2. B. Add the device owner to the organization in App Center.
+3. C. Create an unsigned build.
+4. D. Add the device owner to the collaborators group.
+
+:::tip Answer
+A
+:::
+
+## Question #332
+**Your company uses Azure Artifacts for package management.  
+You need to configure an upstream source in Azure Artifacts for Python packages.  
+Which repository type should you use as an upstream source?**
+
+1. A. npmjs.org
+2. B. PyPI
+3. C. Maven Central
+4. D. third-party trusted Python
+
+:::tip Answer
+B
+:::
+
+## Question #333
+**You have a GitHub repository that contains workflows. The workflows contain steps that execute predefined actions.   Each action has one or more versions.  
+You need to request the specific version of an action to execute.  
+Which three attributes can you use to identify the version?  Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. the SHA-based hashes
+2. B. the tag
+3. C. the runner
+4. D. the branch
+5. E. the serial
+
+:::tip Answer
+A, B & D
+:::
+
+## Question #334
+**You have an Azure subscription that contains multiple Azure pipelines.  
+You need to deploy a monitoring solution for the pipelines.  The solution must meet the following requirements:  
+✑ Parse logs from multiple sources  
+✑ Identify the root cause of issues.  
+What advanced feature of a monitoring tool should you include in the solution?**
+
+1. A. analytics
+2. B. synthetic monitoring
+3. C. directed monitoring
+4. D. Alert Management
+
+:::tip Answer
+A
+:::
+
+## Question #335
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You use Azure Pipelines to build and test a React.js application.  
+You have a pipeline that has a single job.  
+You discover that installing JavaScript packages from npm takes approximately five minutes each time you run the pipeline.  
+You need to recommend a solution to reduce the pipeline execution time.  
+Solution: You recommend using pipeline artifacts.  
+Does this meet the goal?**
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+A
+:::
+
+## Question #336
+**You use GitHub for source control of .NET applications.
+You need to deploy a documentation solution that meets the following requirements:  
+✑ Documents will be written in Markdown as developers make code changes.  
+✑ Changes to the documents will trigger the recompilation of a static website.  
+✑ Users will access the documents from the static website.  
+✑ Documents will be stored in a GitHub repository.  
+Which two tools can you use to compile the website? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.**
+
+1. A. Word Press
+2. B. Jekyll
+3. C. DocFX
+4. D. caret
+5. E. Medium
+
+:::tip Answer
+A & B
+:::
+
+## Question #337
+**You have an on-premises app named App1 that accesses Azure resources by using credentials stored in a configuration file.  
+You plan to upgrade App1 to use an Azure service principal.  
+What is required for App1 to programmatically sign in to Azure Active Directory (Azure AD)?**
+
+1. A. the application ID, a client secret, and the object ID
+2. B. a client secret, the object ID, and the tenant ID
+3. C. the application ID, a client secret, and the tenant ID
+4. D. the application ID, a client secret, and the subscription ID
+
+:::tip Answer
+C
+:::
+
+## Question #338
+**HOTSPOT -  
+You have a virtual machine that runs Windows Server 2019 and is managed by using Desired State Configuration (DSC).  
+You have the following DSC configuration.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0048900001.jpg)
+
+**You have the following Local Configuration Manager (LCM) configuration.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0049000001.jpg)
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0049000002.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0049100001.jpg)
+:::
+
+## Question #339
+**DRAG DROP -  
+You have a web app named App1 that is hosted on multiple servers. App1 uses Application Insights in Azure Monitor.
+You need to compare the daily CPU usage from the last week for all servers.  
+How should you complete the query? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all.  
+You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0049200001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0049200002.jpg)
+:::
+
+## Question #340
+**You have an Azure subscription that contains 50 virtual machines.  
+You plan to manage the configuration of the virtual machines by using Azure Automation State Configuration.  
+You need to create the Desired State Configuration (DSC) configuration files.  
+How should you structure the code blocks?**
+
+1. A. Node > Configuration > Resource
+2. B. Configuration > Resource > Node
+3. C. Resource > Configuration > Node
+4. D. Configuration > Node > Resource
+
+:::tip Answer
+A
+:::
+
+## Question #341
+**Your team uses Azure Pipelines to deploy applications.
+You need to ensure that when a failure occurs during the build or release process, all the team members are notified by using Microsoft Teams. The solution must minimize development effort.  
+What should you do?**
+
+1. A. Install the Azure Boards app for Teams and configure a subscription to receive notifications in a channel.
+2. B. Use Azure Automation to connect to the Azure DevOps REST API and notify the team members.
+3. C. Use an Azure function to connect to the Azure DevOps REST API and notify the team members.
+4. D. Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in a channel.
+
+:::tip Answer
+D
+:::
+
+## Question #342
+**DRAG DROP -  
+You have an app named App1. You have a Log Analytics workspace named Workspace1 that contains a table named AppEvents. App1 writes logs to
+Workspace1.  
+You need to query the AppEvents table. The solution must meet the following requirements:  
+✑ Only query rows for a column named Name that starts with the following text: "Clicked Create New Ticket."  
+✑ Calculate the number of daily clicks per user.  
+✑ Return the top 10 users based on their number of clicks for any day.  
+✑ Sort the results based on the highest number of clicks.  
+✑ Ignore any users who have less than three daily clicks.  
+In which order should you arrange the query statements? To answer, move all statements from the list of statements to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0049400006.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0049400007.jpg)
+:::
+
+## Question #343
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.  
+- Calculate CPU usage averages once every minute.  
+
+The commit history of the POC branch must replace the history of the default branch.    
+The Azure DevOps dashboard must display the metrics shown in the following table.   
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008400013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.
+Administrative effort must be minimized.  
+
+**Question**  
+
+**HOTSPOT -  
+You need to configure the alert for VM1. The solution must meet the technical requirements.  
+Which two settings should you configure? To answer, select the appropriate settings in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008500004.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008600001.jpg)
+:::
+
+## Question #344
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.  
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.
+- Calculate CPU usage averages once every minute.
+
+The commit history of the POC branch must replace the history of the default branch.  
+The Azure DevOps dashboard must display the metrics shown in the following table:
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050700013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.  
+
+Administrative effort must be minimized.  
+
+**Question**
+
+**DRAG DROP -  
+You are configuring the Azure DevOps dashboard. The solution must meet the technical requirements.  
+Which widget should you use for each metric? To answer, drag the appropriate widgets to the correct metrics. Each widget may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050800002.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050900001.jpg)
+:::
+
+## Question #345
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes  
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:
+The initial databases for new environments must contain both schema and reference data.
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.
+- Calculate CPU usage averages once every minute.
+
+The commit history of the POC branch must replace the history of the default branch.
+The Azure DevOps dashboard must display the metrics shown in the following table:
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050700013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.  
+
+Administrative effort must be minimized.  
+
+**Question**
+
+**You plan to deploy a new database environment. The solution must meet the technical requirements.  
+You need to prepare the database for the deployment.  
+How should you format the export?**  
+
+1. A. NDF
+2. B. BACPAC
+3. C. DACPAC
+4. D. MDF
+
+:::tip Answer
+B
+:::
+
+## Question #346
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes  
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:
+The initial databases for new environments must contain both schema and reference data.
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.
+- Calculate CPU usage averages once every minute.
+
+The commit history of the POC branch must replace the history of the default branch.
+The Azure DevOps dashboard must display the metrics shown in the following table:
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050700013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.  
+
+Administrative effort must be minimized.  
+
+**Question**
+
+**You need to meet the technical requirements for monitoring App1.  
+What should you use?**
+
+1. A. Splunk
+2. B. Azure Application Insights
+3. C. Azure Advisor
+4. D. App Service logs
+
+:::tip Answer
+B
+:::
+
+## Question #347
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**  
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.  
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012200001.jpg)
+
+**Question**
+
+**HOTSPOT -  
+How should you complete the code to initialize App Center in the mobile application? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012200002.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012300001.png)
+:::
+
+## Question #348
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**You add the virtual machines as managed nodes in Azure Automation State Configuration.  
+You need to configure the managed computers in Pool7.  
+What should you do next?**
+
+1. A. Modify the RefreshMode property of the Local Configuration Manager (LCM).
+2. B. Run the Register-AzureRmAutomationDscNode Azure Powershell cmdlet.
+3. C. Modify the ConfigurationMode property of the Local Configuration Manager (LCM).
+4. D.Install PowerShell Core.
+
+:::tip Answer
+B
+:::
+
+## Question #349
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**DRAG DROP -  
+You need to implement the code flow strategy for Project2 in Azure DevOps.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012700001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012800001.png)
+:::
+
+## Question #350
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**DRAG DROP -   
+You need to configure Azure Automation for the computers in Pool7.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012900002.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0013000001.png)
+:::
+
+## Question #351
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.  
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**   
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021000001.jpg)
+
+**Question**
+
+**HOTSPOT -  
+How should you configure the release retention policy for the investment planning depletions suite? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021100001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021200001.png)  
+:::
+
+## Question #352
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.  
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**   
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021000001.jpg)
+
+**Question**
+
+**HOTSPOT -  
+You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service.  
+What should you include in the solution? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021300001.png)
+
+:::tip Answer  
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021400001.png)  
+:::
+
+## Question #353
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.  
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**   
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021000001.jpg)
+
+**Question**
+
+**DRAG DROP -  
+Which package feed access levels should be assigned to the Developers and Team Leaders groups for the investment planning applications suite? To answer, drag the appropriate access levels to the correct groups. Each access level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021500001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0021600001.png)
+:::
+
+## Question #354
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.  
+- Calculate CPU usage averages once every minute.  
+
+The commit history of the POC branch must replace the history of the default branch.    
+The Azure DevOps dashboard must display the metrics shown in the following table.   
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008400013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.
+Administrative effort must be minimized.  
+
+**Question**
+
+**You need to meet the technical requirements for controlling access to Azure DevOps.  
+What should you use?**
+
+1. A. Azure Multi-Factor Authentication (MFA)
+2. B. on-premises firewall rules
+3. C. conditional access policies in Azure AD
+4. D. Azure role-based access control (Azure RBAC)
+
+:::tip Answer
+C
+:::
+
+## Question #355
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.  
+- Calculate CPU usage averages once every minute.  
+
+The commit history of the POC branch must replace the history of the default branch.    
+The Azure DevOps dashboard must display the metrics shown in the following table.   
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008400013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.
+Administrative effort must be minimized.  
+
+**Question**
+
+**You need to configure Azure Pipelines to control App2 builds.  
+Which authentication method should you use?**
+
+1. A. Windows NTLM
+2. B. certificate
+3. C. SAML
+4. D. personal access token (PAT)
+
+:::tip Answer
+D
+:::
+
+## Question #356
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.  
+- Calculate CPU usage averages once every minute.  
+
+The commit history of the POC branch must replace the history of the default branch.    
+The Azure DevOps dashboard must display the metrics shown in the following table.   
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008400013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.
+Administrative effort must be minimized.  
+
+**Question**
+
+**DRAG DROP -  
+You need to configure authentication for App1. The solution must support the planned changes.  
+Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0022100001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0022200001.jpg)
+:::
+
+## Question #357
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.  
+- Calculate CPU usage averages once every minute.  
+
+The commit history of the POC branch must replace the history of the default branch.    
+The Azure DevOps dashboard must display the metrics shown in the following table.   
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008400013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.
+Administrative effort must be minimized.  
+
+**Question**
+
+**DRAG DROP -  
+You need to replace the existing DevOps tools to support the planned changes.  
+What should you use? To answer, drag the appropriate tools to the correct targets. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0024900004.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0025000001.png)
+:::
+
+## Question #358
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.  
+- Calculate CPU usage averages once every minute.  
+
+The commit history of the POC branch must replace the history of the default branch.    
+The Azure DevOps dashboard must display the metrics shown in the following table.   
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008400013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.
+Administrative effort must be minimized.  
+
+**Question**
+
+**You need to the merge the POC branch into the default branch. The solution must meet the technical requirements.  
+Which command should you run?**
+
+1. A. git rebase
+2. B. git merge --squash
+3. C. git push
+4. D. git merge --allow-unrelated-histories
+
+:::tip Answer
+A
+:::
+
+## Question #359
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**
+
+**General Overview -**  
+Woodgrove Bank is a financial services company that has a main office in the United Kingdom.  
+Technical Requirements and Planned Changes
+
+**Planned Changes -**  
+Woodgrove Bank plans to implement the following project management changes:  
+Implement Azure DevOps for project tracking.  
+Centralize source code control in private GitHub repositories.  
+Implement Azure Pipelines for build pipelines and release pipelines.  
+Woodgrove Bank plans to implement the following changes to the identity environment:  
+Deploy an Azure AD tenant named woodgrovebank.com.  
+Sync the Active Directory domain to Azure AD.  
+Configure App1 to use a service principal.  
+Integrate GitHub with Azure AD.  
+
+Woodgrove Bank plans to implement the following changes to the core apps:  
+Migrate App1 to ASP.NET Core.  
+Integrate Azure Pipelines and the third-party build tool used to develop App2.  
+Woodgrove Bank plans to implement the following changes to the DevOps environment:  
+Deploy App1 to Azure App Service.  
+Implement source control for the DB1 schema.  
+Migrate all the source code from TFS1 to GitHub.  
+Deploy App2 to an Azure virtual machine named VM1.  
+Merge the POC branch into the GitHub default branch.  
+Implement an Azure DevOps dashboard for stakeholders to monitor development progress.  
+
+**Technical Requirements -**  
+Woodgrove Bank identifies the following technical requirements:  
+The initial databases for new environments must contain both schema and reference data.  
+An Azure Monitor alert for VM1 must be configured to meet the following requirements:  
+- Be triggered when average CPU usage exceeds 80 percent for 15 minutes.  
+- Calculate CPU usage averages once every minute.  
+
+The commit history of the POC branch must replace the history of the default branch.    
+The Azure DevOps dashboard must display the metrics shown in the following table.   
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0008400013.png)
+
+Access to Azure DevOps must be restricted to specific IP addresses.  
+Page load times for App1 must be captured and monitored.
+Administrative effort must be minimized.  
+
+**Question**
+
+You need to perform the GitHub code migration. The solution must support the planned changes for the DevOps environment.  
+What should you use?
+
+1. A. git clone
+2. B. GitHub Importer
+3. C. Import repository in Azure Repos
+4. D. git-tfs
+
+:::tip Answer
+D
+:::
+
+## Question #360
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**HOTSPOT -  
+How should you configure the filters for the Project5 trigger? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0038800001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0038900001.png)  
+:::
+
+## Question #361
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**In Azure DevOps, you create Project3.  
+You need to meet the requirements of the project.  
+What should you do first?**
+
+1. A. From Azure DevOps, modify the build definition.
+2. B. From SonarQube, obtain an authentication token.
+3. C. From Azure DevOps, create a service endpoint.
+4. D. From SonarQube, create a project.
+
+:::tip Answer
+C
+:::
+
+## Question #362
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**You need to implement Project4.  
+What should you do first?**
+
+1. A. Add the FROM instruction in the Dockerfile file.
+2. B. Add a Copy and Publish Build Artifacts task to the build pipeline.
+3. C. Add a Docker task to the build pipeline.
+4. D. Add the MAINTAINER instruction in the Dockerfile file.
+
+:::tip Answer
+C
+:::
+
+## Question #363
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**DRAG DROP -  
+You need to recommend a procedure to implement the build agent for Project1.  
+Which three actions should you recommend be performed in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0039200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0039300001.png)
+:::
+
+## Question #364
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Contoso, Ltd. is a manufacturing company that has a main office in Chicago.
+ 
+**Existing Environment -**  
+Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.  
+The Azure DevOps organization includes:  
+The Docker extension  
+A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2019  
+The Azure subscription contains an Azure Automation account.  
+
+**Requirements -**
+
+**Planned changes -**  
+Contoso plans to create projects in Azure DevOps as shown in the following table.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012500001.jpg)
+
+**Technical requirements -**  
+Contoso identifies the following technical requirements:
+Implement build agents for Project1.  
+Whenever possible, use Azure resources.  
+Avoid using deprecated technologies.  
+Implement a code flow strategy for Project2 that will:  
+- Enable Team2 to submit pull requests for Project2.  
+- Enable Team2 to work independently on changes to a copy of Project2.  
+- Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2.  
+
+Whenever possible, implement automation and minimize administrative effort.  
+Implement Project3, Project5, Project6, and Project7 based on the planned changes.  
+Implement Project4 and configure the project to push Docker images to Azure Container Registry.  
+
+**Question**
+
+**DRAG DROP -  
+You need to implement Project6.  
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0039400001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0039500001.png)
+:::
+
+## Question #365
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**  
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.  
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012200001.jpg)
+
+**Question**
+
+**To resolve the current technical issue, what should you do to the Register-AzureRmAutomationDscNode command?**
+
+1. A. Change the value of the ConfigurationMode parameter.
+2. B. Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook
+3. C. Add the AllowModuleOverwrite parameter.
+4. D. Add the DefaultProfile parameter.
+
+:::tip Answer
+A
+:::
+
+## Question #366
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**  
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.  
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012200001.jpg)
+
+**Question**  
+
+**Which branching strategy should you recommend for the investment planning applications suite?**
+
+1. A. release isolation
+2. B. main only
+3. C. development isolation
+4. D. feature isolation
+
+:::tip Answer
+D
+:::
+
+## Question #367
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**  
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.  
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012200001.jpg)
+
+**Question**
+
+**What should you use to implement the code quality restriction on the release pipeline for the investment planning applications suite?**
+
+1. A. a pre-deployment approval
+2. B. a deployment gate
+3. C. a post-deployment approval
+4. D. a trigger
+
+:::tip Answer
+A
+:::
+
+## Question #368
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**  
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.  
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012200001.jpg)
+
+**Question**
+
+**HOTSPOT -  
+How should you configure the release retention policy for the investment planning applications suite? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050100001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050200001.png)  
+:::
+
+## Question #369
+**Introductory InfoCase Study -**  
+This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.  
+To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.  
+
+**To start the case study -**  
+To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.
+
+**Overview -**  
+Litware, Inc. is an independent software vendor (ISV). Litware has a main office and five branch offices.
+
+**Existing Environment -**  
+
+**Application Architecture -**  
+The company's primary application is a single monolithic retirement fund management system based on ASP.NET web forms that use logic written in VB.NET.  
+Some new sections of the application are written in C#.
+Variations of the application are created for individual customers. Currently, there are more than 80 live code branches in the application's code base.  
+The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access the source code by using TFS proxy servers.
+
+**Architectural Issues -**  
+Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, as dependencies are not obvious to individual developers.  
+Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve.  
+Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive.
+Customers report that bug reporting is overly complex.
+
+**Requirements -**  
+
+**Planned Changes -**  
+Litware plans to develop a new suite of applications for investment planning. The investment planning applications will require only minor integration with the existing retirement fund management system.  
+The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers.  
+Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of packages.  
+Litware has started an internal cloud transformation process and plans to use cloud-based services whenever suitable.
+Litware wants to become proactive in detecting failures, rather than always waiting for customer bug reports.  
+
+**Technical Requirements -**  
+The company's investment planning applications suite must meet the following technical requirements:  
+New incoming connections through the firewall must be minimized.  
+Members of a group named Developers must be able to install packages.  
+The principle of least privilege must be used for all permission assignments.  
+A branching strategy that supports developing new functionality in isolation must be used.  
+Members of a group named Team Leaders must be able to create new packages and edit the permissions of package feeds.  
+Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use.  
+By default, all releases must remain available for 30 days, except for production releases, which must be kept for 60 days.  
+Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release.  
+The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HTTPS.  
+The required operating system configuration for the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test server is configured the same way when the servers are created and checked periodically.  
+
+**Current Technical Issue -**  
+The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations.  
+Azure Automation State Configuration nodes are registered by using the following command.
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0012200001.jpg)
+
+**Question**
+
+**HOTSPOT -  
+Where should the build and release agents for the investment planning applications suite run? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050300001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04257/0050400001.jpg)
+:::
