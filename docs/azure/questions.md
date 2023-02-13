@@ -4347,7 +4347,7 @@ Select and Place:**
 ![](https://www.examtopics.com/assets/media/exam-media/04273/0056200001.jpg)
 
 :::tip Answer
-![](https://www.examtopics.com/assets/media/exam-media/04273/0056200001.jpg)
+![](https://www.examtopics.com/assets/media/exam-media/04273/0056300001.jpg)
 :::
 
 ## Question \#234

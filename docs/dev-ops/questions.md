@@ -390,7 +390,7 @@ Black Duck can be used to make sure that all the open source libraries conform t
 
 **Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.**
 
-1. A. No adjustment required. Most Voted
+1. A. No adjustment required. 
 2. B. Maven
 3. C. Bamboo
 4. D. CMAKE
@@ -694,7 +694,7 @@ Telemetry.
 3. Select your account and subscription > Select the Existing resource you created in the Azure portal > Click Register.
 :::
 
-**Question #39**
+## Question #39
 
 **Your company uses ServiceNow for incident management.
 You develop an application that runs on Azure.
@@ -780,7 +780,7 @@ Which Application Insights tool should you use to analyze each behavior? To answ
 ![](https://www.examtopics.com/assets/media/exam-media/04257/0005200002.png)
 :::
 
-**Question #44**
+## Question #44
 
 **Your company is building a mobile app that targets Android and iOS devices.
 Your team uses Azure DevOps to manage all work items and release cycles.
@@ -837,15 +837,17 @@ To complete this task, sign in to the Microsoft Azure portal.**
 3. Select Add an alert rule
 4. Configure the alert rule as per below and click Ok.
 
-Source: Alert on Metrics -
-Resource Group: az400-123456789-main
+**Source:** Alert on Metrics -
 
-Resource: az400-123456789-main -
+**Resource Group:** az400-123456789-main
 
-Threshold: 5 -
+**Resource:** az400-123456789-main -
 
-Period: Over the last 5 minutes -
-Webhook: https://contoso.com/notify
+**Threshold:** 5 -
+
+**Period:** Over the last 5 minutes -
+
+**Webhook:** https://contoso.com/notify
 
 ![](https://www.examtopics.com/assets/media/exam-media/04257/0005600001.jpg)
 :::
@@ -874,7 +876,8 @@ To enable Boot diagnostics on an existing virtual machine, follow these steps:
 3. In Boot diagnostics settings, change the status to On, and from the Storage account drop-down list, select the storage account az400lod123456789stor.
 4. Save the change.
 
-![](https://www.examtopics.com/assets/media/exam-media/04257/0005800001.png)\
+![](https://www.examtopics.com/assets/media/exam-media/04257/0005800001.png)
+
 **You must restart the virtual machine for the change to take effect.**
 :::
 
@@ -1344,10 +1347,10 @@ Which two actions should you perform? Each correct answer presents part of the s
 
 **NOTE: Each correct selection is worth one point**
 
-1. A. Add the <InitialSamplingPercentage>99</InitialSamplingPercentage> parameter to the ApplicationInsights.config file.
+1. A. Add the \<InitialSamplingPercentage\> 99 \<InitialSamplingPercentage\> parameter to the ApplicationInsights.config file.
 2. B. From the code of the application, enable adaptive sampling.
 3. C. From the code of the application, add Azure Application Insights telemetry.
-4. D. Add the <MaxTelemetryItemsPerSecond>5</MaxTelemetryItemsPerSecond> parameter to the ApplicationInsights.config file.
+4. D. Add the \<MaxTelemetryItemsPerSecond\> 5 \<MaxTelemetryItemsPerSecond\> parameter to the ApplicationInsights.config file.
 5. E. From the code of the application, disable adaptive sampling.
 
 :::tip Answer
@@ -1538,7 +1541,7 @@ You manage a project in Azure DevOps.
 You need to prevent the configuration of the project from changing over time.**
 
 **Solution: Implement Continuous Assurance for the project.
-Does this meet the goal?
+Does this meet the goal?**
 
 1. A. Yes
 2. B. No
@@ -1703,6 +1706,8 @@ What should you use in the risk graph to identify the number of dependencies and
 
 **You have an Azure subscription that contains the resources shown in the following table.**
 
+![](https://www.examtopics.com/assets/media/exam-media/04257/0013200001.png)
+
 **You plan to create a linked service in DF1. The linked service will connect to SQL1 by using Microsoft SQL Server authentication. The password for the SQL Server login will be stored - in KV1.
 You need to configure DF1 to retrieve the password when the data factory connects to SQL1. The solution must use the principle of least privilege.
 How should you configure DF1? To answer, select the appropriate options in the answer area.**
@@ -1865,7 +1870,7 @@ What should you include in the recommendation? To answer, drag the appropriate c
 ![](https://www.examtopics.com/assets/media/exam-media/04257/0014200001.png)
 :::
 
-Question #102
+## Question #102
 
 **DRAG DROP -**
 
@@ -2128,7 +2133,7 @@ Which three actions should you perform in sequence? To answer, move the appropri
 
 **You are configuring an Azure DevOps deployment pipeline. The deployed application will authenticate to a web service by using a secret stored in an Azure key vault.
 You need to use the secret in the deployment pipeline.
-Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.**
 
 **Select and Place:**
 
@@ -2537,8 +2542,11 @@ To complete this task, sign in to the Microsoft Azure portal.**
 ![](https://www.examtopics.com/assets/media/exam-media/04257/0019300001.png)
 
 5. Change the following settings:
+   
 ✑ Destination Port range: 8080
+
 ✑ Protocol. TCP
+
 ✑ Action: Allow
 
 **Note: By default, Azure DevOps Server uses TCP Port 8080.**
@@ -3295,7 +3303,7 @@ You need to recommend a development environment that meets the following require
 
 ✑ **Supports remote workers and hot-desking environments**
 
-✑ Supports developers who use browsers, tablets, and **Chromebooks**
+✑ **Supports developers who use browsers, tablets, and Chromebooks**
 
 **What should you recommend?**
 
@@ -3623,7 +3631,8 @@ After you answer a question in this section, you will NOT be able to return to i
 You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements:**  
 ✑ **The builds must access an on-premises dependency management system.**  
 ✑ **The build outputs must be stored as Server artifacts in Azure DevOps.**  
-The source code must be stored in a Git repository in Azure DevOps.
+
+**The source code must be stored in a Git repository in Azure DevOps.**
 
 **Solution: Install and configure a self-hosted build agent on an on-premises machine. Configure the build pipeline to use the Default agent pool. Include the Java
 Tool Installer task in the build pipeline.
@@ -3923,10 +3932,13 @@ Select and Place:**
 ## Question #218
 **You use a Git repository in Azure Repos to manage the source code of a web application. Developers commit changes directly to the default branch.
 You need to implement a change management procedure that meets the following requirements:**
+
 ✑ **The default branch must be protected, and new changes must be built in the feature branches first.**  
 ✑ **Changes must be reviewed and approved by at least one release manager before each merge.**  
 ✑ **Changes must be brought into the default branch by using pull requests.**  
-What should you configure in Azure Repos?
+
+**What should you configure in Azure Repos?**
+
 1. A. branch policies of the default branch
 2. B. Services in Project Settings
 3. C. Deployment pools in Project Settings
@@ -5069,9 +5081,10 @@ Select and Place:**
 
 
 ## Question #284
-SIMULATION -  
-You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az400123456789acr1 receives a new version of an image named dotnetapp.  
-To complete this task, sign in to the Microsoft Azure portal.
+**SIMULATION -**  
+
+**You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az400123456789acr1 receives a new version of an image named dotnetapp.  
+To complete this task, sign in to the Microsoft Azure portal.**
 
 :::tip Answer  
 1. Sign in to the Azure portal.  
