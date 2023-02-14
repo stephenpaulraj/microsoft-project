@@ -868,3 +868,868 @@ What should you do first?**
 :::tip Answer
 D
 :::
+
+## Question #51
+**HOTSPOT -  
+You are building an Azure Stream Analytics job that queries reference data from a product catalog file. The file is updated daily.  
+The reference data input details for the file are shown in the Input exhibit. (Click the Input tab.)**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0010200001.jpg)
+
+**The storage account container view is shown in the Refdata exhibit. (Click the Refdata tab.)**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0010300001.png)
+
+**You need to configure the Stream Analytics job to pick up the new reference data.  
+What should you configure? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0010400001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0010500001.jpg)
+:::
+
+## Question #52
+**HOTSPOT -  
+You have the following Azure Stream Analytics query.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0010700001.png)
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0010800001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0010800002.jpg)
+:::
+
+## Question #53
+**HOTSPOT -  
+You are building a database in an Azure Synapse Analytics serverless SQL pool.  
+You have data stored in Parquet files in an Azure Data Lake Storege Gen2 container.  
+Records are structured as shown in the following sample.  
+{  
+"id": 123,  
+"address_housenumber": "19c",  
+"address_line": "Memory Lane",  
+"applicant1_name": "Jane",  
+"applicant2_name": "Dev"  
+}  
+The records contain two applicants at most.  
+You need to build a table that includes only the address fields.  
+How should you complete the Transact-SQL statement? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**  
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011000001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011100001.jpg)
+:::
+
+## Question #54
+**HOTSPOT -  
+You have an Azure Synapse Analytics dedicated SQL pool named Pool1 and an Azure Data Lake Storage Gen2 account named Account1.  
+You plan to access the files in Account1 by using an external table.  
+You need to create a data source in Pool1 that you can reference when you create the external table.  
+How should you complete the Transact-SQL statement? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011200001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011300001.jpg)
+:::
+
+## Question #55
+**You have an Azure subscription that contains an Azure Blob Storage account named storage1 and an Azure Synapse Analytics dedicated SQL pool named
+Pool1.  
+You need to store data in storage1. The data will be read by Pool1. The solution must meet the following requirements:  
+Enable Pool1 to skip columns and rows that are unnecessary in a query.  
+✑ Automatically create column statistics.  
+✑ Minimize the size of files.  
+Which type of file should you use?**
+
+1. A. JSON
+2. B. Parquet
+3. C. Avro
+4. D. CSV
+
+:::tip Answer
+B
+:::
+
+## Question #56
+**DRAG DROP -  
+You plan to create a table in an Azure Synapse Analytics dedicated SQL pool.  
+Data in the table will be retained for five years. Once a year, data that is older than five years will be deleted.  
+You need to ensure that the data is distributed evenly across partitions. The solution must minimize the amount of time required to delete old data.  
+How should you complete the Transact-SQL statement? To answer, drag the appropriate values to the correct targets.   Each value may be used once, more than once, or not at all.   You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011500001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011600001.jpg)
+:::
+
+## Question #57
+**HOTSPOT -  
+You have an Azure Data Lake Storage Gen2 service.  
+You need to design a data archiving solution that meets the following requirements:  
+✑ Data that is older than five years is accessed infrequently but must be available within one second when requested.  
+✑ Data that is older than seven years is NOT accessed.  
+✑ Costs must be minimized while maintaining the required availability.  
+How should you manage the data? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011800001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0011900001.jpg)
+:::
+
+## Question #58
+**HOTSPOT -  
+You plan to create an Azure Data Lake Storage Gen2 account.
+You need to recommend a storage solution that meets the following requirements:  
+✑ Provides the highest degree of data resiliency  
+✑ Ensures that content remains available for writes if a primary data center fails  
+What should you include in the recommendation? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012100003.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012200001.jpg)
+:::
+
+## Question #59
+**You need to implement a Type 3 slowly changing dimension (SCD) for product category data in an Azure Synapse Analytics dedicated SQL pool.  
+You have a table that was created by using the following Transact-SQL statement.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012300001.png)
+
+**Which two columns should you add to the table? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A  
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012300002.png)
+
+2. B  
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012300003.png)
+
+3. C  
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012300004.png)
+
+4. D  
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012300005.png)
+
+5. E
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012300006.png)
+
+:::tip Answer
+BE
+:::
+
+## Question #60
+**DRAG DROP -  
+You have an Azure subscription.  
+You plan to build a data warehouse in an Azure Synapse Analytics dedicated SQL pool named pool1 that will contain staging tables and a dimensional model.  
+Pool1 will contain the following tables.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012500001.png)
+
+**You need to design the table storage for pool1. The solution must meet the following requirements:  
+✑ Maximize the performance of data loading operations to Staging.WebSessions.  
+✑ Minimize query times for reporting queries against the dimensional model.  
+Which type of table distribution should you use for each table? To answer, drag the appropriate table distribution types to the correct tables. Each table distribution type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012600001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012600002.jpg)
+:::
+
+## Question #61
+**HOTSPOT -  
+You have an Azure Synapse Analytics dedicated SQL pool.  
+You need to create a table named FactInternetSales that will be a large fact table in a dimensional model.   FactInternetSales will contain 100 million rows and two columns named SalesAmount and OrderQuantity. Queries executed on FactInternetSales will aggregate the values in SalesAmount and OrderQuantity from the last year for a specific product.  The solution must minimize the data size and query execution time.   
+How should you complete the code? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012800001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0012900001.jpg)
+:::
+
+## Question #62
+**You have an Azure Synapse Analytics dedicated SQL pool that contains a table named Table1. Table1 contains the following:  
+✑ One billion rows  
+✑ A clustered columnstore index  
+✑ A hash-distributed column named Product Key  
+✑ A column named Sales Date that is of the date data type and cannot be null  
+Thirty million rows will be added to Table1 each month.  
+You need to partition Table1 based on the Sales Date column.  The solution must optimize query performance and data loading.
+How often should you create a partition?**
+
+1. A. once per month
+2. B. once per year
+3. C. once per day
+4. D. once per week
+
+:::tip Answer
+B
+:::
+
+## Question #63
+**You have an Azure Databricks workspace that contains a Delta Lake dimension table named Table1.  
+Table1 is a Type 2 slowly changing dimension (SCD) table.  
+You need to apply updates from a source table to Table1.  
+Which Apache Spark SQL operation should you use?**
+
+1. A. CREATE
+2. B. UPDATE
+3. C. ALTER
+4. D. MERGE
+
+:::tip Answer
+D
+:::
+
+## Question #64
+**You are designing an Azure Data Lake Storage solution that will transform raw JSON files for use in an analytical workload.  
+You need to recommend a format for the transformed files. The solution must meet the following requirements:  
+✑ Contain information about the data types of each column in the files.  
+✑ Support querying a subset of columns in the files.  
+✑ Support read-heavy analytical workloads.  
+✑ Minimize the file size.  
+What should you recommend?**
+
+1. A. JSON
+2. B. CSV
+3. C. Apache Avro
+4. D. Apache Parquet
+
+:::tip Answer
+D
+:::
+
+## Question #65
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You have an Azure Storage account that contains 100 GB of files. The files contain rows of text and numerical values. 75% of the rows contain description data that has an average length of 1.1 MB.  
+You plan to copy the data from the storage account to an enterprise data warehouse in Azure Synapse Analytics.  
+You need to prepare the files to ensure that the data copies quickly.  
+Solution: You modify the files to ensure that each row is less than 1 MB.  
+Does this meet the goal?**
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+A
+:::
+
+## Question #66
+**You plan to create a dimension table in Azure Synapse Analytics that will be less than 1 GB.  
+You need to create the table to meet the following requirements:  
+✑ Provide the fastest query time.  
+✑ Minimize data movement during queries.  
+Which type of table should you use?** 
+
+1. A. replicated
+2. B. hash distributed
+3. C. heap
+4. D. round-robin
+
+:::tip Answer
+A
+:::
+
+## Question #67
+**You are designing a dimension table in an Azure Synapse Analytics dedicated SQL pool.   
+You need to create a surrogate key for the table. The solution must provide the fastest query performance.  
+What should you use for the surrogate key?**
+
+1. A. a GUID column
+2. B. a sequence object
+3. C. an IDENTITY column
+
+:::tip Answer
+C
+:::
+
+## Question #68
+**HOTSPOT -  
+You have an Azure Data Lake Storage Gen2 account that contains a container named container1. You have an Azure Synapse Analytics serverless SQL pool that contains a native external table named dbo.Table1. The source data for dbo.Table1 is stored in container1. The folder structure of container1 is shown in the following exhibit.**
+
+![](https://img.examtopics.com/dp-203/image262.png)
+
+**The external data source is defined by using the following statement.**
+
+![](https://img.examtopics.com/dp-203/image263.png)
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.**
+
+![](https://img.examtopics.com/dp-203/image264.png)
+
+:::tip Answer
+![](https://img.examtopics.com/dp-203/image265.png)
+:::
+
+## Question #69
+**You have an Azure Synapse Analytics dedicated SQL pool.  
+You need to create a fact table named Table1 that will store sales data from the last three years. The solution must be optimized for the following query operations:  
+• Show order counts by week.  
+• Calculate sales totals by region.  
+• Calculate sales totals by product.  
+• Find all the orders from a given month.  
+Which data should you use to partition Table1?**
+
+1. A. product
+2. B. month
+3. C. week
+4. D. region
+
+:::tip Answer
+B
+:::
+
+## Question #70
+**You are designing the folder structure for an Azure Data Lake Storage Gen2 account.  
+You identify the following usage patterns:  
+• Users will query data by using Azure Synapse Analytics serverless SQL pools and Azure Synapse Analytics serverless Apache Spark pools.  
+• Most queries will include a filter on the current year or week.  
+• Data will be secured by data source.**
+
+**You need to recommend a folder structure that meets the following requirements:  
+• Supports the usage patterns  
+• Simplifies folder security  
+• Minimizes query times**
+
+**Which folder structure should you recommend?**
+
+1. A. \DataSource\SubjectArea\YYYY\WW\FileData_YYYY_MM_DD.parquet
+2. B. \DataSource\SubjectArea\YYYY-WW\FileData_YYYY_MM_DD.parquet
+3. C. DataSource\SubjectArea\WW\YYYY\FileData_YYYY_MM_DD.parquet
+4. D. \YYYY\WW\DataSource\SubjectArea\FileData_YYYY_MM_DD.parquet
+5. E. WW\YYYY\SubjectArea\DataSource\FileData_YYYY_MM_DD.parquet
+
+:::tip Answer
+A
+:::
+
+## Question #71
+**You have an Azure Synapse Analytics dedicated SQL pool named Pool1. Pool1 contains a table named table1.**
+
+**You load 5 TB of data into table1.**
+
+**You need to ensure that columnstore compression is maximized for table1.**
+
+**Which statement should you execute?**
+
+1. A. DBCC INDEXDEFRAG (pool1, table1)
+2. B. DBCC DBREINDEX (table1)
+3. C. ALTER INDEX ALL on table1 REORGANIZE
+4. D. ALTER INDEX ALL on table1 REBUILD
+
+:::tip Answer
+D
+:::
+
+## Question #72
+**HOTSPOT -  
+You plan to create a real-time monitoring app that alerts users when a device travels more than 200 meters away from a designated location.  
+You need to design an Azure Stream Analytics job to process the data for the planned app. The solution must minimize the amount of code developed and the number of technologies used.
+What should you include in the Stream Analytics job? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0014700001.jpg)
+
+:::tip Answer  
+![](https://www.examtopics.com/assets/media/exam-media/04259/0014800001.jpg)  
+:::
+
+## Question #73
+**A company has a real-time data analysis solution that is hosted on Microsoft Azure. The solution uses Azure Event Hub to ingest data and an Azure Stream  
+Analytics cloud job to analyze the data. The cloud job is configured to use 120 Streaming Units (SU).  
+You need to optimize performance for the Azure Stream Analytics job.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. Implement event ordering.
+2. B. Implement Azure Stream Analytics user-defined functions (UDF).
+3. C. Implement query parallelization by partitioning the data output.
+4. D. Scale the SU count for the job up.
+5. E. Scale the SU count for the job down.
+6. F. Implement query parallelization by partitioning the data input.
+
+:::tip Answer
+DF 
+:::
+
+## Question #74
+**You need to trigger an Azure Data Factory pipeline when a file arrives in an Azure Data Lake Storage Gen2 container.  
+Which resource provider should you enable?**
+
+1. A. Microsoft.Sql
+2. B. Microsoft.Automation
+3. C. Microsoft.EventGrid
+4. D. Microsoft.EventHub
+
+:::tip Answer
+C
+:::
+
+## Question #75
+**You plan to perform batch processing in Azure Databricks once daily.  
+Which type of Databricks cluster should you use?**
+
+1. A. High Concurrency
+2. B. automated
+3. C. interactive
+
+:::tip Answer
+B
+:::
+
+## Question #76 
+**HOTSPOT -  
+You are processing streaming data from vehicles that pass through a toll booth.  
+You need to use Azure Stream Analytics to return the license plate, vehicle make, and hour the last vehicle passed during each 10-minute window.  
+How should you complete the query? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0015200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0015300001.png)
+:::
+
+## Question #77
+**You have an Azure Data Factory instance that contains two pipelines named Pipeline1 and Pipeline2.  
+Pipeline1 has the activities shown in the following exhibit.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0015500001.jpg)
+
+**Pipeline2 has the activities shown in the following exhibit.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0015500002.jpg)
+
+**You execute Pipeline2, and Stored procedure1 in Pipeline1 fails.  
+What is the status of the pipeline runs?**
+
+1. A. Pipeline1 and Pipeline2 succeeded.
+2. B. Pipeline1 and Pipeline2 failed.
+3. C. Pipeline1 succeeded and Pipeline2 failed.
+4. D. Pipeline1 failed and Pipeline2 succeeded.
+
+:::tip Answer
+A
+:::
+
+## Question #78
+**HOTSPOT -  
+A company plans to use Platform-as-a-Service (PaaS) to create the new data pipeline process. The process must meet the following requirements:  
+Ingest:  
+✑ Access multiple data sources.  
+✑ Provide the ability to orchestrate workflow.  
+✑ Provide the capability to run SQL Server Integration Services packages.  
+Store:  
+✑ Optimize storage for big data workloads.  
+✑ Provide encryption of data at rest.  
+✑ Operate with no size limits.  
+Prepare and Train:  
+✑ Provide a fully-managed and interactive workspace for exploration and visualization.  
+✑ Provide the ability to program in R, SQL, Python, Scala, and Java.  
+Provide seamless user authentication with Azure Active Directory.**
+
+**Model & Serve:  
+✑ Implement native columnar storage.  
+✑ Support for the SQL language  
+✑ Provide support for structured streaming.  
+You need to build the data integration pipeline.  
+Which technologies should you use? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0015800001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0015900001.jpg)
+:::
+
+## Question #79
+**DRAG DROP -  
+You have the following table named Employees.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016100001.png)
+
+**You need to calculate the employee_type value based on the hire_date value.  
+How should you complete the Transact-SQL statement? To answer, drag the appropriate values to the correct targets.   Each value may be used once, more than once, or not at all.   You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016100002.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016200001.png)
+:::
+
+## Question #80
+**DRAG DROP -  
+You have an Azure Synapse Analytics workspace named WS1.  
+You have an Azure Data Lake Storage Gen2 container that contains JSON-formatted files in the following format.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016400001.png)
+
+**You need to use the serverless SQL pool in WS1 to read the files.  
+How should you complete the Transact-SQL statement? To answer, drag the appropriate values to the correct targets.   Each value may be used once, more than once, or not at all.   You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016500001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016600001.png)
+:::
+
+## Question #81
+**DRAG DROP -  
+You have an Apache Spark DataFrame named temperatures. A sample of the data is shown in the following table.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016700001.png)
+
+**You need to produce the following table by using a Spark SQL query.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016800001.png)
+
+**How should you complete the query? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all.  
+You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016800002.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0016900001.jpg)
+:::
+
+## Question #82
+**You have an Azure Data Factory that contains 10 pipelines.
+You need to label each pipeline with its main purpose of either ingest, transform, or load. The labels must be available for grouping and filtering when using the monitoring experience in Data Factory.  
+What should you add to each pipeline?**
+
+1. A. a resource tag
+2. B. a correlation ID
+3. C. a run group ID
+4. D. an annotation
+
+:::tip Answer
+D
+:::
+
+## Question #83
+**HOTSPOT -  
+The following code segment is used to create an Azure Databricks cluster.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0017100001.png)
+
+**For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0017200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0017200002.png)
+:::
+
+## Question #84
+**You are designing a statistical analysis solution that will use custom proprietary Python functions on near real-time data from Azure Event Hubs.  
+You need to recommend which Azure service to use to perform the statistical analysis. The solution must minimize latency.  
+What should you recommend?**
+
+1. A. Azure Synapse Analytics
+2. B. Azure Databricks
+3. C. Azure Stream Analytics
+4. D. Azure SQL Database
+
+:::tip Answer
+C
+:::
+
+## Question #85
+**HOTSPOT -  
+You have an enterprise data warehouse in Azure Synapse Analytics that contains a table named FactOnlineSales. The table contains data from the start of 2009 to the end of 2012.  
+You need to improve the performance of queries against FactOnlineSales by using table partitions. The solution must meet the following requirements:  
+✑ Create four partitions based on the order date.  
+✑ Ensure that each partition contains all the orders placed during a given calendar year.  
+How should you complete the T-SQL command? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0017500001.jpg)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0017600001.jpg)
+:::
+
+## Question #86
+**You need to implement a Type 3 slowly changing dimension (SCD) for product category data in an Azure Synapse Analytics dedicated SQL pool.  
+You have a table that was created by using the following Transact-SQL statement.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0017700001.png)
+
+**Which two columns should you add to the table? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. [EffectiveStartDate] [datetime] NOT NULL,
+2. B. [CurrentProductCategory] [nvarchar] (100) NOT NULL,
+3. C. [EffectiveEndDate] [datetime] NULL,
+4. D. [ProductCategory] [nvarchar] (100) NOT NULL,
+5. E. [OriginalProductCategory] [nvarchar] (100) NOT NULL,
+
+:::tip Answer
+BE 
+:::
+
+## Question #87
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are designing an Azure Stream Analytics solution that will analyze Twitter data.  
+You need to count the tweets in each 10-second window. The solution must ensure that each tweet is counted only once.  
+Solution: You use a hopping window that uses a hop size of 10 seconds and a window size of 10 seconds.  
+Does this meet the goal?**
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+B
+:::
+
+## Question #88
+**Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.  
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.  
+You are designing an Azure Stream Analytics solution that will analyze Twitter data.  
+You need to count the tweets in each 10-second window. The solution must ensure that each tweet is counted only once.  
+Solution: You use a hopping window that uses a hop size of 5 seconds and a window size 10 seconds.  
+Does this meet the goal?**
+
+1. A. Yes
+2. B. No
+
+:::tip Answer
+B
+:::
+
+## Question #89
+**HOTSPOT -  
+You are building an Azure Stream Analytics job to identify how much time a user spends interacting with a feature on a webpage.  
+The job receives events based on user actions on the webpage. Each row of data represents an event. Each event has a type of either 'start' or 'end'.  
+You need to calculate the duration between start and end events.  
+How should you complete the query? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018000001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018100001.png)
+:::
+
+## Question #90
+**You are creating an Azure Data Factory data flow that will ingest data from a CSV file, cast columns to specified types of data, and insert the data into a table in an
+Azure Synapse Analytic dedicated SQL pool. The CSV file contains three columns named username, comment, and date.  
+The data flow already contains the following:  
+✑ A source transformation.  
+✑ A Derived Column transformation to set the appropriate types of data.  
+✑ A sink transformation to land the data in the pool.  
+You need to ensure that the data flow meets the following requirements:  
+✑ All valid rows must be written to the destination table.  
+✑ Truncation errors in the comment column must be avoided proactively.  
+✑ Any rows containing comment values that will cause truncation errors upon insert must be written to a file in blob storage.  
+Which two actions should you perform? Each correct answer presents part of the solution.  
+NOTE: Each correct selection is worth one point.**
+
+1. A. To the data flow, add a sink transformation to write the rows to a file in blob storage.
+2. B. To the data flow, add a Conditional Split transformation to separate the rows that will cause truncation errors.
+3. C. To the data flow, add a filter transformation to filter out rows that will cause truncation errors.
+4. D. Add a select transformation to select only the rows that will cause truncation errors.
+
+:::tip Answer
+AB 
+:::
+
+## Question #91
+**DRAG DROP -  
+You need to create an Azure Data Factory pipeline to process data for the following three departments at your company:    Ecommerce, retail, and wholesale. The solution must ensure that data can also be processed for the entire company.  
+How should you complete the Data Factory data flow script? To answer, drag the appropriate values to the correct targets.   Each value may be used once, more than once, or not at all.   You may need to drag the split bar between panes or scroll to view content.  
+NOTE: Each correct selection is worth one point.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018400002.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018500001.png)
+:::
+
+## Question #92
+**DRAG DROP -  
+You have an Azure Data Lake Storage Gen2 account that contains a JSON file for customers. The file contains two attributes named FirstName and LastName.  
+You need to copy the data from the JSON file to an Azure Synapse Analytics table by using Azure Databricks. A new column must be created that concatenates the FirstName and LastName values.  
+You create the following components:  
+✑ A destination table in Azure Synapse  
+✑ An Azure Blob storage container  
+✑ A service principal  
+Which five actions should you perform in sequence next in is Databricks notebook? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018600004.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018700001.png)
+:::
+
+## Question #93
+**HOTSPOT -  
+You build an Azure Data Factory pipeline to move data from an Azure Data Lake Storage Gen2 container to a database in an Azure Synapse Analytics dedicated
+SQL pool.  
+Data in the container is stored in the following folder structure.  
+/in/{YYYY}/{MM}/{DD}/{HH}/{mm}  
+The earliest folder is /in/2021/01/01/00/00. The latest folder is /in/2021/01/15/01/45.  
+You need to configure a pipeline trigger to meet the following requirements:  
+✑ Existing data must be loaded.  
+✑ Data must be loaded every 30 minutes.  
+✑ Late-arriving data of up to two minutes must be included in the load for the time at which the data should have arrived.  
+How should you configure the pipeline trigger? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018800004.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0018900001.png)
+:::
+
+## Question #94
+**HOTSPOT -  
+You are designing a near real-time dashboard solution that will visualize streaming data from remote sensors that connect to the internet. The streaming data must be aggregated to show the average value of each 10-second interval. The data will be discarded after being displayed in the dashboard.  
+The solution will use Azure Stream Analytics and must meet the following requirements:  
+✑ Minimize latency from an Azure Event hub to the dashboard.  
+✑ Minimize the required storage.  
+✑ Minimize development effort.  
+What should you include in the solution? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point  
+Hot Area:** 
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019000004.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019100001.png)
+:::
+
+## Question #95
+**DRAG DROP -  
+You have an Azure Stream Analytics job that is a Stream Analytics project solution in Microsoft Visual Studio. The job accepts data generated by IoT devices in the JSON format.  
+You need to modify the job to accept data generated by the IoT devices in the Protobuf format.  
+Which three actions should you perform from Visual Studio on sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019200001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019200002.png)
+:::
+
+## Question #96
+**You have an Azure Storage account and a data warehouse in Azure Synapse Analytics in the UK South region.  
+You need to copy blob data from the storage account to the data warehouse by using Azure Data Factory. The solution must meet the following requirements:  
+✑ Ensure that the data remains in the UK South region at all times.  
+✑ Minimize administrative effort.  
+Which type of integration runtime should you use?**
+
+1. A. Azure integration runtime
+2. B. Azure-SSIS integration runtime
+3. C. Self-hosted integration runtime
+
+:::tip Answer
+A
+:::
+
+## Question #97
+**HOTSPOT -  
+You have an Azure SQL database named Database1 and two Azure event hubs named HubA and HubB. The data consumed from each source is shown in the following table.**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019500001.png)
+
+**You need to implement Azure Stream Analytics to calculate the average fare per mile by driver.  
+How should you configure the Stream Analytics input for each source? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019600001.png)
+
+:::tip Answer  
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019700001.png)  
+:::
+
+## Question #98
+**You have an Azure Stream Analytics job that receives clickstream data from an Azure event hub.  
+You need to define a query in the Stream Analytics job. The query must meet the following requirements:  
+✑ Count the number of clicks within each 10-second window based on the country of a visitor.  
+✑ Ensure that each click is NOT counted more than once.  
+How should you define the Query?**
+
+1. A. SELECT Country, Avg(*) AS Average FROM ClickStream TIMESTAMP BY CreatedAt GROUP BY Country, SlidingWindow(second, 10)
+2. B. SELECT Country, Count(*) AS Count FROM ClickStream TIMESTAMP BY CreatedAt GROUP BY Country, TumblingWindow(second, 10)
+3. C. SELECT Country, Avg(*) AS Average FROM ClickStream TIMESTAMP BY CreatedAt GROUP BY Country, HoppingWindow(second, 10, 2)
+4. D. SELECT Country, Count(*) AS Count FROM ClickStream TIMESTAMP BY CreatedAt GROUP BY Country, SessionWindow(second, 5, 10)
+
+:::tip Answer
+B
+:::
+
+## Question #99
+**HOTSPOT -  
+You are building an Azure Analytics query that will receive input data from Azure IoT Hub and write the results to Azure Blob storage.  
+You need to calculate the difference in the number of readings per sensor per hour.  
+How should you complete the query? To answer, select the appropriate options in the answer area.  
+NOTE: Each correct selection is worth one point.  
+Hot Area:**
+
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019900001.png)
+
+:::tip Answer
+![](https://www.examtopics.com/assets/media/exam-media/04259/0019900002.png)
+:::
+
+## Question #100
+**You need to schedule an Azure Data Factory pipeline to execute when a new file arrives in an Azure Data Lake Storage Gen2 container.  
+Which type of trigger should you use?**
+
+1. A. on-demand
+2. B. tumbling window
+3. C. schedule
+4. D. event
+
+:::tip Answer
+D
+:::
